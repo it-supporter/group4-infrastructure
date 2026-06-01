@@ -1,0 +1,14 @@
+---
+- name: Infrastructure Health Check
+  hosts: linux
+  gather_facts: true
+
+  tasks:
+    - name: Show uptime
+      command: uptime
+      register: uptime_output
+      changed_when: false
+
+    - name: Display uptime
+      debug:
+        var: uptime_output.stdout
