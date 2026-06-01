@@ -1,0 +1,15 @@
+---
+- name: Verify host connectivity
+  ansible.builtin.ping:
+
+- name: Gather package facts
+  ansible.builtin.package_facts:
+    manager: auto
+
+- name: Display package count
+  ansible.builtin.debug:
+    msg: "{{ ansible_hostname }} has {{ ansible_facts.packages | length }} installed packages"
+
+- name: Display configured timezone
+  ansible.builtin.debug:
+    msg: "Configured timezone: {{ common_timezone }}"

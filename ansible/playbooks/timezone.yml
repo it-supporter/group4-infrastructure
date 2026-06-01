@@ -1,0 +1,9 @@
+---
+- name: Configure Timezone
+  hosts: linux
+  become: true
+
+  tasks:
+    - name: Set timezone
+      community.general.timezone:
+        name: Europe/Copenhagen

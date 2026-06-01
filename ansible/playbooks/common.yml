@@ -1,0 +1,6 @@
+---
+- name: Execute Common Role
+  hosts: linux
+
+  roles:
+    - common

@@ -1,0 +1,6 @@
+---
+ansible_user: henrik
+ansible_become: true
+ansible_become_method: sudo
+
+common_timezone: Europe/Copenhagen

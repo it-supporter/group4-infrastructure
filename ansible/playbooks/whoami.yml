@@ -1,0 +1,13 @@
+---
+- name: Verify Become
+  hosts: linux
+
+  tasks:
+    - name: Show effective user
+      command: whoami
+      register: whoami_result
+      changed_when: false
+
+    - name: Display effective user
+      debug:
+        var: whoami_result.stdout

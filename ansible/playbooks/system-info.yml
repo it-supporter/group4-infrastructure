@@ -1,0 +1,16 @@
+---
+- name: Infrastructure System Information
+  hosts: linux
+  gather_facts: true
+
+  tasks:
+    - name: Display system information
+      debug:
+        msg:
+          - "Hostname: {{ ansible_hostname }}"
+          - "IP: {{ ansible_default_ipv4.address }}"
+          - "OS: {{ ansible_distribution }} {{ ansible_distribution_version }}"
+          - "Kernel: {{ ansible_kernel }}"
+          - "Memory MB: {{ ansible_memtotal_mb }}"
+          - "vCPU: {{ ansible_processor_vcpus }}"
+          - "Timezone: {{ ansible_date_time.tz }}"

@@ -1,0 +1,8 @@
+---
+common_timezone: Europe/Copenhagen
+
+common_packages:
+  - curl
+  - git
+  - vim
+  - htop

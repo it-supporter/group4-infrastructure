@@ -1,0 +1,14 @@
+---
+- name: Disk Utilization Check
+  hosts: linux
+  gather_facts: false
+
+  tasks:
+    - name: Check root filesystem
+      command: df -h /
+      register: disk_usage
+      changed_when: false
+
+    - name: Display disk usage
+      debug:
+        var: disk_usage.stdout_lines
