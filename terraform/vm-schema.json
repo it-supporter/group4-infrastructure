@@ -1,0 +1,1381 @@
+{
+  "version": 0,
+  "block": {
+    "attributes": {
+      "acpi": {
+        "type": "bool",
+        "description": "Whether to enable ACPI",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "bios": {
+        "type": "string",
+        "description": "The BIOS implementation",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "boot_order": {
+        "type": [
+          "list",
+          "string"
+        ],
+        "description": "The guest will attempt to boot from devices in the order they appear here",
+        "description_kind": "plain",
+        "optional": true,
+        "computed": true
+      },
+      "delete_unreferenced_disks_on_destroy": {
+        "type": "bool",
+        "description": "Whether to delete unreferenced disks on destroy",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "description": {
+        "type": "string",
+        "description": "The description",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "hook_script_file_id": {
+        "type": "string",
+        "description": "A hook script",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "hotplug": {
+        "type": "string",
+        "description": "Selectively enable hotplug features. Use `0` to disable, `1` to enable all. Valid features: `disk`, `network`, `usb`, `memory`, `cpu`. Memory hotplug requires NUMA to be enabled.",
+        "description_kind": "plain",
+        "optional": true,
+        "computed": true
+      },
+      "id": {
+        "type": "string",
+        "description_kind": "plain",
+        "optional": true,
+        "computed": true
+      },
+      "ipv4_addresses": {
+        "type": [
+          "list",
+          [
+            "list",
+            "string"
+          ]
+        ],
+        "description": "The IPv4 addresses published by the QEMU agent",
+        "description_kind": "plain",
+        "computed": true
+      },
+      "ipv6_addresses": {
+        "type": [
+          "list",
+          [
+            "list",
+            "string"
+          ]
+        ],
+        "description": "The IPv6 addresses published by the QEMU agent",
+        "description_kind": "plain",
+        "computed": true
+      },
+      "keyboard_layout": {
+        "type": "string",
+        "description": "The keyboard layout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "kvm_arguments": {
+        "type": "string",
+        "description": "The args implementation",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "mac_addresses": {
+        "type": [
+          "list",
+          "string"
+        ],
+        "description": "The MAC addresses for the network interfaces",
+        "description_kind": "plain",
+        "optional": true,
+        "computed": true
+      },
+      "machine": {
+        "type": "string",
+        "description": "The VM machine type, either default `pc` or `q35`",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "migrate": {
+        "type": "bool",
+        "description": "Whether to migrate the VM on node change instead of re-creating it",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "name": {
+        "type": "string",
+        "description": "The name of the VM. Must be a valid DNS name.",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "network_device": {
+        "type": [
+          "list",
+          [
+            "object",
+            {
+              "bridge": "string",
+              "disconnected": "bool",
+              "enabled": "bool",
+              "firewall": "bool",
+              "mac_address": "string",
+              "model": "string",
+              "mtu": "number",
+              "queues": "number",
+              "rate_limit": "number",
+              "trunks": "string",
+              "vlan_id": "number"
+            }
+          ]
+        ],
+        "description": "The network devices",
+        "description_kind": "plain",
+        "optional": true,
+        "computed": true
+      },
+      "network_interface_names": {
+        "type": [
+          "list",
+          "string"
+        ],
+        "description": "The network interface names published by the QEMU agent",
+        "description_kind": "plain",
+        "computed": true
+      },
+      "node_name": {
+        "type": "string",
+        "description": "The node name",
+        "description_kind": "plain",
+        "required": true
+      },
+      "on_boot": {
+        "type": "bool",
+        "description": "Start VM on Node boot",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "pool_id": {
+        "type": "string",
+        "description": "The ID of the pool to assign the virtual machine to",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "protection": {
+        "type": "bool",
+        "description": "Sets the protection flag of the VM. This will disable the remove VM and remove disk operations",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "purge_on_destroy": {
+        "type": "bool",
+        "description": "Whether to purge the VM from backup configurations on destroy",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "reboot": {
+        "type": "bool",
+        "description": "Whether to reboot VM after creation",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "reboot_after_update": {
+        "type": "bool",
+        "description": "Whether the provider may automatically reboot or power off the VM during update operations when required to apply changes. If false, updates that require taking the VM offline fail instead of being applied automatically. Changes that are applied successfully but still need a later manual reboot emit a warning instead.",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "scsi_hardware": {
+        "type": "string",
+        "description": "The SCSI hardware type",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "started": {
+        "type": "bool",
+        "description": "Whether to start the virtual machine",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "stop_on_destroy": {
+        "type": "bool",
+        "description": "Whether to stop rather than shutdown on VM destroy",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "tablet_device": {
+        "type": "bool",
+        "description": "Whether to enable the USB tablet device",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "tags": {
+        "type": [
+          "list",
+          "string"
+        ],
+        "description": "Tags of the virtual machine. This is only meta information.",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "template": {
+        "type": "bool",
+        "description": "Whether the VM should be a template. Setting this from false to true converts an existing VM to a template in place. Converting a template back to a regular VM is not supported.",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_clone": {
+        "type": "number",
+        "description": "Clone VM timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_create": {
+        "type": "number",
+        "description": "Create VM timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_migrate": {
+        "type": "number",
+        "description": "Migrate VM timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_move_disk": {
+        "type": "number",
+        "description": "Disk move timeout",
+        "description_kind": "plain",
+        "deprecated": true,
+        "deprecation_message": "This field is deprecated and will be removed in a future release. An overall operation timeout (timeout_create / timeout_clone / timeout_migrate) is used instead.",
+        "optional": true
+      },
+      "timeout_reboot": {
+        "type": "number",
+        "description": "Reboot timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_shutdown_vm": {
+        "type": "number",
+        "description": "Shutdown timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_start_vm": {
+        "type": "number",
+        "description": "Start VM timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "timeout_stop_vm": {
+        "type": "number",
+        "description": "Stop VM timeout",
+        "description_kind": "plain",
+        "optional": true
+      },
+      "vm_id": {
+        "type": "number",
+        "description": "The VM identifier",
+        "description_kind": "plain",
+        "optional": true,
+        "computed": true
+      }
+    },
+    "block_types": {
+      "agent": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "enabled": {
+              "type": "bool",
+              "description": "Whether to enable the QEMU agent",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "timeout": {
+              "type": "string",
+              "description": "The maximum amount of time to wait for data from the QEMU agent to become available",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "trim": {
+              "type": "bool",
+              "description": "Whether to enable the FSTRIM feature in the QEMU agent",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "type": {
+              "type": "string",
+              "description": "The QEMU agent interface type",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "block_types": {
+            "wait_for_ip": {
+              "nesting_mode": "list",
+              "block": {
+                "attributes": {
+                  "enabled": {
+                    "type": "bool",
+                    "description": "Whether to wait for the agent to report an IP address; set to false to skip the lookup entirely",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "ipv4": {
+                    "type": "bool",
+                    "description": "Wait for at least one IPv4 address (non-loopback, non-link-local)",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "ipv6": {
+                    "type": "bool",
+                    "description": "Wait for at least one IPv6 address (non-loopback, non-link-local)",
+                    "description_kind": "plain",
+                    "optional": true
+                  }
+                },
+                "description": "Configuration for waiting for specific IP address types",
+                "description_kind": "plain"
+              },
+              "max_items": 1
+            }
+          },
+          "description": "The QEMU agent configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "amd_sev": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "allow_smt": {
+              "type": "bool",
+              "description": "Sets policy bit to allow Simultaneous Multi Threading (SMT) (Ignored unless for SEV-SNP)",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "kernel_hashes": {
+              "type": "bool",
+              "description": "Add kernel hashes to guest firmware for measured linux kernel launch",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "no_debug": {
+              "type": "bool",
+              "description": "Sets policy bit to disallow debugging of guest",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "no_key_sharing": {
+              "type": "bool",
+              "description": "Sets policy bit to disallow key sharing with other guests (Ignored for SEV-SNP)",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "type": {
+              "type": "string",
+              "description": "Enable standard SEV with type=std or enable experimental SEV-ES with the es optionor enable experimental SEV-SNP with the snp option.",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "Secure Encrypted Virtualization (SEV) features by AMD CPUs",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "audio_device": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "device": {
+              "type": "string",
+              "description": "The device",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "driver": {
+              "type": "string",
+              "description": "The driver",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "enabled": {
+              "type": "bool",
+              "description": "Whether to enable the audio device",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The audio devices",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "cdrom": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "enabled": {
+              "type": "bool",
+              "description": "Whether to enable the CDROM drive",
+              "description_kind": "plain",
+              "deprecated": true,
+              "deprecation_message": "Remove this attribute's configuration as it is no longer used and the attribute will be removed in the next version of the provider. Set `file_id` to `none` to leave the CDROM drive empty.",
+              "optional": true
+            },
+            "file_id": {
+              "type": "string",
+              "description": "The file id",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "interface": {
+              "type": "string",
+              "description": "The CDROM interface",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The CDROM drive",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "clone": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "datastore_id": {
+              "type": "string",
+              "description": "The ID of the target datastore",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "full": {
+              "type": "bool",
+              "description": "The Clone Type, create a Full Clone (true) or a linked Clone (false)",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "node_name": {
+              "type": "string",
+              "description": "The name of the source node",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "retries": {
+              "type": "number",
+              "description": "The number of Retries to create a clone",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "vm_id": {
+              "type": "number",
+              "description": "The ID of the source VM",
+              "description_kind": "plain",
+              "required": true
+            }
+          },
+          "description": "The cloning configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "cpu": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "affinity": {
+              "type": "string",
+              "description": "The CPU affinity",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "architecture": {
+              "type": "string",
+              "description": "The CPU architecture",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "cores": {
+              "type": "number",
+              "description": "The number of CPU cores",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "flags": {
+              "type": [
+                "list",
+                "string"
+              ],
+              "description": "The CPU flags",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "hotplugged": {
+              "type": "number",
+              "description": "The number of hotplugged vCPUs",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "limit": {
+              "type": "number",
+              "description": "Limit of CPU usage",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "numa": {
+              "type": "bool",
+              "description": "Enable/disable NUMA.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "sockets": {
+              "type": "number",
+              "description": "The number of CPU sockets",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "type": {
+              "type": "string",
+              "description": "The emulated CPU type",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "units": {
+              "type": "number",
+              "description": "The CPU units",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            }
+          },
+          "description": "The CPU allocation",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "disk": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "aio": {
+              "type": "string",
+              "description": "The disk AIO mode",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "backup": {
+              "type": "bool",
+              "description": "Whether the drive should be included when making backups",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "cache": {
+              "type": "string",
+              "description": "The drive’s cache mode",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "datastore_id": {
+              "type": "string",
+              "description": "The datastore id",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "discard": {
+              "type": "string",
+              "description": "Whether to pass discard/trim requests to the underlying storage.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "file_format": {
+              "type": "string",
+              "description": "The file format",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "file_id": {
+              "type": "string",
+              "description": "The file id for a disk image",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "import_from": {
+              "type": "string",
+              "description": "The file id of a disk image to import from storage. Only used during initial creation; changes after creation are ignored.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "interface": {
+              "type": "string",
+              "description": "The datastore name",
+              "description_kind": "plain",
+              "required": true
+            },
+            "iothread": {
+              "type": "bool",
+              "description": "Whether to use iothreads for this disk drive",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "path_in_datastore": {
+              "type": "string",
+              "description": "The in-datastore path to disk image",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "replicate": {
+              "type": "bool",
+              "description": "Whether the drive should be considered for replication jobs",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "serial": {
+              "type": "string",
+              "description": "The drive’s reported serial number",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "size": {
+              "type": "number",
+              "description": "The disk size in gigabytes",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "ssd": {
+              "type": "bool",
+              "description": "Whether to use ssd for this disk drive",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "block_types": {
+            "speed": {
+              "nesting_mode": "list",
+              "block": {
+                "attributes": {
+                  "iops_read": {
+                    "type": "number",
+                    "description": "The maximum read I/O in operations per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "iops_read_burstable": {
+                    "type": "number",
+                    "description": "The maximum unthrottled read I/O pool in operations per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "iops_write": {
+                    "type": "number",
+                    "description": "The maximum write I/O in operations per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "iops_write_burstable": {
+                    "type": "number",
+                    "description": "The maximum unthrottled write I/O pool in operations per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "read": {
+                    "type": "number",
+                    "description": "The maximum read speed in megabytes per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "read_burstable": {
+                    "type": "number",
+                    "description": "The maximum burstable read speed in megabytes per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "write": {
+                    "type": "number",
+                    "description": "The maximum write speed in megabytes per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "write_burstable": {
+                    "type": "number",
+                    "description": "The maximum burstable write speed in megabytes per second",
+                    "description_kind": "plain",
+                    "optional": true
+                  }
+                },
+                "description": "The speed limits",
+                "description_kind": "plain"
+              },
+              "max_items": 1
+            }
+          },
+          "description": "The disk devices",
+          "description_kind": "plain"
+        },
+        "max_items": 31
+      },
+      "efi_disk": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "datastore_id": {
+              "type": "string",
+              "description": "The datastore id",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "file_format": {
+              "type": "string",
+              "description": "The file format",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "pre_enrolled_keys": {
+              "type": "bool",
+              "description": "Use an EFI vars template with distribution-specific and Microsoft Standard keys enrolled, if used with efi type=`4m`.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "type": {
+              "type": "string",
+              "description": "Size and type of the OVMF EFI disk",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The efidisk device",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "hostpci": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "device": {
+              "type": "string",
+              "description": "The PCI device name for Proxmox, in form of 'hostpciX' where X is a sequential number from 0 to 3",
+              "description_kind": "plain",
+              "required": true
+            },
+            "id": {
+              "type": "string",
+              "description": "The PCI ID of the device, for example 0000:00:1f.0 (or 0000:00:1f.0;0000:00:1f.1 for multiple device functions, or 0000:00:1f for all functions). Use either this or mapping.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "mapping": {
+              "type": "string",
+              "description": "The resource mapping name of the device, for example gpu. Use either this or id.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "mdev": {
+              "type": "string",
+              "description": "The the mediated device to use",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "pcie": {
+              "type": "bool",
+              "description": "Tells Proxmox VE to use a PCIe or PCI port. Some guests/device combination require PCIe rather than PCI. PCIe is only available for q35 machine types.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "rom_file": {
+              "type": "string",
+              "description": "A path to a ROM file for the device to use. This is a relative path under /usr/share/kvm/",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "rombar": {
+              "type": "bool",
+              "description": "Makes the firmware ROM visible for the guest. Default is true",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "xvga": {
+              "type": "bool",
+              "description": "Marks the PCI(e) device as the primary GPU of the VM. With this enabled, the vga configuration argument will be ignored.",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The Host PCI devices mapped to the VM",
+          "description_kind": "plain"
+        },
+        "max_items": 16
+      },
+      "initialization": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "datastore_id": {
+              "type": "string",
+              "description": "The datastore id",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "file_format": {
+              "type": "string",
+              "description": "The file format",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "interface": {
+              "type": "string",
+              "description": "The IDE interface on which the CloudInit drive will be added",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "meta_data_file_id": {
+              "type": "string",
+              "description": "The ID of a file containing meta data config",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "network_data_file_id": {
+              "type": "string",
+              "description": "The ID of a file containing network config",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "type": {
+              "type": "string",
+              "description": "The cloud-init configuration format",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "upgrade": {
+              "type": "bool",
+              "description": "Whether to do an automatic package upgrade after the first boot (defaults to `true` in Proxmox). Setting this is only allowed for `root@pam` authenticated user.",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "user_data_file_id": {
+              "type": "string",
+              "description": "The ID of a file containing custom user data",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "vendor_data_file_id": {
+              "type": "string",
+              "description": "The ID of a file containing vendor data",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            }
+          },
+          "block_types": {
+            "dns": {
+              "nesting_mode": "list",
+              "block": {
+                "attributes": {
+                  "domain": {
+                    "type": "string",
+                    "description": "The DNS search domain",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "servers": {
+                    "type": [
+                      "list",
+                      "string"
+                    ],
+                    "description": "The list of DNS servers",
+                    "description_kind": "plain",
+                    "optional": true
+                  }
+                },
+                "description": "The DNS configuration",
+                "description_kind": "plain"
+              },
+              "max_items": 1
+            },
+            "ip_config": {
+              "nesting_mode": "list",
+              "block": {
+                "block_types": {
+                  "ipv4": {
+                    "nesting_mode": "list",
+                    "block": {
+                      "attributes": {
+                        "address": {
+                          "type": "string",
+                          "description": "The IPv4 address",
+                          "description_kind": "plain",
+                          "optional": true
+                        },
+                        "gateway": {
+                          "type": "string",
+                          "description": "The IPv4 gateway",
+                          "description_kind": "plain",
+                          "optional": true
+                        }
+                      },
+                      "description": "The IPv4 configuration",
+                      "description_kind": "plain"
+                    },
+                    "max_items": 1
+                  },
+                  "ipv6": {
+                    "nesting_mode": "list",
+                    "block": {
+                      "attributes": {
+                        "address": {
+                          "type": "string",
+                          "description": "The IPv6 address",
+                          "description_kind": "plain",
+                          "optional": true
+                        },
+                        "gateway": {
+                          "type": "string",
+                          "description": "The IPv6 gateway",
+                          "description_kind": "plain",
+                          "optional": true
+                        }
+                      },
+                      "description": "The IPv6 configuration",
+                      "description_kind": "plain"
+                    },
+                    "max_items": 1
+                  }
+                },
+                "description": "The IP configuration",
+                "description_kind": "plain"
+              },
+              "max_items": 8
+            },
+            "user_account": {
+              "nesting_mode": "list",
+              "block": {
+                "attributes": {
+                  "keys": {
+                    "type": [
+                      "list",
+                      "string"
+                    ],
+                    "description": "The SSH keys",
+                    "description_kind": "plain",
+                    "optional": true
+                  },
+                  "password": {
+                    "type": "string",
+                    "description": "The SSH password",
+                    "description_kind": "plain",
+                    "optional": true,
+                    "sensitive": true
+                  },
+                  "username": {
+                    "type": "string",
+                    "description": "The SSH username",
+                    "description_kind": "plain",
+                    "optional": true
+                  }
+                },
+                "description": "The user account configuration",
+                "description_kind": "plain"
+              },
+              "max_items": 1
+            }
+          },
+          "description": "The cloud-init configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "memory": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "dedicated": {
+              "type": "number",
+              "description": "The dedicated memory in megabytes",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "floating": {
+              "type": "number",
+              "description": "The floating memory in megabytes (balloon)",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "hugepages": {
+              "type": "string",
+              "description": "Enable/disable hugepages memory",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "keep_hugepages": {
+              "type": "bool",
+              "description": "Hugepages will not be deleted after VM shutdown and can be used for subsequent starts",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "shared": {
+              "type": "number",
+              "description": "The shared memory in megabytes",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The memory allocation",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "numa": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "cpus": {
+              "type": "string",
+              "description": "CPUs accessing this NUMA node",
+              "description_kind": "plain",
+              "required": true
+            },
+            "device": {
+              "type": "string",
+              "description": "Numa node device ID",
+              "description_kind": "plain",
+              "required": true
+            },
+            "hostnodes": {
+              "type": "string",
+              "description": "Host NUMA nodes to use",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "memory": {
+              "type": "number",
+              "description": "Amount of memory this NUMA node provides",
+              "description_kind": "plain",
+              "required": true
+            },
+            "policy": {
+              "type": "string",
+              "description": "NUMA policy",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The NUMA topology",
+          "description_kind": "plain"
+        }
+      },
+      "operating_system": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "type": {
+              "type": "string",
+              "description": "The type",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The operating system configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "rng": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "max_bytes": {
+              "type": "number",
+              "description": "Maximum bytes of entropy allowed to get injected into the guest every `period` milliseconds. Prefer a lower value when using `/dev/random` as source.",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "period": {
+              "type": "number",
+              "description": "Every `period` milliseconds the entropy-injection quota is reset, allowing the guest to retrieve another `max_bytes` of entropy.",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "source": {
+              "type": "string",
+              "description": "The file on the host to gather entropy from. In most cases, `/dev/urandom` should be preferred over `/dev/random` to avoid entropy-starvation issues on the host.",
+              "description_kind": "plain",
+              "required": true
+            }
+          },
+          "description": "The RNG configuration",
+          "description_kind": "plain"
+        }
+      },
+      "serial_device": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "device": {
+              "type": "string",
+              "description": "The device",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The serial devices",
+          "description_kind": "plain"
+        },
+        "max_items": 4
+      },
+      "smbios": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "family": {
+              "type": "string",
+              "description": "Sets SMBIOS family string",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "manufacturer": {
+              "type": "string",
+              "description": "Sets SMBIOS manufacturer",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "product": {
+              "type": "string",
+              "description": "Sets SMBIOS product ID",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "serial": {
+              "type": "string",
+              "description": "Sets SMBIOS serial number",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "sku": {
+              "type": "string",
+              "description": "Sets SMBIOS SKU",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "uuid": {
+              "type": "string",
+              "description": "Sets SMBIOS UUID",
+              "description_kind": "plain",
+              "optional": true,
+              "computed": true
+            },
+            "version": {
+              "type": "string",
+              "description": "Sets SMBIOS version",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "Specifies SMBIOS (type1) settings for the VM",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "startup": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "down_delay": {
+              "type": "number",
+              "description": "A non-negative number defining the delay in seconds before the next VM is shut down",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "order": {
+              "type": "number",
+              "description": "A non-negative number defining the general startup order",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "up_delay": {
+              "type": "number",
+              "description": "A non-negative number defining the delay in seconds before the next VM is started",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "Defines startup and shutdown behavior of the VM",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "tpm_state": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "datastore_id": {
+              "type": "string",
+              "description": "Datastore ID",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "version": {
+              "type": "string",
+              "description": "TPM version",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The tpmstate device",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "usb": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "host": {
+              "type": "string",
+              "description": "The USB device ID for Proxmox, in form of '<MANUFACTURER>:<ID>'",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "mapping": {
+              "type": "string",
+              "description": "The resource mapping name of the device, for example usbdisk. Use either this or id.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "usb3": {
+              "type": "bool",
+              "description": "Makes the USB device a USB3 device for the machine. Default is false",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The Host USB devices mapped to the VM",
+          "description_kind": "plain"
+        }
+      },
+      "vga": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "clipboard": {
+              "type": "string",
+              "description": "Enable clipboard support. Set to `vnc` to enable clipboard support for VNC.",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "memory": {
+              "type": "number",
+              "description": "The VGA memory in megabytes (4-512 MB)",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "type": {
+              "type": "string",
+              "description": "The VGA type",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The VGA configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      },
+      "virtiofs": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "cache": {
+              "type": "string",
+              "description": "The caching mode",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "direct_io": {
+              "type": "bool",
+              "description": "Whether to allow direct io",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "expose_acl": {
+              "type": "bool",
+              "description": "Enable POSIX ACLs, implies xattr support",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "expose_xattr": {
+              "type": "bool",
+              "description": "Enable support for extended attributes",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "mapping": {
+              "type": "string",
+              "description": "Directory mapping identifier",
+              "description_kind": "plain",
+              "required": true
+            }
+          },
+          "description": "Virtiofs share configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 8
+      },
+      "watchdog": {
+        "nesting_mode": "list",
+        "block": {
+          "attributes": {
+            "action": {
+              "type": "string",
+              "description": "The watchdog action",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "enabled": {
+              "type": "bool",
+              "description": "Whether the watchdog is enabled",
+              "description_kind": "plain",
+              "optional": true
+            },
+            "model": {
+              "type": "string",
+              "description": "The watchdog model",
+              "description_kind": "plain",
+              "optional": true
+            }
+          },
+          "description": "The watchdog configuration",
+          "description_kind": "plain"
+        },
+        "max_items": 1
+      }
+    },
+    "description_kind": "plain"
+  }
+}
