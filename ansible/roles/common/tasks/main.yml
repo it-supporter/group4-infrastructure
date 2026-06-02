@@ -37,6 +37,10 @@
   ansible.builtin.debug:
     msg: "{{ ansible_hostname }} has {{ ansible_facts.packages | length }} installed packages"
 
+- name: Configure timezone
+  community.general.timezone:
+    name: "{{ common_timezone }}"
+
 - name: Display configured timezone
   ansible.builtin.debug:
     msg: "Configured timezone: {{ common_timezone }}"
