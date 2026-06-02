@@ -2,6 +2,33 @@
 - name: Verify host connectivity
   ansible.builtin.ping:
 
+- name: Update apt cache
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
+
+- name: Install baseline packages
+  ansible.builtin.apt:
+    name:
+      - qemu-guest-agent
+      - curl
+      - wget
+      - git
+      - vim
+      - htop
+      - tree
+      - net-tools
+      - dnsutils
+      - unzip
+      - python3-pip
+    state: present
+
+- name: Enable qemu guest agent
+  ansible.builtin.service:
+    name: qemu-guest-agent
+    state: started
+    enabled: true
+
 - name: Gather package facts
   ansible.builtin.package_facts:
     manager: auto

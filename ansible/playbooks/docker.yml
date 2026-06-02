@@ -1,0 +1,5 @@
+---
+- name: Docker Role
+  hosts: automation
+  roles:
+    - docker

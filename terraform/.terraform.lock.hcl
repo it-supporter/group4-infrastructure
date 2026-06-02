@@ -3,7 +3,7 @@
 
 provider "registry.terraform.io/bpg/proxmox" {
   version     = "0.108.0"
-  constraints = "~> 0.78"
+  constraints = "~> 0.108"
   hashes = [
     "h1:FnjqUThFdUBIEehK+1wGLeVAuqNqxXSApCd3q/UHRgw=",
     "zh:059672baca1261158c0b5a503545010e2a407d64fb71dc4a205628cc327b1529",

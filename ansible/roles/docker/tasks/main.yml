@@ -1,0 +1,10 @@
+---
+- name: Check Docker version
+  command: docker --version
+  register: docker_version
+  changed_when: false
+  failed_when: false
+
+- name: Display Docker version
+  debug:
+    var: docker_version.stdout

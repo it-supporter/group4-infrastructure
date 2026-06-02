@@ -1,6 +1,6 @@
 resource "proxmox_virtual_environment_vm" "terraform01" {
 
-  name      = "terraform01"
+  name      = "terraform01-test01"
   node_name = "s12"
 
   clone {
@@ -18,6 +18,14 @@ resource "proxmox_virtual_environment_vm" "terraform01" {
 
   agent {
     enabled = true
+
+    wait_for_ip {
+      enabled = false
+    }
+  }
+
+  operating_system {
+    type = "l26"
   }
 
   initialization {
@@ -31,7 +39,7 @@ resource "proxmox_virtual_environment_vm" "terraform01" {
 
     ip_config {
       ipv4 {
-        address = "10.4.10.230/24"
+        address = "10.4.10.231/24"
         gateway = "10.4.10.1"
       }
     }
@@ -47,6 +55,7 @@ resource "proxmox_virtual_environment_vm" "terraform01" {
 
   network_device {
     bridge = "vmbr1"
+    model  = "virtio"
   }
 
   disk {

@@ -4,11 +4,63 @@
   gather_facts: true
 
   tasks:
-    - name: Show uptime
-      command: uptime
-      register: uptime_output
-      changed_when: false
 
-    - name: Display uptime
-      debug:
-        var: uptime_output.stdout
+    - name: Verify connectivity
+      ansible.builtin.ping:
+
+    - name: Display hostname
+      ansible.builtin.debug:
+        msg: "Hostname: {{ ansible_hostname }}"
+
+    - name: Display primary IP
+      ansible.builtin.debug:
+        msg: "IP Address: {{ ansible_default_ipv4.address }}"
+
+    - name: Display OS
+      ansible.builtin.debug:
+        msg: "{{ ansible_distribution }} {{ ansible_distribution_version }}"
+
+    - name: Display virtualization platform
+      ansible.builtin.debug:
+        msg: "Virtualization: {{ ansible_virtualization_type }}"
+
+    - name: Show uptime
+      ansible.builtin.debug:
+        msg: >
+          Uptime:
+          {{ (ansible_uptime_seconds / 86400) | round(1) }} days
+
+    - name: Display memory
+      ansible.builtin.debug:
+        msg: >
+          RAM:
+          {{ ansible_memtotal_mb }} MB total,
+          {{ ansible_memfree_mb }} MB free
+
+    - name: Display root filesystem usage
+      ansible.builtin.debug:
+        msg: >
+          Root filesystem:
+          {{
+            (
+              (
+                ansible_mounts
+                | selectattr('mount', 'equalto', '/')
+                | map(attribute='size_total')
+                | first
+              ) / 1024 / 1024 / 1024
+            ) | round(1)
+          }} GB total
+
+    - name: Gather service facts
+      ansible.builtin.service_facts:
+
+    - name: Check qemu guest agent
+      ansible.builtin.debug:
+        msg: >
+          qemu-guest-agent:
+          {{
+            ansible_facts.services['qemu-guest-agent.service'].state
+            if 'qemu-guest-agent.service' in ansible_facts.services
+            else 'NOT INSTALLED'
+          }}
