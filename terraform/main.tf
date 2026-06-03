@@ -1,19 +1,23 @@
-resource "proxmox_virtual_environment_vm" "terraform01" {
+resource "proxmox_virtual_environment_vm" "vm" {
 
-  name      = "terraform01-test01"
-  node_name = "s12"
+  for_each = var.vms
+
+  vm_id     = each.value.vm_id
+  name      = each.key
+  node_name = each.value.node
 
   clone {
-    vm_id = 666
+    vm_id     = 666
+    node_name = "s12"
   }
 
   cpu {
-    cores = 2
+    cores = each.value.cores
     type  = "host"
   }
 
   memory {
-    dedicated = 2048
+    dedicated = each.value.memory
   }
 
   agent {
@@ -33,13 +37,17 @@ resource "proxmox_virtual_environment_vm" "terraform01" {
     datastore_id = "Ceph-Storage-Pool"
 
     dns {
-      servers = ["10.4.10.20"]
-      domain  = "gruppe4.local"
+      servers = [
+        "10.4.10.20",
+        "10.4.10.21"
+      ]
+
+      domain = "gruppe4.local"
     }
 
     ip_config {
       ipv4 {
-        address = "10.4.10.231/24"
+        address = "${each.value.ip}/24"
         gateway = "10.4.10.1"
       }
     }
