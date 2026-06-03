@@ -1,0 +1,6 @@
+---
+- name: Deploy Node Exporter to Linux hosts
+  hosts: linux
+
+  roles:
+    - node_exporter

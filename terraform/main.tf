@@ -72,3 +72,15 @@ resource "proxmox_virtual_environment_vm" "vm" {
     size         = 20
   }
 }
+
+resource "local_file" "ansible_inventory" {
+
+  filename = "${path.module}/../ansible/inventories/production/hosts.yml"
+
+  content = templatefile(
+    "${path.module}/templates/inventory.tftpl",
+    {
+      vms = var.vms
+    }
+  )
+}

@@ -1,0 +1,14 @@
+all:
+  vars:
+    ansible_user: henrik
+
+  children:
+
+    k3s_servers:
+      hosts:
+%{ for name, vm in vms ~}
+%{ if vm.role == "server" ~}
+        ${name}:
+          ansible_host: ${vm.ip}
+%{ endif ~}
+%{ endfor ~}
