@@ -1,0 +1,6 @@
+---
+- name: Deploy Web Application
+  hosts: platform
+
+  roles:
+    - webapp

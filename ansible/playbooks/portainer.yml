@@ -1,0 +1,6 @@
+---
+- name: Deploy Portainer
+  hosts: automation
+
+  roles:
+    - portainer

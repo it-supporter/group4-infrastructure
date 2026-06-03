@@ -4,3 +4,7 @@ ansible_become: true
 ansible_become_method: sudo
 
 common_timezone: Europe/Copenhagen
+
+docker_admin_user: henrik
+
+install_qemu_guest_agent: true

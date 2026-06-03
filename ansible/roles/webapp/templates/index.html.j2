@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gruppe 4 Virtualization Platform</title>
+</head>
+<body>
+
+    <h1>Gruppe 4 Virtualization Platform</h1>
+
+    <h2>System Information</h2>
+
+    <ul>
+        <li><strong>Hostname:</strong> {{ inventory_hostname }}</li>
+        <li><strong>Role:</strong> {{ platform_role | default('undefined') }}</li>
+        <li><strong>Environment:</strong> {{ docker_environment | default('undefined') }}</li>
+        <li><strong>Operating System:</strong> {{ ansible_distribution }} {{ ansible_distribution_version }}</li>
+    </ul>
+
+    <h2>Infrastructure Stack</h2>
+
+    <ul>
+        <li>Proxmox VE</li>
+        <li>Terraform</li>
+        <li>Ansible</li>
+        <li>Docker</li>
+    </ul>
+
+    <h2>Status</h2>
+
+    <p>Application deployed successfully.</p>
+
+</body>
+</html>

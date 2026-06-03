@@ -1,0 +1,48 @@
+---
+- name: Create Portainer data directory
+  tags:
+    - portainer
+    - configuration
+
+  ansible.builtin.file:
+    path: "{{ portainer_data_path }}"
+    state: directory
+    mode: "0755"
+
+- name: Deploy Portainer container
+  tags:
+    - portainer
+    - container
+
+  community.docker.docker_container:
+    name: "{{ portainer_container_name }}"
+    image: "{{ portainer_image }}"
+    state: started
+    restart_policy: unless-stopped
+
+    ports:
+      - "{{ portainer_edge_port }}:8000"
+      - "{{ portainer_https_port }}:9443"
+
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - "{{ portainer_data_path }}:/data"
+
+- name: Gather Portainer container information
+  tags:
+    - portainer
+    - validation
+
+  community.docker.docker_container_info:
+    name: "{{ portainer_container_name }}"
+  register: portainer_container_info
+
+- name: Display Portainer status
+  tags:
+    - portainer
+    - validation
+
+  ansible.builtin.debug:
+    msg: >
+      Portainer container running:
+      {{ portainer_container_info.container.Name }}

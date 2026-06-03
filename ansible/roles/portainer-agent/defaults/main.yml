@@ -1,0 +1,6 @@
+---
+portainer_agent_container_name: portainer-agent
+
+portainer_agent_image: portainer/agent:latest
+
+portainer_agent_port: 9001

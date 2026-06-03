@@ -64,3 +64,44 @@
             if 'qemu-guest-agent.service' in ansible_facts.services
             else 'NOT INSTALLED'
           }}
+
+    - name: Display platform role
+      ansible.builtin.debug:
+        msg: "Platform Role: {{ platform_role | default('UNDEFINED') }}"
+
+    - name: Display docker environment
+      ansible.builtin.debug:
+        msg: "Docker Environment: {{ docker_environment | default('UNDEFINED') }}"
+
+    - name: Check Docker service status
+      ansible.builtin.debug:
+        msg: >
+          Docker Service:
+          {{
+            ansible_facts.services['docker.service'].state
+            if 'docker.service' in ansible_facts.services
+            else 'NOT INSTALLED'
+          }}
+      when: platform_role | default('') == 'docker'
+
+    - name: Get Docker version
+      ansible.builtin.command: docker --version
+      register: docker_version
+      changed_when: false
+      when: platform_role | default('') == 'docker'
+
+    - name: Display Docker version
+      ansible.builtin.debug:
+        msg: "Docker Version: {{ docker_version.stdout }}"
+      when: platform_role | default('') == 'docker'
+
+    - name: Get running container count
+      ansible.builtin.command: docker ps -q
+      register: docker_containers
+      changed_when: false
+      when: platform_role | default('') == 'docker'
+
+    - name: Display running container count
+      ansible.builtin.debug:
+        msg: "Running Containers: {{ docker_containers.stdout_lines | length }}"
+      when: platform_role | default('') == 'docker'

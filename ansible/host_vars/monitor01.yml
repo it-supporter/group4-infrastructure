@@ -1,0 +1,4 @@
+---
+platform_role: monitoring
+
+docker_environment: production

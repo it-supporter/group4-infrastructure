@@ -1,0 +1,56 @@
+---
+- name: Create webapp root directory
+  tags:
+    - webapp
+    - configuration
+
+  ansible.builtin.file:
+    path: "{{ webapp_root }}"
+    state: directory
+    mode: "0755"
+
+- name: Deploy index.html
+  tags:
+    - webapp
+    - configuration
+
+  ansible.builtin.template:
+    src: index.html.j2
+    dest: "{{ webapp_root }}/index.html"
+    mode: "0644"
+
+- name: Create webapp container
+  tags:
+    - webapp
+    - container
+
+  community.docker.docker_container:
+    name: "{{ webapp_container_name }}"
+    image: "{{ webapp_image }}"
+    state: started
+    restart_policy: unless-stopped
+
+    ports:
+      - "{{ webapp_host_port }}:{{ webapp_container_port }}"
+
+    volumes:
+      - "{{ webapp_root }}/index.html:/usr/share/nginx/html/index.html:ro"
+
+- name: Gather webapp container information
+  tags:
+    - webapp
+    - validation
+
+  community.docker.docker_container_info:
+    name: "{{ webapp_container_name }}"
+  register: webapp_container_info
+
+- name: Display webapp status
+  tags:
+    - webapp
+    - validation
+
+  ansible.builtin.debug:
+    msg: >
+      Webapp container running:
+      {{ webapp_container_info.container.Name }}

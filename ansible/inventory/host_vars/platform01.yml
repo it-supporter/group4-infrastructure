@@ -1,0 +1,6 @@
+---
+platform_role: docker
+
+docker_log_driver: json-file
+
+docker_environment: production

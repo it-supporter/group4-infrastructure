@@ -1,0 +1,2 @@
+---
+install_qemu_guest_agent: false

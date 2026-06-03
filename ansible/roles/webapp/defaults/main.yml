@@ -1,0 +1,10 @@
+---
+webapp_container_name: gruppe4-webapp
+
+webapp_image: nginx:alpine
+
+webapp_host_port: 8080
+
+webapp_container_port: 80
+
+webapp_root: /opt/gruppe4-webapp

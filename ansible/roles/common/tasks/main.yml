@@ -3,31 +3,38 @@
   ansible.builtin.ping:
 
 - name: Update apt cache
+  tags:
+    - packages
   ansible.builtin.apt:
     update_cache: true
     cache_valid_time: 3600
 
 - name: Install baseline packages
+  tags:
+    - packages
   ansible.builtin.apt:
-    name:
-      - qemu-guest-agent
-      - curl
-      - wget
-      - git
-      - vim
-      - htop
-      - tree
-      - net-tools
-      - dnsutils
-      - unzip
-      - python3-pip
+    name: "{{ common_packages }}"
     state: present
+
+- name: Configure terminal title
+  ansible.builtin.blockinfile:
+    path: /etc/bash.bashrc
+    marker: "# {mark} ANSIBLE MANAGED TERMINAL TITLE"
+    block: |
+      PROMPT_COMMAND='printf "\033]0;%s@%s\007" "$USER" "$(hostname -s)"'
+
+- name: Install qemu guest agent
+  ansible.builtin.apt:
+    name: qemu-guest-agent
+    state: present
+  when: install_qemu_guest_agent | default(false)
 
 - name: Enable qemu guest agent
   ansible.builtin.service:
     name: qemu-guest-agent
     state: started
     enabled: true
+  when: install_qemu_guest_agent | default(false)
 
 - name: Gather package facts
   ansible.builtin.package_facts:
@@ -38,6 +45,8 @@
     msg: "{{ ansible_hostname }} has {{ ansible_facts.packages | length }} installed packages"
 
 - name: Configure timezone
+  tags:
+    - timezone
   community.general.timezone:
     name: "{{ common_timezone }}"
 

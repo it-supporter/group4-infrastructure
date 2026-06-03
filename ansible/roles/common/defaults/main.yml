@@ -1,8 +1,13 @@
 ---
-common_timezone: Europe/Copenhagen
-
 common_packages:
+  - qemu-guest-agent
   - curl
+  - wget
   - git
   - vim
   - htop
+  - tree
+  - net-tools
+  - dnsutils
+  - unzip
+  - python3-pip

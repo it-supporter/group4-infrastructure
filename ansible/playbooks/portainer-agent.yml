@@ -1,0 +1,8 @@
+---
+- name: Deploy Portainer Agent
+  hosts:
+    - platform
+    - monitoring
+
+  roles:
+    - portainer-agent
