@@ -1,0 +1,8 @@
+%{ for name, vm in vms ~}
+- targets:
+    - ${vm.ip}:9100
+  labels:
+    hostname: ${name}
+    role: ${vm.role}
+    pair: "${vm.pair}"
+%{ endfor ~}

@@ -1,0 +1,36 @@
+- targets:
+    - 10.4.10.200:9100
+  labels:
+    hostname: DEMO-STUDENT01
+    role: student
+    pair: "1"
+- targets:
+    - 10.4.10.202:9100
+  labels:
+    hostname: DEMO-STUDENT02
+    role: student
+    pair: "2"
+- targets:
+    - 10.4.10.204:9100
+  labels:
+    hostname: DEMO-STUDENT03
+    role: student
+    pair: "3"
+- targets:
+    - 10.4.10.201:9100
+  labels:
+    hostname: DEMO-TARGET01
+    role: target
+    pair: "1"
+- targets:
+    - 10.4.10.203:9100
+  labels:
+    hostname: DEMO-TARGET02
+    role: target
+    pair: "2"
+- targets:
+    - 10.4.10.205:9100
+  labels:
+    hostname: DEMO-TARGET03
+    role: target
+    pair: "3"

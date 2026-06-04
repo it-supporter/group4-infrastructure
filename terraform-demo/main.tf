@@ -84,3 +84,15 @@ resource "local_file" "ansible_inventory" {
     }
   )
 }
+
+resource "local_file" "prometheus_targets" {
+
+  filename = "${path.module}/generated/demo-targets.yml"
+
+  content = templatefile(
+    "${path.module}/templates/prometheus_targets.tftpl",
+    {
+      vms = local.demo_vms
+    }
+  )
+}
