@@ -1,0 +1,5 @@
+---
+student_count: 3
+
+student_namespace: students
+target_namespace: targets

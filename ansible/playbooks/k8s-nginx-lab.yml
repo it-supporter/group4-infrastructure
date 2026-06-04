@@ -1,0 +1,32 @@
+---
+- name: Deploy Kubernetes Nginx Lab
+  hosts: k3s01
+  become: true
+
+  tasks:
+
+    - name: Create namespace
+      shell: |
+        kubectl create namespace web-lab \
+          --dry-run=client -o yaml | kubectl apply -f -
+
+    - name: Create nginx deployment
+      shell: |
+        kubectl create deployment nginx \
+          --image=nginx \
+          -n web-lab \
+          --dry-run=client -o yaml | kubectl apply -f -
+
+    - name: Scale deployment
+      shell: |
+        kubectl scale deployment nginx \
+          --replicas=50 \
+          -n web-lab
+
+    - name: Create service
+      shell: |
+        kubectl expose deployment nginx \
+          --port=80 \
+          --target-port=80 \
+          -n web-lab \
+          --dry-run=client -o yaml | kubectl apply -f -

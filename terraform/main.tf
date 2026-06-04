@@ -1,6 +1,6 @@
 resource "proxmox_virtual_environment_vm" "vm" {
 
-  for_each = var.vms
+  for_each = local.active_vms
 
   vm_id     = each.value.vm_id
   name      = each.key
@@ -80,7 +80,7 @@ resource "local_file" "ansible_inventory" {
   content = templatefile(
     "${path.module}/templates/inventory.tftpl",
     {
-      vms = var.vms
+      vms = local.active_vms
     }
   )
 }

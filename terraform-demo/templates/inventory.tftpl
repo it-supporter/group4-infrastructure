@@ -1,0 +1,12 @@
+all:
+  vars:
+    ansible_user: henrik
+
+  children:
+
+    demo_nodes:
+      hosts:
+%{ for name, vm in vms ~}
+        ${name}:
+          ansible_host: ${vm.ip}
+%{ endfor ~}

@@ -1,0 +1,7 @@
+---
+- name: Deploy Cyber Range
+  hosts: k3s_servers[0]
+  become: true
+
+  roles:
+    - cyber_range

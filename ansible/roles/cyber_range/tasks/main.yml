@@ -1,0 +1,10 @@
+---
+- name: Create students namespace
+  shell: |
+    kubectl create namespace {{ student_namespace }} \
+      --dry-run=client -o yaml | kubectl apply -f -
+
+- name: Create targets namespace
+  shell: |
+    kubectl create namespace {{ target_namespace }} \
+      --dry-run=client -o yaml | kubectl apply -f -

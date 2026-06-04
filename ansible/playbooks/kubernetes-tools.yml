@@ -1,0 +1,8 @@
+---
+- name: Install Kubernetes Tools
+  hosts: localhost
+  connection: local
+  become: true
+
+  roles:
+    - kubernetes_tools

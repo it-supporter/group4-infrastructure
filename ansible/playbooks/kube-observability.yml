@@ -1,0 +1,7 @@
+---
+- name: Deploy Kubernetes Observability
+  hosts: k3s_servers[0]
+  become: true
+
+  roles:
+    - kube_observability

@@ -22,4 +22,13 @@ variable "vms" {
     memory = number
     role   = string
   }))
+
+  default = {}
+}
+
+variable "demo_node_count" {
+  description = "Number of demo K3s nodes"
+
+  type    = number
+  default = 0
 }

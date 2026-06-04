@@ -1,0 +1,14 @@
+---
+- name: Create monitoring namespace
+  shell: |
+    kubectl create namespace {{ monitoring_namespace }} \
+      --dry-run=client -o yaml | kubectl apply -f -
+
+- name: Deploy NodePort service
+  template:
+    src: kube-state-metrics-nodeport.yaml.j2
+    dest: /tmp/kube-state-metrics-nodeport.yaml
+
+- name: Apply NodePort service
+  shell: |
+    kubectl apply -f /tmp/kube-state-metrics-nodeport.yaml

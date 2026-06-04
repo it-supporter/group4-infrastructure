@@ -1,0 +1,7 @@
+---
+- name: Deploy Node Exporter to K3s Nodes
+  hosts: k3s_servers
+  become: true
+
+  roles:
+    - node_exporter

@@ -1,0 +1,35 @@
+proxmox_endpoint = "https://10.4.10.10:8006"
+
+proxmox_token_id     = "terraform@pve!terraform-token"
+proxmox_token_secret = "2df6cbb0-ee6b-4e44-9b47-38e10d58bb3b"
+
+vms = {
+
+  k3s01 = {
+    vm_id  = 160
+    node   = "s10"
+    ip     = "10.4.10.60"
+    cores  = 2
+    memory = 4096
+    role   = "server"
+  }
+
+  k3s02 = {
+    vm_id  = 161
+    node   = "s11"
+    ip     = "10.4.10.61"
+    cores  = 2
+    memory = 4096
+    role   = "server"
+  }
+
+  k3s03 = {
+    vm_id  = 162
+    node   = "s12"
+    ip     = "10.4.10.62"
+    cores  = 2
+    memory = 4096
+    role   = "server"
+  }
+
+}

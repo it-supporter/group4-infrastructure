@@ -1,0 +1,3 @@
+---
+monitoring_namespace: monitoring
+kube_state_metrics_nodeport: 30080
