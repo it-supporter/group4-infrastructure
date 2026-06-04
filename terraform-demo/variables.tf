@@ -11,8 +11,8 @@ variable "proxmox_token_secret" {
   sensitive = true
 }
 
-variable "demo_node_count" {
-  description = "Number of demo nodes"
+variable "student_count" {
+  description = "Number of student/target pairs"
 
   type    = number
   default = 0

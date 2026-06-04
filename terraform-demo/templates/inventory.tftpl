@@ -4,9 +4,24 @@ all:
 
   children:
 
-    demo_nodes:
+    students:
       hosts:
 %{ for name, vm in vms ~}
+%{ if vm.role == "student" ~}
         ${name}:
           ansible_host: ${vm.ip}
+          demo_role: ${vm.role}
+          demo_pair: ${vm.pair}
+%{ endif ~}
+%{ endfor ~}
+
+    targets:
+      hosts:
+%{ for name, vm in vms ~}
+%{ if vm.role == "target" ~}
+        ${name}:
+          ansible_host: ${vm.ip}
+          demo_role: ${vm.role}
+          demo_pair: ${vm.pair}
+%{ endif ~}
 %{ endfor ~}
