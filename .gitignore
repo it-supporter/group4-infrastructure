@@ -1,0 +1,30 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Ansible
+*.retry
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+*.pem
+*.key
+*.pfx
+
+# Secrets
+*.vault
+*.secret
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
