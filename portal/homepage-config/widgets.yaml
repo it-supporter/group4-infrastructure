@@ -1,0 +1,20 @@
+---
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- datetime:
+    text_size: xl
+    format:
+      dateStyle: full
+      timeStyle: medium
+
+- search:
+    provider: duckduckgo
+    target: _blank

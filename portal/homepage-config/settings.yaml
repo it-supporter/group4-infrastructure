@@ -1,0 +1,7 @@
+---
+title: Group 4 Infrastructure Portal
+favicon: /branding/icons/g4fav.png
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey

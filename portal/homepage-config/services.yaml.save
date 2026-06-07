@@ -1,0 +1,60 @@
+- Monitoring:
+    - Grafana:
+        icon: grafana.png
+        href: http://10.4.10.40:4000
+
+    - Prometheus:
+        icon: prometheus.png
+        href: http://10.4.10.40:4010
+
+    - Homepage:
+        icon: homepage.png
+        href: http://10.4.10.40:4040
+
+    - Uptime Kuma:
+        icon: uptime-kuma.png
+        href: http://10.4.10.40:4030
+
+- Virtualization:
+    - Proxmox S10:
+        icon: proxmox.png
+        href: https://10.4.10.10:8006
+
+    - Proxmox S11:
+        icon: proxmox.png
+        href: https://10.4.10.11:8006
+
+    - Proxmox S12:
+        icon: proxmox.png
+        href: https://10.4.10.12:8006
+
+- Management:
+    - Proxmox Datacenter Manager 1:
+        icon: proxmox-light.png
+        href: https://10.4.10.45:4500
+
+    - ProxDM02
+      icon: proxmox-light.png
+        href: https://10.4.10.46:4510
+
+    - PegaProx:
+        icon: sh-pegaprox
+        href: https://10.4.10.47:4520
+
+- Security:
+    - Firewall 1:
+        icon: opnsense.png
+        href: https://10.4.10.1
+
+    - Firewall 2:
+        icon: opnsense.png
+        href: https://10.4.10.2
+
+- Servers:
+    - Monitoring:
+        icon: sh-ubuntu
+        href: http://10.4.10.40
+
+    - Windows 2025:
+        icon: microsoft-windows.svg
+        href: http://10.4.10.20

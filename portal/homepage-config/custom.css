@@ -1,0 +1,102 @@
+/* =========================================================
+   Group 4 Infrastructure Portal
+   Homepage Custom Branding
+   ========================================================= */
+
+/* =========================================================
+   Background Wallpaper
+   ========================================================= */
+
+html,
+body,
+#__next {
+    background-image: url('/branding/wallpapers/cyberleague.png') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* =========================================================
+   Dark Overlay
+   ========================================================= */
+
+html::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* =========================================================
+   Keep Homepage Above Overlay
+   ========================================================= */
+
+body > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* =========================================================
+   Group 4 Header
+   ========================================================= */
+
+body::before {
+    content: "Group 4 Infrastructure Portal";
+
+    display: flex;
+    align-items: center;
+
+    height: 90px;
+
+    padding-left: 100px;
+    margin: 20px 0 25px 30px;
+
+    background-image: url('/branding/icons/g4fav.png');
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    color: #d4af37;
+
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    text-shadow: 0 0 12px rgba(0,0,0,0.8);
+
+    position: relative;
+    z-index: 100;
+}
+
+/* =========================================================
+   Search Boxes
+   ========================================================= */
+
+input {
+    background: rgba(20,20,35,0.70) !important;
+    backdrop-filter: blur(6px);
+}
+
+/* =========================================================
+   Service Cards
+   ========================================================= */
+
+div[class*="service"],
+div[class*="card"],
+div[class*="widget"] {
+    background: rgba(20,20,35,0.001) !important;
+    backdrop-filter: blur(8px);
+}
+
+/* =========================================================
+   Headings
+   ========================================================= */
+
+h1,
+h2,
+h3 {
+    text-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
