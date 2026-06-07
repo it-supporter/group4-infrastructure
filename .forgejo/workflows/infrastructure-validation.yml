@@ -10,9 +10,6 @@ jobs:
   validate:
     runs-on: docker
 
-    container:
-      image: ubuntu:24.04
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -20,22 +17,27 @@ jobs:
       - name: Install Dependencies
         run: |
           apt-get update
+
           DEBIAN_FRONTEND=noninteractive apt-get install -y \
             curl \
             unzip \
             git \
-            software-properties-common
+            ansible
 
-          add-apt-repository --yes --update ppa:ansible/ansible
-
-          DEBIAN_FRONTEND=noninteractive apt-get install -y ansible
-
-          curl -fsSL https://releases.hashicorp.com/terraform/1.12.2/terraform_1.12.2_linux_amd64.zip \
+          curl -fsSL \
+            https://releases.hashicorp.com/terraform/1.12.2/terraform_1.12.2_linux_amd64.zip \
             -o terraform.zip
 
-          unzip terraform.zip
-          mv terraform /usr/local/bin/
+          mkdir -p /tmp/terraform-install
+
+          unzip -o terraform.zip -d /tmp/terraform-install
+
+          install -m 0755 \
+            /tmp/terraform-install/terraform \
+            /usr/local/bin/terraform
+
           terraform version
+          ansible --version
 
       - name: Terraform Format Check
         run: |
