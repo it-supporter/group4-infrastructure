@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: homepage
+  namespace: portal
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: homepage
+
+  template:
+    metadata:
+      labels:
+        app: homepage
+
+    spec:
+      containers:
+        - name: homepage
+
+          image: ghcr.io/gethomepage/homepage:latest
+
+          ports:
+            - containerPort: 3000
+
+          env:
+            - name: HOMEPAGE_ALLOWED_HOSTS
+              value: portal.gruppe4.local
+
+          volumeMounts:
+            - name: homepage-data
+              mountPath: /app/config
+
+            - name: branding-data
+              mountPath: /app/public/branding
+
+      volumes:
+        - name: homepage-data
+          persistentVolumeClaim:
+            claimName: homepage-data
+
+        - name: branding-data
+          persistentVolumeClaim:
+            claimName: homepage-data

@@ -1,0 +1,18 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+
+metadata:
+  name: portal-pulseai
+  namespace: portal
+
+spec:
+  secretName: portal-pulseai-tls
+
+  issuerRef:
+    name: pulseai-ca
+    kind: ClusterIssuer
+
+  commonName: portal.gruppe4.local
+
+  dnsNames:
+    - portal.gruppe4.local
