@@ -1,0 +1,27 @@
+---
+- hosts: all
+  gather_facts: false
+
+  tasks:
+
+    - name: Record start
+      command: date +%s
+      delegate_to: localhost
+      register: start_time
+
+    - name: Wait for SSH
+      wait_for_connection:
+        timeout: 30
+        sleep: 1
+
+    - name: Record end
+      command: date +%s
+      delegate_to: localhost
+      register: end_time
+
+    - name: Show elapsed
+      debug:
+        msg: >
+          SSH ready after
+          {{ end_time.stdout | int - start_time.stdout | int }}
+          seconds

@@ -1,0 +1,27 @@
+---
+- name: Add Gitea Helm repository
+  kubernetes.core.helm_repository:
+    name: gitea-charts
+    repo_url: https://dl.gitea.com/charts/
+
+- name: Install Gitea
+  kubernetes.core.helm:
+    name: gitea
+    chart_ref: gitea-charts/gitea
+    release_namespace: gitea
+    create_namespace: true
+    wait: true
+    values:
+      service:
+        http:
+          type: ClusterIP
+
+      ingress:
+        enabled: true
+        className: traefik
+
+        hosts:
+          - host: git.gruppe4.local
+            paths:
+              - path: /
+                pathType: Prefix

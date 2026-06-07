@@ -1,0 +1,9 @@
+---
+- name: Group4 Infrastructure Baseline
+  hosts: linux
+  become: true
+
+  roles:
+    - baseline
+    - powershell
+    - node_exporter

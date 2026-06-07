@@ -11,3 +11,10 @@ common_packages:
   - dnsutils
   - unzip
   - python3-pip
+
+github_ssh_users:
+  - it-supporter
+
+ssh_authorized_users:
+  - henrik
+  - root

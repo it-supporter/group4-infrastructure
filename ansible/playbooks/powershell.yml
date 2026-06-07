@@ -1,0 +1,6 @@
+---
+- name: Install PowerShell
+  hosts: linux
+
+  roles:
+    - powershell

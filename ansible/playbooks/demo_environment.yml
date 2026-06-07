@@ -1,0 +1,48 @@
+---
+- name: Configure student VMs
+  hosts: students
+  become: true
+  gather_facts: false
+
+  pre_tasks:
+
+    - name: Wait for SSH
+      wait_for_connection:
+        timeout: 30
+        sleep: 2
+
+    - name: Gather facts
+      setup:
+
+    - name: Wait for cloud-init
+      command: cloud-init status --wait
+      register: cloudinit_result
+      changed_when: false
+      failed_when: cloudinit_result.rc not in [0, 2]
+
+  roles:
+    - demo_student
+
+- name: Configure target VMs
+  hosts: targets
+  become: true
+  gather_facts: false
+
+  pre_tasks:
+
+    - name: Wait for SSH
+      wait_for_connection:
+        timeout: 30
+        sleep: 2
+
+    - name: Gather facts
+      setup:
+
+    - name: Wait for cloud-init
+      command: cloud-init status --wait
+      register: cloudinit_result
+      changed_when: false
+      failed_when: cloudinit_result.rc not in [0, 2]
+
+  roles:
+    - demo_target

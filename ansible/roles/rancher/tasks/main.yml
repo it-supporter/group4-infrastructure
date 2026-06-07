@@ -1,0 +1,48 @@
+---
+- name: Add Jetstack Helm repo
+  kubernetes.core.helm_repository:
+    name: jetstack
+    repo_url: https://charts.jetstack.io
+
+- name: Add Rancher Helm repo
+  kubernetes.core.helm_repository:
+    name: rancher-stable
+    repo_url: https://releases.rancher.com/server-charts/stable
+
+- name: Create cert-manager namespace
+  kubernetes.core.k8s:
+    api_version: v1
+    kind: Namespace
+    name: cert-manager
+    state: present
+
+- name: Install cert-manager
+  kubernetes.core.helm:
+    name: cert-manager
+    chart_ref: jetstack/cert-manager
+    release_namespace: cert-manager
+    create_namespace: true
+    wait: true
+    values:
+      crds:
+        enabled: true
+
+- name: Create cattle-system namespace
+  kubernetes.core.k8s:
+    api_version: v1
+    kind: Namespace
+    name: cattle-system
+    state: present
+
+- name: Install Rancher
+  kubernetes.core.helm:
+    name: rancher
+    chart_ref: rancher-stable/rancher
+    release_namespace: cattle-system
+    create_namespace: true
+    wait: true
+
+    values:
+      hostname: rancher.gruppe4.local
+      replicas: 3
+      bootstrapPassword: admin

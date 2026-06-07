@@ -1,0 +1,22 @@
+---
+- name: Deploy GitHub SSH keys
+  hosts: k3s_servers
+  become: false
+
+  vars:
+    github_user: it-supporter
+
+  tasks:
+
+    - name: Download GitHub public keys
+      ansible.builtin.uri:
+        url: "https://github.com/{{ github_user }}.keys"
+        return_content: true
+      register: github_keys
+
+    - name: Install GitHub public keys
+      ansible.posix.authorized_key:
+        user: henrik
+        key: "{{ item }}"
+        state: present
+      loop: "{{ github_keys.content.splitlines() }}"

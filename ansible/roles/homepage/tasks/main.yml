@@ -1,0 +1,41 @@
+---
+- name: Add Homepage Helm repository
+  kubernetes.core.helm_repository:
+    name: homepage
+    repo_url: https://jameswynn.github.io/helm-charts
+
+- name: Install Homepage
+  kubernetes.core.helm:
+    name: homepage
+    chart_ref: homepage/homepage
+    release_namespace: homepage
+    create_namespace: true
+    wait: true
+
+    values:
+
+      ingress:
+        main:
+          enabled: true
+
+          ingressClassName: traefik
+
+          hosts:
+            - host: homepage.gruppe4.local
+              paths:
+                - path: /
+                  pathType: Prefix
+
+      config:
+        bookmarks: []
+
+        services:
+          - Infrastructure:
+              - Grafana:
+                  href: http://10.4.10.40:4000
+
+              - Prometheus:
+                  href: http://10.4.10.40:4010
+
+              - Gitea:
+                  href: http://git.gruppe4.local

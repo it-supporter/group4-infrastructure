@@ -1,0 +1,36 @@
+---
+baseline_packages:
+  # Editors
+  - micro
+  - nano
+
+  # Source control & transfers
+  - git
+  - curl
+  - wget
+  - rsync
+
+  # Data processing
+  - jq
+  - unzip
+  - zip
+
+  # Monitoring
+  - htop
+  - btop
+
+  # File management
+  - mc
+  - tree
+
+  # Shell quality of life
+  - bash-completion
+
+  # Network troubleshooting
+  - net-tools
+  - dnsutils
+  - mtr-tiny
+  - tcpdump
+
+baseline_services:
+  - qemu-guest-agent

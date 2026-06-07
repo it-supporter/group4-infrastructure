@@ -1,0 +1,31 @@
+---
+- name: Download GitHub SSH keys
+  ansible.builtin.uri:
+    url: "https://github.com/{{ item }}.keys"
+    return_content: true
+  loop: "{{ github_ssh_users }}"
+  register: github_keys
+
+- name: Build flattened GitHub key list
+  ansible.builtin.set_fact:
+    github_key_list: >-
+      {{
+        github_keys.results
+        | map(attribute='content')
+        | join('\n')
+        | split('\n')
+        | reject('equalto', '')
+        | list
+      }}
+
+- name: Display discovered GitHub keys
+  ansible.builtin.debug:
+    msg: "Discovered {{ github_key_list | length }} GitHub keys"
+
+- name: Install GitHub keys for managed users
+  ansible.posix.authorized_key:
+    user: "{{ item }}"
+    key: "{{ github_key_list | join('\n') }}"
+    exclusive: true
+    state: present
+  loop: "{{ ssh_authorized_users }}"

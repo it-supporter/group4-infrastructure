@@ -1,0 +1,11 @@
+---
+- name: Install student packages
+  apt:
+    name:
+      - git
+      - curl
+      - vim
+      - htop
+      - prometheus-node-exporter
+    state: present
+    update_cache: true

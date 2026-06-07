@@ -1,0 +1,48 @@
+---
+- name: Create whoami namespace
+  kubernetes.core.k8s:
+    api_version: v1
+    kind: Namespace
+    name: whoami
+    state: present
+
+- name: Deploy whoami
+  kubernetes.core.k8s:
+    state: present
+    definition:
+      apiVersion: apps/v1
+      kind: Deployment
+      metadata:
+        name: whoami
+        namespace: whoami
+      spec:
+        replicas: 6
+        selector:
+          matchLabels:
+            app: whoami
+        template:
+          metadata:
+            labels:
+              app: whoami
+          spec:
+            containers:
+              - name: whoami
+                image: traefik/whoami
+                ports:
+                  - containerPort: 80
+
+- name: Create service
+  kubernetes.core.k8s:
+    state: present
+    definition:
+      apiVersion: v1
+      kind: Service
+      metadata:
+        name: whoami
+        namespace: whoami
+      spec:
+        selector:
+          app: whoami
+        ports:
+          - port: 80
+            targetPort: 80

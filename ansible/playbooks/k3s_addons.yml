@@ -1,0 +1,12 @@
+---
+- name: Deploy K3s addons
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+    - whoami
+    - gitea
+    - argocd
+    - homepage
+    - rancher

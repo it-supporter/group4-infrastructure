@@ -1,0 +1,7 @@
+---
+github_ssh_users:
+  - it-supporter
+
+ssh_authorized_users:
+  - henrik
+  - root

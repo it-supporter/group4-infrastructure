@@ -3,11 +3,10 @@
   ansible.builtin.apt:
     name: prometheus-node-exporter
     state: present
-  when: install_node_exporter | default(true)
+    update_cache: true
 
-- name: Ensure node_exporter is enabled and started
+- name: Enable Prometheus Node Exporter
   ansible.builtin.service:
     name: prometheus-node-exporter
-    state: started
     enabled: true
-  when: install_node_exporter | default(true)
+    state: started
