@@ -1,6 +1,7 @@
 ---
 - name: Manage SSH Keys
-  hosts: linux
+  hosts: k3s_servers
+  become: true
 
   roles:
     - ssh_keys
