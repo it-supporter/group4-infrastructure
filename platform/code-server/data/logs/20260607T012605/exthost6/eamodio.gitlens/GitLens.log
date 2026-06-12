@@ -1,0 +1,17 @@
+2026-06-07 09:15:50.215 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-07 09:15:50.215 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|2f5d2961-b458-4cd4-b453-4df35a178cad|4156fab6-b8fa-437e-827a-acda8b2b22cc1780816547759)
+2026-06-07 09:15:50.215 [info]    [            1] GitLens v18.0.0 activated [128ms]
+2026-06-07 09:15:50.215 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [62ms]
+2026-06-07 09:15:50.215 [info]    [   75 →    9a] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 09:15:50.215 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+2026-06-07 09:15:50.215 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 09:15:50.216 [info]    [IPC          ] CLI capability published on http://127.0.0.1:43627
+2026-06-07 09:15:50.293 [error]   [CLI   94 → ad] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 09:15:50.351 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [13ms]
+2026-06-07 09:15:51.762 [info]    [   bd →    be] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 09:15:51.773 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [10ms]
+2026-06-07 09:15:51.789 [info]    [   bc →    bd] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 09:15:52.063 [warning] [   7a →    96] GitHubIntegration.isConnected returned false [*2088ms] (slow)
+2026-06-07 09:15:53.844 [warning] [   d0 →    d2] Storage.getSecret completed [*1748ms] (slow)
+2026-06-07 09:15:53.845 [warning] [   ce →    d0] GitLabCloudAuthenticationProvider.getSession(e={"domain":"gitlab.com","scopes":["api","read_user","read_repository"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*1779ms] (slow)
+2026-06-07 09:15:53.936 [warning] [   8b →    ce] GitLabIntegration.isConnected returned false [*1871ms] (slow)

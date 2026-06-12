@@ -1,0 +1,17 @@
+services:
+  nginx:
+    image: nginx:latest
+
+    container_name: reverse-proxy
+
+    restart: unless-stopped
+
+    ports:
+      - "443:443"
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d:ro
+      - ./certs:/etc/nginx/certs:ro

@@ -1,0 +1,43 @@
+2026-06-07 01:02:28.106 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-07 01:02:28.106 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|2f5d2961-b458-4cd4-b453-4df35a178cad|9b8b37b2-b0ea-4842-9c4c-b8ff657711611780786033981)
+2026-06-07 01:02:28.106 [info]    GitLens first-time install; window.focused=true
+2026-06-07 01:02:28.106 [info]    [            1] GitLens v18.0.0 activated [108ms]
+2026-06-07 01:02:28.106 [info]    [   7c →    7d] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [69ms]
+2026-06-07 01:02:28.106 [info]    [   7c →    9e] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 01:02:28.106 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [6ms]
+2026-06-07 01:02:28.106 [info]    [   7b →    7c] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 01:02:28.107 [info]    [IPC          ] CLI capability published on http://127.0.0.1:41291
+2026-06-07 01:02:28.109 [error]   [CLI   98 → ae] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:02:28.976 [info]    [   cd →    ce] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 01:02:28.982 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [5ms]
+2026-06-07 01:02:28.984 [info]    [   cc →    cd] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 01:02:44.315 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [6ms]
+2026-06-07 01:03:28.110 [error]   [CLI   8c → f0] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:04:28.110 [error]   [CLI   8c → fe] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:05:28.111 [error]   [CLI  8c → 108] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:06:28.111 [error]   [CLI  8c → 111] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:07:28.113 [error]   [CLI  8c → 114] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:08:28.112 [error]   [CLI  8c → 11c] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:09:28.113 [error]   [CLI  8c → 129] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:10:16.556 [info]    WebviewsController.resolveWebviewView(gitlens.views.welcome|9b14e1b8-b192-495e-8644-db797cde32ff): hasRestoreState=false, parentVisible=true
+2026-06-07 01:10:16.557 [info]    WebviewsController.resolveWebviewView(gitlens.views.home|a6353139-6366-4c8d-8201-400b37bf69b0): hasRestoreState=false, parentVisible=true
+2026-06-07 01:10:16.672 [info]    WebviewController(gitlens.views.welcome|9b14e1b8-b192-495e-8644-db797cde32ff): webview.html set (reason=show:loading, length=3139)
+2026-06-07 01:10:16.673 [info]    WebviewController(gitlens.views.home|a6353139-6366-4c8d-8201-400b37bf69b0): webview.html set (reason=show:loading, length=2167)
+2026-06-07 01:10:28.113 [error]   [CLI  8c → 14a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:10:46.564 [warning] RpcHost(gitlens.views.home|a6353139-6366-4c8d-8201-400b37bf69b0): expose() has not been called after 30s — may indicate a load failure
+2026-06-07 01:11:07.307 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [11ms]
+2026-06-07 01:11:28.113 [error]   [CLI  8c → 1a0] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:12:28.114 [error]   [CLI  8c → 1ef] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:13:28.115 [error]   [CLI  8c → 1f4] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:14:28.115 [error]   [CLI  8c → 21e] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:15:28.116 [error]   [CLI  8c → 227] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:16:28.116 [error]   [CLI  8c → 229] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:17:28.117 [error]   [CLI  8c → 22a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:18:28.118 [error]   [CLI  8c → 22d] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:19:28.117 [error]   [CLI  8c → 233] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:20:28.118 [error]   [CLI  8c → 239] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:21:28.118 [error]   [CLI  8c → 23c] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:22:28.117 [error]   [CLI  8c → 23d] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:23:28.117 [error]   [CLI  8c → 23e] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:24:28.119 [error]   [CLI  8c → 246] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:25:28.118 [error]   [CLI  8c → 248] undefined ai hook list-sessions --json CLI is not installed [0ms]

@@ -1,0 +1,109 @@
+2026-06-07 00:44:06.302 [info] 
+
+
+
+
+2026-06-07 00:44:06.312 [info] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+2026-06-07 00:44:06.315 [info] Extension host agent started.
+2026-06-07 00:44:06.333 [info] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+2026-06-07 00:44:06.518 [info] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+2026-06-07 00:44:22.242 [info] [10.4.10.10][505ded23][ManagementConnection] New connection established.
+2026-06-07 00:44:23.457 [info] [10.4.10.10][5c8d8615][ExtensionHostConnection] New connection established.
+2026-06-07 00:44:23.784 [info] [10.4.10.10][5c8d8615][ExtensionHostConnection] <1181> Launched Extension Host Process.
+2026-06-07 00:44:24.163 [info] [10.4.10.10][5c8d8615][ExtensionHostConnection] <1181> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 00:47:11.747 [info] [10.4.10.10][505ded23][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 00:47:13.873 [info] [10.4.10.10][338d3551][ManagementConnection] New connection established.
+2026-06-07 00:47:14.656 [info] [10.4.10.10][bae4a5a8][ExtensionHostConnection] New connection established.
+2026-06-07 00:47:14.663 [info] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653> Launched Extension Host Process.
+2026-06-07 00:47:15.048 [info] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 00:49:26.581 [info] Getting Manifest... ms-vscode.powershell
+2026-06-07 00:49:27.046 [info] Installing extension: ms-vscode.powershell {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 00:49:29.902 [info] Extracted extension to file:///config/extensions/ms-vscode.powershell-2025.4.0-universal: ms-vscode.powershell
+2026-06-07 00:49:29.932 [info] Renamed to /config/extensions/ms-vscode.powershell-2025.4.0-universal
+2026-06-07 00:49:29.953 [info] Extension installed successfully: ms-vscode.powershell file:///config/extensions/extensions.json
+2026-06-07 00:49:47.351 [info] Getting Manifest... ms-python.python
+2026-06-07 00:49:47.671 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 00:49:47.853 [info] Getting Manifest... ms-python.debugpy
+2026-06-07 00:49:47.914 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-06-07 00:49:47.972 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-06-07 00:49:47.973 [info] Installing extension: ms-python.vscode-python-envs {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-06-07 00:49:48.428 [info] Extracted extension to file:///config/extensions/ms-python.vscode-python-envs-1.30.0-universal: ms-python.vscode-python-envs
+2026-06-07 00:49:48.452 [info] Renamed to /config/extensions/ms-python.vscode-python-envs-1.30.0-universal
+2026-06-07 00:49:49.460 [info] Extracted extension to file:///config/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+2026-06-07 00:49:49.508 [info] Renamed to /config/extensions/ms-python.debugpy-2026.6.0-linux-x64
+2026-06-07 00:49:50.916 [info] Extracted extension to file:///config/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+2026-06-07 00:49:51.280 [info] Renamed to /config/extensions/ms-python.python-2026.4.0-universal
+2026-06-07 00:49:51.299 [info] Extension installed successfully: ms-python.vscode-python-envs file:///config/extensions/extensions.json
+2026-06-07 00:49:51.299 [info] Extension installed successfully: ms-python.debugpy file:///config/extensions/extensions.json
+2026-06-07 00:49:51.299 [info] Extension installed successfully: ms-python.python file:///config/extensions/extensions.json
+2026-06-07 00:56:27.484 [info] Getting Manifest... shubhamsharma.ariv-themes
+2026-06-07 00:56:27.949 [info] Installing extension: shubhamsharma.ariv-themes {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 00:56:28.206 [info] Getting Manifest... pkief.material-icon-theme
+2026-06-07 00:56:28.347 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-06-07 00:56:28.604 [info] Extracted extension to file:///config/extensions/shubhamsharma.ariv-themes-1.0.0-universal: shubhamsharma.ariv-themes
+2026-06-07 00:56:28.617 [info] Renamed to /config/extensions/shubhamsharma.ariv-themes-1.0.0-universal
+2026-06-07 00:56:29.535 [info] Extracted extension to file:///config/extensions/pkief.material-icon-theme-5.35.0-universal: pkief.material-icon-theme
+2026-06-07 00:56:29.589 [info] Renamed to /config/extensions/pkief.material-icon-theme-5.35.0-universal
+2026-06-07 00:56:29.608 [info] Extension installed successfully: shubhamsharma.ariv-themes file:///config/extensions/extensions.json
+2026-06-07 00:56:29.608 [info] Extension installed successfully: pkief.material-icon-theme file:///config/extensions/extensions.json
+2026-06-07 00:56:30.608 [info] Getting Manifest... nebula-themes.nebula-aura-theme
+2026-06-07 00:56:30.881 [info] Installing extension: nebula-themes.nebula-aura-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 00:56:31.137 [info] Extracted extension to file:///config/extensions/nebula-themes.nebula-aura-theme-0.0.2-universal: nebula-themes.nebula-aura-theme
+2026-06-07 00:56:31.148 [info] Renamed to /config/extensions/nebula-themes.nebula-aura-theme-0.0.2-universal
+2026-06-07 00:56:31.165 [info] Extension installed successfully: nebula-themes.nebula-aura-theme file:///config/extensions/extensions.json
+2026-06-07 01:02:25.395 [info] Getting Manifest... eamodio.gitlens
+2026-06-07 01:02:25.927 [info] Installing extension: eamodio.gitlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:02:26.777 [info] Extracted extension to file:///config/extensions/eamodio.gitlens-18.0.0-universal: eamodio.gitlens
+2026-06-07 01:02:26.838 [info] Renamed to /config/extensions/eamodio.gitlens-18.0.0-universal
+2026-06-07 01:02:26.884 [info] Extension installed successfully: eamodio.gitlens file:///config/extensions/extensions.json
+2026-06-07 01:04:30.850 [info] Getting Manifest... usernamehw.errorlens
+2026-06-07 01:04:31.419 [info] Installing extension: usernamehw.errorlens {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:04:31.798 [info] Extracted extension to file:///config/extensions/usernamehw.errorlens-3.28.0-universal: usernamehw.errorlens
+2026-06-07 01:04:31.812 [info] Renamed to /config/extensions/usernamehw.errorlens-3.28.0-universal
+2026-06-07 01:04:31.850 [info] Extension installed successfully: usernamehw.errorlens file:///config/extensions/extensions.json
+2026-06-07 01:04:45.460 [info] Getting Manifest... hashicorp.terraform
+2026-06-07 01:04:45.879 [info] Installing extension: hashicorp.terraform {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:04:47.812 [info] Extracted extension to file:///config/extensions/hashicorp.terraform-2.39.2-linux-x64: hashicorp.terraform
+2026-06-07 01:04:47.826 [info] Renamed to /config/extensions/hashicorp.terraform-2.39.2-linux-x64
+2026-06-07 01:04:47.874 [info] Extension installed successfully: hashicorp.terraform file:///config/extensions/extensions.json
+2026-06-07 01:04:59.506 [info] Getting Manifest... redhat.vscode-yaml
+2026-06-07 01:04:59.855 [info] Installing extension: redhat.vscode-yaml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:05:00.319 [info] Extracted extension to file:///config/extensions/redhat.vscode-yaml-1.23.0-universal: redhat.vscode-yaml
+2026-06-07 01:05:00.331 [info] Renamed to /config/extensions/redhat.vscode-yaml-1.23.0-universal
+2026-06-07 01:05:00.360 [info] Extension installed successfully: redhat.vscode-yaml file:///config/extensions/extensions.json
+2026-06-07 01:05:08.120 [info] Getting Manifest... redhat.ansible
+2026-06-07 01:05:08.531 [info] Installing extension: redhat.ansible {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:05:09.976 [info] Extracted extension to file:///config/extensions/redhat.ansible-26.6.0-universal: redhat.ansible
+2026-06-07 01:05:09.998 [info] Renamed to /config/extensions/redhat.ansible-26.6.0-universal
+2026-06-07 01:05:10.033 [info] Extension installed successfully: redhat.ansible file:///config/extensions/extensions.json
+2026-06-07 01:05:18.770 [info] Getting Manifest... ms-azuretools.vscode-docker
+2026-06-07 01:05:19.156 [info] Installing extension: ms-azuretools.vscode-docker {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:05:19.337 [info] Getting Manifest... ms-azuretools.vscode-containers
+2026-06-07 01:05:19.478 [info] Installing extension: ms-azuretools.vscode-containers {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2026-06-07 01:05:19.706 [info] Extracted extension to file:///config/extensions/ms-azuretools.vscode-docker-2.0.0-universal: ms-azuretools.vscode-docker
+2026-06-07 01:05:19.718 [info] Renamed to /config/extensions/ms-azuretools.vscode-docker-2.0.0-universal
+2026-06-07 01:05:19.850 [info] Extracted extension to file:///config/extensions/ms-azuretools.vscode-containers-2.4.5-universal: ms-azuretools.vscode-containers
+2026-06-07 01:05:19.870 [info] Renamed to /config/extensions/ms-azuretools.vscode-containers-2.4.5-universal
+2026-06-07 01:05:19.908 [info] Extension installed successfully: ms-azuretools.vscode-docker file:///config/extensions/extensions.json
+2026-06-07 01:05:19.908 [info] Extension installed successfully: ms-azuretools.vscode-containers file:///config/extensions/extensions.json
+2026-06-07 01:05:43.457 [info] Getting Manifest... continue.continue
+2026-06-07 01:05:43.848 [info] Installing extension: continue.continue {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:05:50.735 [info] Extracted extension to file:///config/extensions/continue.continue-1.2.22-linux-x64: continue.continue
+2026-06-07 01:05:50.767 [info] Renamed to /config/extensions/continue.continue-1.2.22-linux-x64
+2026-06-07 01:05:50.816 [info] Extension installed successfully: continue.continue file:///config/extensions/extensions.json
+2026-06-07 01:05:56.333 [info] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:05:56.442 [info] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:07:16.558 [info] Getting Manifest... gruntfuggly.todo-tree
+2026-06-07 01:07:17.619 [info] Installing extension: gruntfuggly.todo-tree {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:07:18.826 [info] Extracted extension to file:///config/extensions/gruntfuggly.todo-tree-0.0.215-universal: gruntfuggly.todo-tree
+2026-06-07 01:07:18.841 [info] Renamed to /config/extensions/gruntfuggly.todo-tree-0.0.215-universal
+2026-06-07 01:07:18.893 [info] Extension installed successfully: gruntfuggly.todo-tree file:///config/extensions/extensions.json
+2026-06-07 01:08:55.645 [info] Getting Manifest... natizyskunk.sftp
+2026-06-07 01:08:56.186 [info] Installing extension: natizyskunk.sftp {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isBuiltin":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"}}
+2026-06-07 01:08:57.519 [info] Extracted extension to file:///config/extensions/natizyskunk.sftp-1.16.3-universal: natizyskunk.sftp
+2026-06-07 01:08:57.612 [info] Renamed to /config/extensions/natizyskunk.sftp-1.16.3-universal
+2026-06-07 01:08:57.649 [info] Extension installed successfully: natizyskunk.sftp file:///config/extensions/extensions.json

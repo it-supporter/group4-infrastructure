@@ -1,0 +1,792 @@
+[2026-06-06T22:43:21.765Z] info  code-server 4.123.0 77d880d0c3fcbf4ac613644b3e113cedd6173a16
+[2026-06-06T22:43:21.766Z] info  Using user-data-dir /config/data
+[2026-06-06T22:43:21.786Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-06-06T22:43:21.786Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-06-06T22:43:21.786Z] info    - Authentication is enabled
+[2026-06-06T22:43:21.786Z] info      - Using password from $PASSWORD
+[2026-06-06T22:43:21.786Z] info    - Not serving HTTPS
+[2026-06-06T22:43:21.786Z] info  Session server listening on /config/data/code-server-ipc.sock
+[00:44:06] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[00:44:06] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[00:44:06] Extension host agent started.
+[00:44:06] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[00:44:06] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[00:44:22] [10.4.10.10][505ded23][ManagementConnection] New connection established.
+[00:44:23] [10.4.10.10][5c8d8615][ExtensionHostConnection] New connection established.
+[00:44:23] [10.4.10.10][5c8d8615][ExtensionHostConnection] <1181> Launched Extension Host Process.
+[00:44:24] [10.4.10.10][5c8d8615][ExtensionHostConnection] <1181> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[00:47:11] [10.4.10.10][505ded23][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[00:47:13] [10.4.10.10][338d3551][ManagementConnection] New connection established.
+[00:47:14] [10.4.10.10][bae4a5a8][ExtensionHostConnection] New connection established.
+[00:47:14] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653> Launched Extension Host Process.
+[00:47:15] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[00:49:26] Getting Manifest... ms-vscode.powershell
+[00:49:27] Installing extension: ms-vscode.powershell {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[00:49:29] Extracted extension to file:///config/extensions/ms-vscode.powershell-2025.4.0-universal: ms-vscode.powershell
+[00:49:29] Renamed to /config/extensions/ms-vscode.powershell-2025.4.0-universal
+[00:49:29] Extension installed successfully: ms-vscode.powershell file:///config/extensions/extensions.json
+[00:49:47] Getting Manifest... ms-python.python
+[00:49:47] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[00:49:47] Getting Manifest... ms-python.debugpy
+[00:49:47] Getting Manifest... ms-python.vscode-python-envs
+[00:49:47] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[00:49:47] Installing extension: ms-python.vscode-python-envs {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[00:49:48] Extracted extension to file:///config/extensions/ms-python.vscode-python-envs-1.30.0-universal: ms-python.vscode-python-envs
+[00:49:48] Renamed to /config/extensions/ms-python.vscode-python-envs-1.30.0-universal
+[00:49:49] Extracted extension to file:///config/extensions/ms-python.debugpy-2026.6.0-linux-x64: ms-python.debugpy
+[00:49:49] Renamed to /config/extensions/ms-python.debugpy-2026.6.0-linux-x64
+[00:49:50] Extracted extension to file:///config/extensions/ms-python.python-2026.4.0-universal: ms-python.python
+[00:49:51] Renamed to /config/extensions/ms-python.python-2026.4.0-universal
+[00:49:51] Extension installed successfully: ms-python.vscode-python-envs file:///config/extensions/extensions.json
+[00:49:51] Extension installed successfully: ms-python.debugpy file:///config/extensions/extensions.json
+[00:49:51] Extension installed successfully: ms-python.python file:///config/extensions/extensions.json
+[00:56:27] Getting Manifest... shubhamsharma.ariv-themes
+[00:56:27] Installing extension: shubhamsharma.ariv-themes {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[00:56:28] Getting Manifest... pkief.material-icon-theme
+[00:56:28] Installing extension: pkief.material-icon-theme {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[00:56:28] Extracted extension to file:///config/extensions/shubhamsharma.ariv-themes-1.0.0-universal: shubhamsharma.ariv-themes
+[00:56:28] Renamed to /config/extensions/shubhamsharma.ariv-themes-1.0.0-universal
+[00:56:29] Extracted extension to file:///config/extensions/pkief.material-icon-theme-5.35.0-universal: pkief.material-icon-theme
+[00:56:29] Renamed to /config/extensions/pkief.material-icon-theme-5.35.0-universal
+[00:56:29] Extension installed successfully: shubhamsharma.ariv-themes file:///config/extensions/extensions.json
+[00:56:29] Extension installed successfully: pkief.material-icon-theme file:///config/extensions/extensions.json
+[00:56:30] Getting Manifest... nebula-themes.nebula-aura-theme
+[00:56:30] Installing extension: nebula-themes.nebula-aura-theme {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[00:56:31] Extracted extension to file:///config/extensions/nebula-themes.nebula-aura-theme-0.0.2-universal: nebula-themes.nebula-aura-theme
+[00:56:31] Renamed to /config/extensions/nebula-themes.nebula-aura-theme-0.0.2-universal
+[00:56:31] Extension installed successfully: nebula-themes.nebula-aura-theme file:///config/extensions/extensions.json
+[01:02:25] Getting Manifest... eamodio.gitlens
+[01:02:25] Installing extension: eamodio.gitlens {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:02:26] Extracted extension to file:///config/extensions/eamodio.gitlens-18.0.0-universal: eamodio.gitlens
+[01:02:26] Renamed to /config/extensions/eamodio.gitlens-18.0.0-universal
+[01:02:26] Extension installed successfully: eamodio.gitlens file:///config/extensions/extensions.json
+[01:04:30] Getting Manifest... usernamehw.errorlens
+[01:04:31] Installing extension: usernamehw.errorlens {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:04:31] Extracted extension to file:///config/extensions/usernamehw.errorlens-3.28.0-universal: usernamehw.errorlens
+[01:04:31] Renamed to /config/extensions/usernamehw.errorlens-3.28.0-universal
+[01:04:31] Extension installed successfully: usernamehw.errorlens file:///config/extensions/extensions.json
+[01:04:45] Getting Manifest... hashicorp.terraform
+[01:04:45] Installing extension: hashicorp.terraform {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:04:47] Extracted extension to file:///config/extensions/hashicorp.terraform-2.39.2-linux-x64: hashicorp.terraform
+[01:04:47] Renamed to /config/extensions/hashicorp.terraform-2.39.2-linux-x64
+[01:04:47] Extension installed successfully: hashicorp.terraform file:///config/extensions/extensions.json
+[01:04:59] Getting Manifest... redhat.vscode-yaml
+[01:04:59] Installing extension: redhat.vscode-yaml {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:05:00] Extracted extension to file:///config/extensions/redhat.vscode-yaml-1.23.0-universal: redhat.vscode-yaml
+[01:05:00] Renamed to /config/extensions/redhat.vscode-yaml-1.23.0-universal
+[01:05:00] Extension installed successfully: redhat.vscode-yaml file:///config/extensions/extensions.json
+[01:05:08] Getting Manifest... redhat.ansible
+[01:05:08] Installing extension: redhat.ansible {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:05:09] Extracted extension to file:///config/extensions/redhat.ansible-26.6.0-universal: redhat.ansible
+[01:05:09] Renamed to /config/extensions/redhat.ansible-26.6.0-universal
+[01:05:10] Extension installed successfully: redhat.ansible file:///config/extensions/extensions.json
+[01:05:18] Getting Manifest... ms-azuretools.vscode-docker
+[01:05:19] Installing extension: ms-azuretools.vscode-docker {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:05:19] Getting Manifest... ms-azuretools.vscode-containers
+[01:05:19] Installing extension: ms-azuretools.vscode-containers {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[01:05:19] Extracted extension to file:///config/extensions/ms-azuretools.vscode-docker-2.0.0-universal: ms-azuretools.vscode-docker
+[01:05:19] Renamed to /config/extensions/ms-azuretools.vscode-docker-2.0.0-universal
+[01:05:19] Extracted extension to file:///config/extensions/ms-azuretools.vscode-containers-2.4.5-universal: ms-azuretools.vscode-containers
+[01:05:19] Renamed to /config/extensions/ms-azuretools.vscode-containers-2.4.5-universal
+[01:05:19] Extension installed successfully: ms-azuretools.vscode-docker file:///config/extensions/extensions.json
+[01:05:19] Extension installed successfully: ms-azuretools.vscode-containers file:///config/extensions/extensions.json
+[01:05:43] Getting Manifest... continue.continue
+[01:05:43] Installing extension: continue.continue {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:05:50] Extracted extension to file:///config/extensions/continue.continue-1.2.22-linux-x64: continue.continue
+[01:05:50] Renamed to /config/extensions/continue.continue-1.2.22-linux-x64
+[01:05:50] Extension installed successfully: continue.continue file:///config/extensions/extensions.json
+[01:05:56] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:05:56] [10.4.10.10][bae4a5a8][ExtensionHostConnection] <2653><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:07:16] Getting Manifest... gruntfuggly.todo-tree
+[01:07:17] Installing extension: gruntfuggly.todo-tree {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:07:18] Extracted extension to file:///config/extensions/gruntfuggly.todo-tree-0.0.215-universal: gruntfuggly.todo-tree
+[01:07:18] Renamed to /config/extensions/gruntfuggly.todo-tree-0.0.215-universal
+[01:07:18] Extension installed successfully: gruntfuggly.todo-tree file:///config/extensions/extensions.json
+[01:08:55] Getting Manifest... natizyskunk.sftp
+[01:08:56] Installing extension: natizyskunk.sftp {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[01:08:57] Extracted extension to file:///config/extensions/natizyskunk.sftp-1.16.3-universal: natizyskunk.sftp
+[01:08:57] Renamed to /config/extensions/natizyskunk.sftp-1.16.3-universal
+[01:08:57] Extension installed successfully: natizyskunk.sftp file:///config/extensions/extensions.json
+[2026-06-06T23:26:04.468Z] info  code-server 4.123.0 77d880d0c3fcbf4ac613644b3e113cedd6173a16
+[2026-06-06T23:26:04.469Z] info  Using user-data-dir /config/data
+[2026-06-06T23:26:04.485Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-06-06T23:26:04.485Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-06-06T23:26:04.485Z] info    - Authentication is enabled
+[2026-06-06T23:26:04.485Z] info      - Using password from $PASSWORD
+[2026-06-06T23:26:04.485Z] info    - Not serving HTTPS
+[2026-06-06T23:26:04.485Z] info  Session server listening on /config/data/code-server-ipc.sock
+[01:26:05] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[01:26:05] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[01:26:05] Extension host agent started.
+[01:26:14] [10.4.10.10][15f2ba20][ManagementConnection] New connection established.
+[01:26:15] [10.4.10.10][81862010][ExtensionHostConnection] New connection established.
+[01:26:15] [10.4.10.10][81862010][ExtensionHostConnection] <802> Launched Extension Host Process.
+[01:26:16] [10.4.10.10][81862010][ExtensionHostConnection] <802> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[01:26:23] [10.4.10.10][81862010][ExtensionHostConnection] <802><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:26:23] [10.4.10.10][81862010][ExtensionHostConnection] <802><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:31:12] [10.4.10.10][15f2ba20][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:31:12] [10.4.10.10][81862010][ExtensionHostConnection] <802> Extension Host Process exited with code: 0, signal: null.
+[01:31:14] [10.4.10.10][87c89bbc][ManagementConnection] New connection established.
+[01:31:15] [10.4.10.10][86687262][ExtensionHostConnection] New connection established.
+[01:31:15] [10.4.10.10][86687262][ExtensionHostConnection] <2417> Launched Extension Host Process.
+[01:31:15] [10.4.10.10][86687262][ExtensionHostConnection] <2417> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[01:31:21] [10.4.10.10][86687262][ExtensionHostConnection] <2417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:31:22] [10.4.10.10][86687262][ExtensionHostConnection] <2417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:44:21] [10.4.10.10][87c89bbc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:44:21] [10.4.10.10][86687262][ExtensionHostConnection] <2417> Extension Host Process exited with code: 0, signal: null.
+[01:44:23] [10.4.10.10][256bb760][ManagementConnection] New connection established.
+[01:44:24] [10.4.10.10][0422d9bb][ExtensionHostConnection] New connection established.
+[01:44:24] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443> Launched Extension Host Process.
+[01:44:24] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[01:44:31] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:44:31] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:45:56] [10.4.10.10][256bb760][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:45:56] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443> Extension Host Process exited with code: 0, signal: null.
+[01:45:58] [10.4.10.10][9bb93376][ManagementConnection] New connection established.
+[01:45:59] [10.4.10.10][1da9e96a][ExtensionHostConnection] New connection established.
+[01:45:59] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196> Launched Extension Host Process.
+[01:45:59] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[01:46:05] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:46:05] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[01:48:13] [10.4.10.10][9bb93376][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:48:13] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196> Extension Host Process exited with code: 0, signal: null.
+[09:13:46] [10.4.10.10][e2339c2d][ManagementConnection] New connection established.
+[09:13:47] [10.4.10.10][813e83db][ExtensionHostConnection] New connection established.
+[09:13:47] [10.4.10.10][813e83db][ExtensionHostConnection] <7220> Launched Extension Host Process.
+[09:13:47] [10.4.10.10][813e83db][ExtensionHostConnection] <7220> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[09:13:54] [10.4.10.10][813e83db][ExtensionHostConnection] <7220><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[09:13:54] [10.4.10.10][813e83db][ExtensionHostConnection] <7220><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[09:15:18] [10.4.10.10][e2339c2d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:15:19] [10.4.10.10][813e83db][ExtensionHostConnection] <7220> Extension Host Process exited with code: 0, signal: null.
+[09:15:47] [10.4.10.10][ecb74910][ManagementConnection] New connection established.
+[09:15:47] [10.4.10.10][c29d51e8][ExtensionHostConnection] New connection established.
+[09:15:47] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023> Launched Extension Host Process.
+[09:15:48] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[09:15:54] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[09:15:54] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[09:16:19] [10.4.10.10][ecb74910][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:16:19] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023> Extension Host Process exited with code: 0, signal: null.
+[09:17:32] [10.4.10.10][9c222c8b][ManagementConnection] New connection established.
+[09:17:33] [10.4.10.10][feeaf5c4][ExtensionHostConnection] New connection established.
+[09:17:33] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577> Launched Extension Host Process.
+[09:17:33] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[09:17:39] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[09:17:40] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+[16:47:37] [10.4.10.10][9c222c8b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:47:37] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577> Extension Host Process exited with code: 0, signal: null.
+[17:40:25] [172.20.0.1][773e51c8][ManagementConnection] New connection established.
+[17:40:26] [172.20.0.1][890f8147][ExtensionHostConnection] New connection established.
+[17:40:26] [172.20.0.1][890f8147][ExtensionHostConnection] <93702> Launched Extension Host Process.
+[17:40:27] [172.20.0.1][890f8147][ExtensionHostConnection] <93702> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:40:29] [172.20.0.1][2e647427][ExtensionHostConnection] New connection established.
+[17:40:29] [172.20.0.1][2e647427][ExtensionHostConnection] <94409> Launched Extension Host Process.
+[17:40:30] [172.20.0.1][2e647427][ExtensionHostConnection] <94409> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:40:55] [172.20.0.1][890f8147][ExtensionHostConnection] <93702><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[17:40:55] [172.20.0.1][890f8147][ExtensionHostConnection] <93702><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[17:41:05] [172.20.0.1][773e51c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:41:05] [172.20.0.1][890f8147][ExtensionHostConnection] <93702> Extension Host Process exited with code: 0, signal: null.
+[17:41:19] [172.20.0.1][4c21f1ff][ManagementConnection] New connection established.
+[17:41:20] [172.20.0.1][55ee2567][ExtensionHostConnection] New connection established.
+[17:41:20] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693> Launched Extension Host Process.
+[17:41:20] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:41:26] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[17:41:26] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[17:42:15] [172.20.0.1][4c21f1ff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:42:15] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693> Extension Host Process exited with code: 0, signal: null.
+[17:46:19] [172.20.0.1][2e647427][ExtensionHostConnection] <94409> Extension Host Process exited with code: 0, signal: null.
+[06:29:12] [172.20.0.1][22827267][ManagementConnection] New connection established.
+[06:29:13] [172.20.0.1][9eaf0809][ExtensionHostConnection] New connection established.
+[06:29:13] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417> Launched Extension Host Process.
+[06:29:13] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[06:29:21] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[06:29:21] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[07:22:08] [172.20.0.1][22827267][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:22:08] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417> Extension Host Process exited with code: 0, signal: null.
+[12:11:36] [172.20.0.1][4bd51b89][ManagementConnection] New connection established.
+[12:11:38] [172.20.0.1][9cfea169][ExtensionHostConnection] New connection established.
+[12:11:38] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682> Launched Extension Host Process.
+[12:11:38] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[12:11:43] Getting Manifest... hashicorp.terraform
+[12:11:43] Installing extension: hashicorp.terraform {
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' },
+  pinned: false,
+  operation: 3,
+  isApplicationScoped: false,
+  isBuiltin: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  }
+}
+[12:11:49] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[12:11:49] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[12:11:56] Extracted extension to file:///config/extensions/hashicorp.terraform-2.39.3-linux-x64: hashicorp.terraform
+[12:11:56] Renamed to /config/extensions/hashicorp.terraform-2.39.3-linux-x64
+[12:11:57] Marked extension as removed hashicorp.terraform-2.39.2-linux-x64
+[12:11:57] Extension installed successfully: hashicorp.terraform file:///config/extensions/extensions.json
+[13:07:59] [172.20.0.1][4bd51b89][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:07:59] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682> Extension Host Process exited with code: 0, signal: null.
+[13:42:17] [172.20.0.1][998a1c2f][ManagementConnection] New connection established.
+[13:42:17] [172.20.0.1][e77f8c7f][ExtensionHostConnection] New connection established.
+[13:42:18] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685> Launched Extension Host Process.
+[13:42:18] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[13:42:24] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[13:42:24] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[13:42:57] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[13:59:35] [172.20.0.1][998a1c2f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:59:35] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685> Extension Host Process exited with code: 0, signal: null.
+[18:03:14] [172.20.0.1][d527d789][ManagementConnection] New connection established.
+[18:03:14] [172.20.0.1][e792a788][ExtensionHostConnection] New connection established.
+[18:03:14] [172.20.0.1][e792a788][ExtensionHostConnection] <125558> Launched Extension Host Process.
+[18:03:15] [172.20.0.1][e792a788][ExtensionHostConnection] <125558> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[18:03:21] [172.20.0.1][e792a788][ExtensionHostConnection] <125558><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[18:03:21] [172.20.0.1][e792a788][ExtensionHostConnection] <125558><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+[18:06:59] [172.20.0.1][d527d789][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:07:01] [172.20.0.1][bb3803df][ManagementConnection] New connection established.
+[18:07:02] [172.20.0.1][cd327efb][ExtensionHostConnection] New connection established.
+[18:07:02] [172.20.0.1][cd327efb][ExtensionHostConnection] <126692> Launched Extension Host Process.
+[18:07:02] [172.20.0.1][cd327efb][ExtensionHostConnection] <126692> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[2026-06-09T16:14:18.122Z] info  code-server 4.123.0 77d880d0c3fcbf4ac613644b3e113cedd6173a16
+[2026-06-09T16:14:18.123Z] info  Using user-data-dir /config/data
+[2026-06-09T16:14:18.143Z] info  Using config file /config/.config/code-server/config.yaml
+[2026-06-09T16:14:18.143Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2026-06-09T16:14:18.143Z] info    - Authentication is enabled
+[2026-06-09T16:14:18.143Z] info      - Using password from $PASSWORD
+[2026-06-09T16:14:18.143Z] info    - Not serving HTTPS
+[2026-06-09T16:14:18.143Z] info  Session server listening on /config/data/code-server-ipc.sock
+[18:14:18] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[18:14:18] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[18:14:18] Extension host agent started.
+[18:14:19] Marked extension as removed hashicorp.terraform-2.39.2-linux-x64
+[18:14:19] Deleted marked for removal extension from disk hashicorp.terraform /config/extensions/hashicorp.terraform-2.39.2-linux-x64
+[18:14:32] [172.20.0.1][b800c068][ManagementConnection] New connection established.
+[18:14:32] [172.20.0.1][e8332c4d][ExtensionHostConnection] New connection established.
+[18:14:32] [172.20.0.1][e8332c4d][ExtensionHostConnection] <702> Launched Extension Host Process.
+[18:14:33] [172.20.0.1][e8332c4d][ExtensionHostConnection] <702> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[18:15:10] [172.20.0.1][b800c068][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:15:12] [172.20.0.1][d26c2b75][ManagementConnection] New connection established.
+[18:15:13] [172.20.0.1][b410811d][ExtensionHostConnection] New connection established.
+[18:15:13] [172.20.0.1][b410811d][ExtensionHostConnection] <1231> Launched Extension Host Process.
+[18:15:13] [172.20.0.1][b410811d][ExtensionHostConnection] <1231> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:31:10] [172.20.0.1][d26c2b75][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[20:31:11] [172.20.0.1][b410811d][ExtensionHostConnection] <1231> Extension Host Process exited with code: 0, signal: null.
+[20:31:49] [172.20.0.1][cd3e0f1c][ManagementConnection] New connection established.
+[20:31:50] [172.20.0.1][503f1d2f][ExtensionHostConnection] New connection established.
+[20:31:50] [172.20.0.1][503f1d2f][ExtensionHostConnection] <26260> Launched Extension Host Process.
+[20:31:50] [172.20.0.1][503f1d2f][ExtensionHostConnection] <26260> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[20:36:50] [172.20.0.1][e8332c4d][ExtensionHostConnection] <702> Extension Host Process exited with code: 0, signal: null.
+[20:43:59] [172.20.0.1][90052ed5][ManagementConnection] New connection established.
+[20:44:00] [172.20.0.1][472b1040][ExtensionHostConnection] New connection established.
+[20:44:00] [172.20.0.1][472b1040][ExtensionHostConnection] <29893> Launched Extension Host Process.
+[20:44:00] [172.20.0.1][472b1040][ExtensionHostConnection] <29893> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[21:27:10] [172.20.0.1][cd3e0f1c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:27:10] [172.20.0.1][503f1d2f][ExtensionHostConnection] <26260> Extension Host Process exited with code: 0, signal: null.
+[21:27:12] [172.20.0.1][33dfeb17][ManagementConnection] New connection established.
+[21:27:13] [172.20.0.1][7c207dba][ExtensionHostConnection] New connection established.
+[21:27:13] [172.20.0.1][7c207dba][ExtensionHostConnection] <50248> Launched Extension Host Process.
+[21:27:13] [172.20.0.1][7c207dba][ExtensionHostConnection] <50248> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[21:29:27] [172.20.0.1][33dfeb17][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:29:27] [172.20.0.1][7c207dba][ExtensionHostConnection] <50248> Extension Host Process exited with code: 0, signal: null.
+[21:29:28] [172.20.0.1][4eb29a63][ManagementConnection] New connection established.
+[21:29:29] [172.20.0.1][b4102b5a][ExtensionHostConnection] New connection established.
+[21:29:29] [172.20.0.1][b4102b5a][ExtensionHostConnection] <51840> Launched Extension Host Process.
+[21:29:30] [172.20.0.1][b4102b5a][ExtensionHostConnection] <51840> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[21:31:29] [172.20.0.1][4eb29a63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:31:29] [172.20.0.1][b4102b5a][ExtensionHostConnection] <51840> Extension Host Process exited with code: 0, signal: null.
+[21:31:30] [172.20.0.1][87a29a4e][ManagementConnection] New connection established.
+[21:31:31] [172.20.0.1][dfe1245f][ExtensionHostConnection] New connection established.
+[21:31:31] [172.20.0.1][dfe1245f][ExtensionHostConnection] <53078> Launched Extension Host Process.
+[21:31:32] [172.20.0.1][dfe1245f][ExtensionHostConnection] <53078> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[21:38:03] [172.20.0.1][87a29a4e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:38:03] [172.20.0.1][dfe1245f][ExtensionHostConnection] <53078> Extension Host Process exited with code: 0, signal: null.
+[21:38:05] [172.20.0.1][27f2c7bc][ManagementConnection] New connection established.
+[21:38:05] [172.20.0.1][a879b3a8][ExtensionHostConnection] New connection established.
+[21:38:05] [172.20.0.1][a879b3a8][ExtensionHostConnection] <55996> Launched Extension Host Process.
+[21:38:06] [172.20.0.1][a879b3a8][ExtensionHostConnection] <55996> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[21:54:17] Getting Manifest... jajera.vsx-remote-ssh
+[21:54:18] Installing extension: jajera.vsx-remote-ssh {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' }
+}
+[21:54:19] Extracted extension to file:///config/extensions/jajera.vsx-remote-ssh-1.1.2-universal: jajera.vsx-remote-ssh
+[21:54:19] Renamed to /config/extensions/jajera.vsx-remote-ssh-1.1.2-universal
+[21:54:19] Extension installed successfully: jajera.vsx-remote-ssh file:///config/extensions/extensions.json
+[21:54:30] Uninstalling extension from the profile: natizyskunk.sftp@1.16.3 file:///config/extensions/extensions.json
+[21:54:30] Marked extension as removed natizyskunk.sftp-1.16.3-universal
+[21:54:30] Successfully uninstalled extension from the profile natizyskunk.sftp@1.16.3 file:///config/extensions/extensions.json
+[22:15:58] [172.20.0.1][279a707d][ManagementConnection] New connection established.
+[22:15:59] [172.20.0.1][f04a47b1][ExtensionHostConnection] New connection established.
+[22:15:59] [172.20.0.1][f04a47b1][ExtensionHostConnection] <72188> Launched Extension Host Process.
+[22:15:59] [172.20.0.1][f04a47b1][ExtensionHostConnection] <72188> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:16:06] [172.20.0.1][279a707d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:16:06] [172.20.0.1][f04a47b1][ExtensionHostConnection] <72188><stderr> [@continuedev] [31merror[39m: files/opened: failed to update openedFiles cache for file:///workspace/.vscode/monitor01.json
+
+[22:16:06] [172.20.0.1][f04a47b1][ExtensionHostConnection] <72188><stderr> [@continuedev] [31merror[39m: Canceled {"messageType":"getControlPlaneSessionInfo","messageId":"18dbc49a-1f5c-4839-ba6b-a1c1838433cf"}
+
+[22:16:06] [172.20.0.1][f04a47b1][ExtensionHostConnection] <72188><stderr> [@continuedev] [31merror[39m: files/opened: failed to update openedFiles cache for file:///workspace/test.txt
+
+[22:16:07] [172.20.0.1][f04a47b1][ExtensionHostConnection] <72188> Extension Host Process exited with code: 0, signal: null.
+[22:33:59] [172.20.0.1][218de93b][ManagementConnection] New connection established.
+[22:33:59] [172.20.0.1][00dd3aac][ExtensionHostConnection] New connection established.
+[22:33:59] [172.20.0.1][00dd3aac][ExtensionHostConnection] <80623> Launched Extension Host Process.
+[22:34:00] [172.20.0.1][00dd3aac][ExtensionHostConnection] <80623> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:34:02] [172.20.0.1][218de93b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:03] [172.20.0.1][00dd3aac][ExtensionHostConnection] <80623> Extension Host Process exited with code: 0, signal: null.
+[22:34:11] [172.20.0.1][8d28ecc2][ManagementConnection] New connection established.
+[22:34:12] [172.20.0.1][8d28ecc2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:19] [172.20.0.1][3f61b675][ManagementConnection] New connection established.
+[22:34:20] [172.20.0.1][3f61b675][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:20] [172.20.0.1][3d609dc0][ExtensionHostConnection] New connection established.
+[22:34:20] [172.20.0.1][3d609dc0][ExtensionHostConnection] <81962> Launched Extension Host Process.
+[22:34:21] [172.20.0.1][3d609dc0][ExtensionHostConnection] <81962> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:34:25] [172.20.0.1][27f2c7bc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:27] [172.20.0.1][f3f68fde][ManagementConnection] New connection established.
+[22:34:28] [172.20.0.1][e04a9019][ExtensionHostConnection] New connection established.
+[22:34:28] [172.20.0.1][e04a9019][ExtensionHostConnection] <82498> Launched Extension Host Process.
+[22:34:28] [172.20.0.1][e04a9019][ExtensionHostConnection] <82498> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:34:33] [172.20.0.1][f3f68fde][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:33] [172.20.0.1][e04a9019][ExtensionHostConnection] <82498><stderr> [@continuedev] [31merror[39m: Canceled {"messageType":"getControlPlaneSessionInfo","messageId":"fca66623-fc98-4594-9928-2da2deb4cdd6"}
+
+[22:34:33] [172.20.0.1][e04a9019][ExtensionHostConnection] <82498> Extension Host Process exited with code: 0, signal: null.
+[22:34:34] [172.20.0.1][a0e19953][ManagementConnection] New connection established.
+[22:34:35] [172.20.0.1][f6886631][ExtensionHostConnection] New connection established.
+[22:34:35] [172.20.0.1][f6886631][ExtensionHostConnection] <82862> Launched Extension Host Process.
+[22:34:35] [172.20.0.1][f6886631][ExtensionHostConnection] <82862> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:34:48] [172.20.0.1][dda1c780][ManagementConnection] New connection established.
+[22:34:49] [172.20.0.1][9140e6a7][ExtensionHostConnection] New connection established.
+[22:34:49] [172.20.0.1][9140e6a7][ExtensionHostConnection] <83551> Launched Extension Host Process.
+[22:34:49] [172.20.0.1][dda1c780][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:49] [172.20.0.1][9140e6a7][ExtensionHostConnection] <83551> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:39:48] [172.20.0.1][3d609dc0][ExtensionHostConnection] <81962> Extension Host Process exited with code: 0, signal: null.
+[22:39:49] [172.20.0.1][a879b3a8][ExtensionHostConnection] <55996> Extension Host Process exited with code: 0, signal: null.
+[22:48:21] [172.20.0.1][a0e19953][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:48:22] [172.20.0.1][f6886631][ExtensionHostConnection] <82862> Extension Host Process exited with code: 0, signal: null.
+[22:48:23] [172.20.0.1][5768c062][ManagementConnection] New connection established.
+[22:48:24] [172.20.0.1][d2f4334f][ExtensionHostConnection] New connection established.
+[22:48:24] [172.20.0.1][d2f4334f][ExtensionHostConnection] <88763> Launched Extension Host Process.
+[22:48:24] [172.20.0.1][d2f4334f][ExtensionHostConnection] <88763> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[22:53:23] [172.20.0.1][9140e6a7][ExtensionHostConnection] <83551> Extension Host Process exited with code: 0, signal: null.
+[23:05:27] [172.20.0.1][5768c062][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:05:29] [172.20.0.1][156daf9f][ManagementConnection] New connection established.
+[23:05:30] [172.20.0.1][d0961177][ExtensionHostConnection] New connection established.
+[23:05:30] [172.20.0.1][d0961177][ExtensionHostConnection] <96514> Launched Extension Host Process.
+[23:05:30] [172.20.0.1][d0961177][ExtensionHostConnection] <96514> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[23:35:00] [172.20.0.1][156daf9f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:35:02] [172.20.0.1][c1fd772e][ManagementConnection] New connection established.
+[23:35:03] [172.20.0.1][2755f9b2][ExtensionHostConnection] New connection established.
+[23:35:03] [172.20.0.1][2755f9b2][ExtensionHostConnection] <109753> Launched Extension Host Process.
+[23:35:04] [172.20.0.1][2755f9b2][ExtensionHostConnection] <109753> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[23:35:36] [172.20.0.1][c1fd772e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[23:35:37] [172.20.0.1][2755f9b2][ExtensionHostConnection] <109753> Extension Host Process exited with code: 0, signal: null.
+[23:36:23] [172.20.0.1][90052ed5][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[23:40:03] [172.20.0.1][d2f4334f][ExtensionHostConnection] <88763> Extension Host Process exited with code: 0, signal: null.
+[02:35:34] [172.20.0.1][d0961177][ExtensionHostConnection] <96514> Extension Host Process exited with code: 0, signal: null.
+[02:36:08] [172.20.0.1][472b1040][ExtensionHostConnection] <29893> Extension Host Process exited with code: 0, signal: null.
+[02:36:31] [172.20.0.1][90052ed5][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[08:00:59] [172.20.0.1][6d3d3947][ManagementConnection] New connection established.
+[08:01:00] [172.20.0.1][896bf588][ExtensionHostConnection] New connection established.
+[08:01:00] [172.20.0.1][896bf588][ExtensionHostConnection] <110636> Launched Extension Host Process.
+[08:01:01] [172.20.0.1][896bf588][ExtensionHostConnection] <110636> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[08:01:06] Getting Manifest... eamodio.gitlens
+[08:01:06] Installing extension: eamodio.gitlens {
+  productVersion: { version: '1.123.0', date: '2026-06-03T11:29:03+02:00' },
+  pinned: false,
+  operation: 3,
+  isApplicationScoped: false,
+  isBuiltin: false,
+  profileLocation: Gs {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  }
+}
+[08:01:07] Extracted extension to file:///config/extensions/eamodio.gitlens-18.1.0-universal: eamodio.gitlens
+[08:01:07] Renamed to /config/extensions/eamodio.gitlens-18.1.0-universal
+[08:01:07] Marked extension as removed eamodio.gitlens-18.0.0-universal
+[08:01:07] Extension installed successfully: eamodio.gitlens file:///config/extensions/extensions.json
+[08:01:08] [172.20.0.1][896bf588][ExtensionHostConnection] <110636><stderr> [@continuedev] [31merror[39m: files/opened: failed to update openedFiles cache for file:///workspace/k3s01/.vscode/sftp.json
+
+[13:22:27] [172.20.0.1][6d3d3947][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[16:22:09] [172.20.0.1][896bf588][ExtensionHostConnection] <110636> Extension Host Process exited with code: 0, signal: null.
+[16:22:35] [172.20.0.1][6d3d3947][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.

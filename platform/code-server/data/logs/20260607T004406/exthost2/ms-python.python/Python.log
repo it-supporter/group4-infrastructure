@@ -1,0 +1,70 @@
+2026-06-07 00:49:52.263 [warning] Dir "/workspace/.pixi/envs" is not watchable (directory does not exist)
+2026-06-07 00:49:52.502 [info] Starting Environment refresh
+2026-06-07 00:49:52.503 [info] Searching for interpreters in posix paths locator
+2026-06-07 00:49:52.511 [info] Searching for pyenv environments
+2026-06-07 00:49:52.511 [info] Searching for conda environments
+2026-06-07 00:49:52.511 [info] Searching for global virtual environments
+2026-06-07 00:49:52.511 [info] Searching for custom virtual environments
+2026-06-07 00:49:52.520 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-06-07 00:49:52.520 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-06-07 00:49:52.523 [info] pyenv is not installed
+2026-06-07 00:49:52.523 [info] Finished searching for pyenv environments: 19 milliseconds
+2026-06-07 00:49:52.523 [info] Finished searching for custom virtual envs: 18 milliseconds
+2026-06-07 00:49:52.529 [info] > conda info --json
+2026-06-07 00:49:52.535 [info] > hatch env show --json
+2026-06-07 00:49:52.535 [info] cwd: .
+2026-06-07 00:49:52.541 [info] > pyenv which python
+2026-06-07 00:49:52.541 [info] cwd: .
+2026-06-07 00:49:52.544 [info] Finished searching for global virtual envs: 39 milliseconds
+2026-06-07 00:49:52.557 [info] Finished searching for interpreters in posix paths locator: 56 milliseconds
+2026-06-07 00:49:52.557 [info] Environments refresh paths discovered (event): 57 milliseconds
+2026-06-07 00:49:52.557 [info] Environments refresh finished (event): 57 milliseconds
+2026-06-07 00:49:52.557 [info] Environments refresh paths discovered: 57 milliseconds
+2026-06-07 00:49:52.560 [info] Environment refresh took 60 milliseconds
+2026-06-07 00:49:52.567 [info] > python -c "import sys;print(sys.executable)"
+2026-06-07 00:49:52.568 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:985:15)
+	at wrappedFn (node:internal/errors:539:14)
+	at ChildProcess.exithandler (node:child_process:417:12)
+	at ChildProcess.emit (node:events:521:24)
+	at maybeClose (node:internal/child_process:1124:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:306:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2026-06-07 00:49:52.573 [info] > pyenv which python
+2026-06-07 00:49:52.573 [info] cwd: .
+2026-06-07 00:49:52.702 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2026-06-07 00:50:23.048 [error] Cannot trigger test discovery as a valid interpreter is not selected
+2026-06-07 00:52:06.842 [error] Unable to find workspace for given file
+2026-06-07 00:52:26.407 [error] Unable to find workspace for given file
+2026-06-07 00:52:43.595 [error] Unable to find workspace for given file
+2026-06-07 00:52:52.902 [error] Unable to find workspace for given file
+2026-06-07 00:55:14.813 [error] Unable to find workspace for given file
+2026-06-07 00:55:24.544 [error] Unable to find workspace for given file
+2026-06-07 00:55:27.271 [error] Unable to find workspace for given file
+2026-06-07 00:55:31.629 [error] Unable to find workspace for given file
+2026-06-07 00:55:35.561 [error] Unable to find workspace for given file
+2026-06-07 00:55:38.702 [error] Unable to find workspace for given file
+2026-06-07 00:55:42.044 [error] Unable to find workspace for given file
+2026-06-07 00:55:46.521 [error] Unable to find workspace for given file
+2026-06-07 00:55:51.341 [error] Unable to find workspace for given file
+2026-06-07 00:55:59.960 [error] Unable to find workspace for given file
+2026-06-07 00:56:33.911 [error] Unable to find workspace for given file
+2026-06-07 00:56:43.176 [error] Unable to find workspace for given file
+2026-06-07 00:56:54.538 [error] Unable to find workspace for given file
+2026-06-07 00:57:00.802 [error] Unable to find workspace for given file
+2026-06-07 00:57:01.106 [error] Unable to find workspace for given file
+2026-06-07 00:57:01.380 [error] Unable to find workspace for given file
+2026-06-07 00:57:01.657 [error] Unable to find workspace for given file
+2026-06-07 00:57:01.926 [error] Unable to find workspace for given file
+2026-06-07 00:57:02.205 [error] Unable to find workspace for given file
+2026-06-07 00:57:05.004 [error] Unable to find workspace for given file
+2026-06-07 00:58:17.185 [error] Unable to find workspace for given file
+2026-06-07 00:58:19.396 [error] Unable to find workspace for given file
+2026-06-07 01:05:56.201 [error] Unable to find workspace for given file
+2026-06-07 01:16:22.812 [error] Unable to find workspace for given file

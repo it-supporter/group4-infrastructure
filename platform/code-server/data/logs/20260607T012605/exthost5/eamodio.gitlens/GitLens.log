@@ -1,0 +1,18 @@
+2026-06-07 09:13:50.434 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-07 09:13:50.434 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|2f5d2961-b458-4cd4-b453-4df35a178cad|6350c420-f241-4cd0-abea-5fbd0615afaf1780816427555)
+2026-06-07 09:13:50.434 [info]    [            1] GitLens v18.0.0 activated [138ms]
+2026-06-07 09:13:50.434 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [65ms]
+2026-06-07 09:13:50.434 [info]    [   75 →    9a] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 09:13:50.434 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+2026-06-07 09:13:50.434 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 09:13:50.437 [info]    [IPC          ] CLI capability published on http://127.0.0.1:38449
+2026-06-07 09:13:50.487 [error]   [CLI   94 → ad] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 09:13:50.570 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [19ms]
+2026-06-07 09:13:52.089 [info]    [   bd →    be] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 09:13:52.101 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [12ms]
+2026-06-07 09:13:52.103 [warning] [   13 →    ab] Storage.storeWorkspace(key=assumeRepositoriesOnStartup) completed [*1732ms] (slow)
+2026-06-07 09:13:52.105 [info]    [   bc →    bd] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 09:13:54.109 [warning] [   96 →    cc] Storage.deleteWorkspace(e=connected:github) completed [*1760ms] (slow)
+2026-06-07 09:13:54.109 [warning] [   7a →    96] GitHubIntegration.isConnected returned false [*3976ms] (slow)
+2026-06-07 09:14:50.488 [error]   [CLI   8b → f5] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 09:14:53.245 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [8ms]

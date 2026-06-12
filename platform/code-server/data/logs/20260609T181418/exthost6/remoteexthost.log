@@ -1,0 +1,162 @@
+2026-06-09 21:29:30.581 [info] Extension host with pid 51840 started
+2026-06-09 21:29:30.590 [info] Lock '/config/data/User/workspaceStorage/-3eb7f34b/vscode.lock': Lock acquired.
+2026-06-09 21:29:30.723 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-09 21:29:30.724 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-06-09 21:29:30.724 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-06-09 21:29:30.725 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-06-09 21:29:30.725 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-06-09 21:29:30.725 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-09 21:29:31.727 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-09 21:29:31.727 [info] ExtensionService#_doActivateExtension shubhamsharma.ariv-themes, startup: true, activationEvent: '*'
+2026-06-09 21:29:31.735 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2026-06-09 21:29:31.884 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onTerminal:*'
+2026-06-09 21:29:32.151 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-09 21:29:32.151 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-09 21:29:32.620 [info] Eager extensions activated
+2026-06-09 21:29:32.621 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-09 21:29:32.621 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-09 21:29:32.621 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2026-06-09 21:29:32.622 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2026-06-09 21:29:32.622 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-06-09 21:29:32.622 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-06-09 21:29:34.335 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-06-09 21:29:34.457 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-06-09 21:29:36.752 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-09 21:31:29.117 [info] Extension host terminating: received terminate message from renderer
+2026-06-09 21:31:29.118 [info] Lock '/config/data/User/workspaceStorage/-3eb7f34b/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-06-09 21:31:29.171 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2026-06-09 21:31:29.175 [error] Error: Channel has been closed
+	at r (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:537:3935)
+	at Object.info (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:537:4305)
+	at Logger.info (/config/extensions/eamodio.gitlens-18.0.0-universal/dist/gitlens.js:1570:38775)
+	at GkCliIntegrationProvider.stop (/config/extensions/eamodio.gitlens-18.0.0-universal/dist/gitlens.js:2084:43479)
+	at GkCliIntegrationProvider.dispose (/config/extensions/eamodio.gitlens-18.0.0-universal/dist/gitlens.js:2084:42056)
+	at /config/extensions/eamodio.gitlens-18.0.0-universal/dist/gitlens.js:1995:66929
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/config/extensions/eamodio.gitlens-18.0.0-universal/dist/gitlens.js:1995:66910)
+	at wn (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:429:736)
+	at XP._fn (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:18391)
+	at XP.dispose (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at SP._deactivate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:14708)
+	at file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:12010
+	at Array.map (<anonymous>)
+	at SP._deactivateAll (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:11998)
+	at SP.terminate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:12349)
+	at i.terminate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:536:1072)
+	at Qs (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:833:11734)
+	at up.value (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:833:9880)
+	at E._deliver (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8437)
+	at hc._receiveMessage (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13337)
+	at up.value (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10642)
+	at E._deliver (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at qI.acceptChunk (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6237)
+	at up.value (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5370)
+	at E._deliver (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at iD._processReadQueue (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25308)
+2026-06-09 21:31:29.176 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2026-06-09 21:31:29.176 [error] AggregateError: Encountered errors while disposing of store
+	at wn (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:429:812)
+	at XP._fn (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:18391)
+	at XP.dispose (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at SP._deactivate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:14708)
+	at file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:12010
+	at Array.map (<anonymous>)
+	at SP._deactivateAll (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:11998)
+	at SP.terminate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:12349)
+	at i.terminate (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:536:1072)
+	at Qs (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:833:11734)
+	at up.value (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:833:9880)
+	at E._deliver (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ls.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8437)
+	at hc._receiveMessage (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13337)
+	at up.value (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10642)
+	at E._deliver (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at qI.acceptChunk (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6237)
+	at up.value (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5370)
+	at E._deliver (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at iD._processReadQueue (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25308)
+2026-06-09 21:31:29.185 [error] Unable to refresh tree view remoteExplorer: Canceled
+2026-06-09 21:31:29.187 [error] Unable to refresh tree view remoteExplorer: Canceled
+2026-06-09 21:31:29.188 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new nx (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:105205)
+	at i._remoteCall (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111257)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:108052)
+	at lg.resolveProxy (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:527:81609)
+	at Object.resolveProxy (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:671:25070)
+	at useProxySettings (/app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:208:16)
+	at /app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:231:13
+	at new Promise (<anonymous>)
+	at resolveProxyURL (/app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:230:35)
+	at /app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:582:53
+	at Generator.next (<anonymous>)
+	at /app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at patchedFetch (/app/code-server/lib/vscode/node_modules/@vscode/proxy-agent/out/index.js:567:16)
+	at globalThis.fetch (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:671:23754)
+	at PostHog2.fetch (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:63305:75)
+	at PostHog2.<anonymous> (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61938:45)
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61929:28
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60846:26
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at retriable (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60824:14)
+	at PostHog2.<anonymous> (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61928:30)
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at PostHogCoreStateless2.fetchWithRetry (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61916:18)
+	at PostHog2.<anonymous> (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61666:31)
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at PostHogCoreStateless2.getDecide (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61656:18)
+	at PostHog2.<anonymous> (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61812:35)
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at PostHogCoreStateless2.getFeatureFlagsAndPayloadsStateless (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61803:18)
+	at PostHog2.<anonymous> (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61786:35)
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at PostHogCoreStateless2.getFeatureFlagsStateless (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:61782:18)
+	at PostHog2.<anonymous> (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:63353:65)
+	at step (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60771:25)
+	at Object.next (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60718:18)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60704:71
+	at new Promise (<anonymous>)
+	at __awaiter5 (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:60686:14)
+	at /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:63341:20 
+2026-06-09 21:31:29.188 [error] [vscode.json-language-features] provider FAILED
+2026-06-09 21:31:29.188 [error] Error: Channel has been closed
+	at r (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:537:3935)
+	at Object.error (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:537:4394)
+	at QT.error (/app/code-server/lib/vscode/extensions/json-language-features/client/dist/node/jsonClientMain.js:14:276)
+	at QT.handleFailedRequest (/app/code-server/lib/vscode/extensions/json-language-features/client/dist/node/jsonClientMain.js:19:9755)
+	at /app/code-server/lib/vscode/extensions/json-language-features/client/dist/node/jsonClientMain.js:12:69293
+	at async vy.provideColors (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:558:164181)
+2026-06-09 21:31:29.222 [info] Extension host with pid 51840 exiting with code 0

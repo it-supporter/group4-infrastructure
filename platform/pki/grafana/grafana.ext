@@ -1,0 +1,11 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature,keyEncipherment
+extendedKeyUsage=serverAuth
+
+subjectAltName=@alt_names
+
+[alt_names]
+DNS.1=grafana.gruppe4.local
+DNS.2=grafana
+IP.1=10.4.10.40

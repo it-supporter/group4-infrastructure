@@ -1,0 +1,48 @@
+2026-06-07 01:31:21.092 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-07 01:31:21.092 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|2f5d2961-b458-4cd4-b453-4df35a178cad|e6c678d2-83c7-44c5-abf7-a07e797311d21780788674575)
+2026-06-07 01:31:21.092 [info]    [            1] GitLens v18.0.0 activated [142ms]
+2026-06-07 01:31:21.092 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [88ms]
+2026-06-07 01:31:21.092 [info]    [   75 →    9a] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 01:31:21.092 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [8ms]
+2026-06-07 01:31:21.092 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 01:31:21.092 [info]    [   ad →    ae] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 01:31:21.092 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [10ms]
+2026-06-07 01:31:21.092 [warning] [    6 →     7] Storage.getSecret completed [*1869ms] (slow)
+2026-06-07 01:31:21.093 [warning] [    f →    16] Storage.getSecret completed [*1860ms] (slow)
+2026-06-07 01:31:21.093 [warning] [   98 →    99] Storage.getSecret completed [*1725ms] (slow)
+2026-06-07 01:31:21.093 [warning] [   11 →    12] AccountAuthenticationProvider.getSessions(e=[gitlens]) completed • Found 0 sessions [*1863ms] (slow)
+2026-06-07 01:31:21.093 [warning] [   10 →    11] SubscriptionService.getOrCreateSession(e=false, t=undefined, i={}) completed • No valid session was found [*1903ms] (slow)
+2026-06-07 01:31:21.093 [warning] [    f →    13] GitProviderService.setEnabledContext(e=false) completed [*1900ms] (slow)
+2026-06-07 01:31:21.093 [warning] [    f →    10] SubscriptionService.ensureSession(e=false, t=undefined) completed [*1903ms] (slow)
+2026-06-07 01:31:21.093 [info]    [   ac →    ad] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 01:31:21.093 [warning] [            5] Storage.store(key=onboarding:state) completed [*1916ms] (slow)
+2026-06-07 01:31:21.093 [warning] [    b →     e] Storage.store(key=premium:subscription) completed [*1909ms] (slow)
+2026-06-07 01:31:21.093 [warning] [   8c →    8d] Storage.store(key=version) completed [*1782ms] (slow)
+2026-06-07 01:31:21.094 [info]    [IPC          ] CLI capability published on http://127.0.0.1:39689
+2026-06-07 01:31:21.095 [error]   [CLI   94 → be] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:31:21.113 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [15ms]
+2026-06-07 01:31:21.113 [warning] [   7e →    a5] GlCliGitProvider.findRepositoryUri(e=Uri(file:///workspace/.vscode/sftp.json), t=undefined) returned undefined [*1766ms] (slow)
+2026-06-07 01:31:21.113 [warning] [   7d →    7e] GitProviderService.getOrOpenRepository(e=Uri(file:///workspace/.vscode/sftp.json)) returned undefined [*1840ms] (slow)
+2026-06-07 01:31:21.114 [warning] [   7c →    7d] GitUri.fromUri(e=Uri(file:///workspace/.vscode/sftp.json)) returned GitUri(file:///workspace/.vscode/sftp.json) [*1841ms] (slow)
+2026-06-07 01:31:21.114 [warning] [   7b →    7c] TrackedGitDocument(TextDocument(json, dirty=false, file:///workspace/.vscode/sftp.json)).initialize(e=true) completed [*1841ms] (slow)
+2026-06-07 01:31:21.114 [warning] [   8f →    90] GitDocumentTracker.get(e=TextDocument(json, dirty=false, file:///workspace/.vscode/sftp.json)) completed [*1802ms] (slow)
+2026-06-07 01:31:21.114 [warning] [   7a →    7b] GitDocumentTracker.addCore(e=TextDocument(json, dirty=false, file:///workspace/.vscode/sftp.json), t=true) completed [*1842ms] (slow)
+2026-06-07 01:31:21.115 [warning] [   81 →    8f] LineTracker.updateState(selections=10, editor=TextEditor(1, file:///workspace/.vscode/sftp.json [10:1-10:1])) returned false • document is not blameable [*1802ms] (slow)
+2026-06-07 01:31:21.264 [warning] [   96 →    98] GitHubAuthenticationProvider.getSession(e={"domain":"github.com","scopes":["repo","read:user","user:email"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*1947ms] (slow)
+2026-06-07 01:31:21.332 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*2159ms] (slow)
+2026-06-07 01:31:21.333 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*2159ms] (slow)
+2026-06-07 01:31:21.538 [warning] [   7a →    96] GitHubIntegration.isConnected returned false [*2223ms] (slow)
+2026-06-07 01:32:21.096 [error]   [CLI   8b → e6] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:33:21.096 [error]   [CLI   8b → e8] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:34:21.096 [error]   [CLI   8b → eb] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:35:21.097 [error]   [CLI  8b → 105] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:36:21.098 [error]   [CLI  8b → 117] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:37:21.097 [error]   [CLI  8b → 11b] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:38:21.097 [error]   [CLI  8b → 121] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:39:21.098 [error]   [CLI  8b → 124] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:40:21.098 [error]   [CLI  8b → 12f] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:41:21.098 [error]   [CLI  8b → 13e] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:42:21.098 [error]   [CLI  8b → 149] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:42:58.934 [error]   [GIT          ] [/config/data/User] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [10ms]
+2026-06-07 01:43:21.098 [error]   [CLI  8b → 1c5] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 01:44:21.099 [error]   [CLI  8b → 229] undefined ai hook list-sessions --json CLI is not installed [0ms]

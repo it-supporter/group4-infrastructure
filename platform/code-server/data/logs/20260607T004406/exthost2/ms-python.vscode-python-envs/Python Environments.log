@@ -1,0 +1,287 @@
+2026-06-07 01:05:11.561 [info] Python-envs extension version: 1.30.0
+2026-06-07 01:05:11.561 [info] 
+=== Python Envs Configuration Levels ===
+2026-06-07 01:05:11.561 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-06-07 01:05:11.561 [info] [pet] Starting Python Locator /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-06-07 01:05:11.561 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-06-07 01:05:11.561 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-06-07 01:05:11.561 [info] Registering poetry manager (environments will be discovered lazily)
+2026-06-07 01:05:11.561 [error] [pet] Process error: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:05:11.561 [warning] [pet] Restarting Python Environment Tools (attempt 1/3, waiting 1000ms)
+2026-06-07 01:05:12.431 [info] [pet] Starting Python Locator /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-06-07 01:05:12.431 [info] [pet] Python Environment Tools restarted successfully
+2026-06-07 01:05:12.439 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/workspace"],"environmentDirectories":["/workspace/.venv","/workspace/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-06-07 01:05:12.439 [error] [pet] Process error: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:05:42.441 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-06-07 01:05:42.441 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-06-07 01:05:42.448 [info] Conda not found, turning off conda features. [M: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/config/extensions/ms-python.vscode-python-envs-1.30.0-universal/dist/extension.js:2:551628)
+	at listOnTimeout (node:internal/timers:605:17)
+	at process.processTimers (node:internal/timers:541:7)] {
+  method: 'configure'
+}
+2026-06-07 01:05:42.452 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-06-07 01:05:42.453 [warning] [pet] Restarting Python Environment Tools (attempt 2/3, waiting 2000ms)
+2026-06-07 01:05:44.460 [info] [pet] Starting Python Locator /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-06-07 01:05:44.460 [info] [pet] Python Environment Tools restarted successfully
+2026-06-07 01:05:44.464 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/workspace"],"environmentDirectories":["/workspace/.venv","/workspace/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-06-07 01:05:44.465 [error] [pet] Process error: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:14.466 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-06-07 01:06:14.466 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-06-07 01:06:14.472 [error] [venv] Background initialization failed: [M: Request 'configure' timed out after 30000ms
+	at Timeout.<anonymous> (/config/extensions/ms-python.vscode-python-envs-1.30.0-universal/dist/extension.js:2:551628)
+	at listOnTimeout (node:internal/timers:605:17)
+	at process.processTimers (node:internal/timers:541:7)] {
+  method: 'configure'
+}
+2026-06-07 01:06:14.473 [warning] [pet] Restarting Python Environment Tools (attempt 3/3, waiting 4000ms)
+2026-06-07 01:06:18.480 [info] [pet] Starting Python Locator /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet server
+2026-06-07 01:06:18.480 [info] [pet] Python Environment Tools restarted successfully
+2026-06-07 01:06:18.486 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/workspace"],"environmentDirectories":["/workspace/.venv","/workspace/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-06-07 01:06:18.488 [error] [pet] Process error: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.488 [warning] [pet] Configure request timed out (attempt 1/2), will retry on next request without killing process
+2026-06-07 01:06:48.488 [error] [pet] Error refreshing Request 'configure' timed out after 30000ms
+2026-06-07 01:06:48.490 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.503 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.504 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.508 [error] [system] Background initialization failed: [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.508 [info] [SYS_GET] uri=/workspace, normalizedKey=/workspace, project=/workspace, projectKey=/workspace, mapKeys=[], directHit=false, projectHit=false, fallbackToGlobal=true, globalEnv=none
+2026-06-07 01:06:48.545 [info] [interpreterSelection] workspace: none (source: autoDiscovery)
+2026-06-07 01:06:48.547 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.553 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.554 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.556 [error] [interpreterSelection] Failed to set global environment: Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+2026-06-07 01:06:48.564 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.570 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.570 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.573 [error] [venv] Background initialization failed: [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.574 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.579 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.580 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.583 [error] [venv] Background initialization failed: [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.588 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.594 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.594 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.598 [error] [venv] Background initialization failed: [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.601 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.606 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.606 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.608 [error] [venv] Background initialization failed: [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.611 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.616 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.617 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.624 [info] Refreshing pyenv environments
+2026-06-07 01:06:48.624 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.629 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.630 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.632 [error] Pyenv lazy initialization failed [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.638 [info] Pipenv not found via settings, cache, or PATH
+2026-06-07 01:06:48.639 [info] Refreshing pipenv environments
+2026-06-07 01:06:48.639 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.644 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.644 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.647 [error] Pipenv lazy initialization failed [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.654 [info] Refreshing poetry environments
+2026-06-07 01:06:48.655 [warning] [pet] Server mode exhausted, falling back to JSON CLI for refresh
+2026-06-07 01:06:48.660 [info] [pet] JSON CLI fallback refresh: /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet find --json /workspace --cache-directory /config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator --pipenv-executable pipenv --poetry-executable poetry --environment-directories /workspace/.venv --environment-directories /workspace/*/.venv
+2026-06-07 01:06:48.660 [error] [pet] JSON CLI fallback refresh failed: A system error occurred (spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT)
+2026-06-07 01:06:48.663 [error] Poetry lazy initialization failed [Error: spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:287:19)
+	at onErrorNT (node:internal/child_process:508:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn /config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  path: '/config/extensions/ms-python.python-2026.4.0-universal/python-env-tools/bin/pet',
+  spawnargs: [
+    'find',
+    '--json',
+    '/workspace',
+    '--cache-directory',
+    '/config/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator',
+    '--pipenv-executable',
+    'pipenv',
+    '--poetry-executable',
+    'poetry',
+    '--environment-directories',
+    '/workspace/.venv',
+    '--environment-directories',
+    '/workspace/*/.venv'
+  ]
+}
+2026-06-07 01:06:48.663 [warning] No Python environments were found. Try running "Python Environments: Run Python Environment Tool (PET) in Terminal..." from the Command Palette to diagnose. If environments should be detected, please report this: https://github.com/microsoft/vscode-python-environments/issues/new

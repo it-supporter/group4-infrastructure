@@ -1,0 +1,30 @@
+[cmdline]
+0=
+
+[inpmc.fm.menu.exec.parameter]
+0=nano
+
+[Dir Hist New Right Panel]
+0=/
+1=/config
+2=/workspace
+
+[Dir Hist New Left Panel]
+0=/config/.config/code-server
+1=/config/.config
+2=/config/.continue
+3=/defaults
+4=/etc/X11
+5=/etc
+6=/home
+7=/lsiopy
+8=/boot
+9=/opt
+10=/package
+11=/package/admin/execline-2.9.7.0/command
+12=/package/admin/execline-2.9.7.0
+13=/package/admin
+14=/
+15=/dev
+16=/config
+17=/workspace

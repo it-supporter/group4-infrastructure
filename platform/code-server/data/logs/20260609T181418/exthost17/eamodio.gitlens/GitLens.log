@@ -1,0 +1,7 @@
+2026-06-09 23:05:34.596 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 23:05:34.596 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|be6740f9-ee30-4a86-904e-d556090c38611781039129621)
+2026-06-09 23:05:34.596 [info]    [            1] GitLens v18.0.0 activated [181ms]
+2026-06-09 23:05:34.597 [info]    [IPC          ] CLI capability published on http://127.0.0.1:34879
+2026-06-09 23:05:36.471 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*2343ms] (slow)
+2026-06-09 23:05:36.472 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*2344ms] (slow)
+2026-06-09 23:05:36.698 [warning] [   75 →    8d] GitHubIntegration.isConnected returned false [*2390ms] (slow)

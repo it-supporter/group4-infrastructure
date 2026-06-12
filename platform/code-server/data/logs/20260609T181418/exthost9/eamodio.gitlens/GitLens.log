@@ -1,0 +1,49 @@
+2026-06-09 22:16:04.175 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 22:16:04.175 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|ed235c39-5708-42d1-ad83-2d36443983121781036158399)
+2026-06-09 22:16:04.175 [info]    [   75 →    78] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/automation, source=scm) repository=<unknown>; deferring to getOrOpenRepository
+2026-06-09 22:16:04.175 [info]    [            1] GitLens v18.0.0 activated [190ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    75] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [138ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    95] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 22:16:04.175 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [32ms]
+2026-06-09 22:16:04.175 [info]    [GIT      10ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [10ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    95] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/automation'
+2026-06-09 22:16:04.175 [info]    [GIT       9ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [9ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    95] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/documentation'
+2026-06-09 22:16:04.175 [info]    [   aa →    ab] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/documentation': no existing repository found
+2026-06-09 22:16:04.175 [info]    [GIT       8ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    95] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/infrastructure'
+2026-06-09 22:16:04.175 [info]    [   b1 →    b2] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/infrastructure': no existing repository found
+2026-06-09 22:16:04.175 [info]    [GIT      47ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [47ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    95] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/kubernetes'
+2026-06-09 22:16:04.175 [info]    [   bd →    be] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/kubernetes': no existing repository found
+2026-06-09 22:16:04.175 [info]    [GIT       8ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-06-09 22:16:04.175 [info]    [   74 →    95] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/labs'
+2026-06-09 22:16:04.177 [info]    [   73 →    74] GlCliGitProvider.discoverRepositories auto-opening 5 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 22:16:04.177 [info]    [   c5 →    c6] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/labs': no existing repository found
+2026-06-09 22:16:04.183 [info]    [   74 →    cb] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/documentation': no existing repository found
+2026-06-09 22:16:04.183 [info]    [   74 →    cd] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/infrastructure': no existing repository found
+2026-06-09 22:16:04.183 [info]    [   74 →    cf] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/kubernetes': no existing repository found
+2026-06-09 22:16:04.183 [info]    [   74 →    d1] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/labs': no existing repository found
+2026-06-09 22:16:04.208 [info]    [IPC          ] CLI capability published on http://127.0.0.1:42999
+2026-06-09 22:16:04.210 [info]    [GIT      23ms] [/workspace/kubernetes] git remote -v [23ms]
+2026-06-09 22:16:04.211 [info]    [GIT      24ms] [/workspace/infrastructure] git remote -v [24ms]
+2026-06-09 22:16:04.212 [info]    [GIT      25ms] [/workspace/documentation] git remote -v [25ms]
+2026-06-09 22:16:04.212 [info]    [GIT      26ms] [/workspace/automation] git remote -v [26ms]
+2026-06-09 22:16:04.225 [info]    [GIT      38ms] [/workspace/labs] git remote -v [38ms]
+2026-06-09 22:16:04.235 [info]    [GIT      14ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote [14ms]
+2026-06-09 22:16:04.237 [info]    [GIT      19ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote [19ms]
+2026-06-09 22:16:04.238 [info]    [GIT      23ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote [23ms]
+2026-06-09 22:16:04.238 [info]    [GIT       8ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote [8ms]
+2026-06-09 22:16:04.239 [info]    [GIT      12ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote [12ms]
+2026-06-09 22:16:04.245 [error]   [CLI  8f → 108] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:16:04.254 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/documentation)
+2026-06-09 22:16:04.453 [info]    [GIT      23ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [23ms]
+2026-06-09 22:16:04.485 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/infrastructure)
+2026-06-09 22:16:04.591 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/kubernetes)
+2026-06-09 22:16:04.694 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/labs)
+2026-06-09 22:16:06.773 [info]    [   74 →    75] GlCliGitProvider.findGit fireRepositoryOpened: firing 4 opened repo(s) from vscode.git
+2026-06-09 22:16:06.773 [info]    [          132] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/documentation, source=scm) repository=GlRepository(/workspace/documentation|2), closed:false→false (closedByUser cleared)
+2026-06-09 22:16:06.773 [info]    [          133] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/infrastructure, source=scm) repository=GlRepository(/workspace/infrastructure|3), closed:false→false (closedByUser cleared)
+2026-06-09 22:16:06.773 [info]    [          134] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/kubernetes, source=scm) repository=GlRepository(/workspace/kubernetes|4), closed:false→false (closedByUser cleared)
+2026-06-09 22:16:06.773 [info]    [          135] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/labs, source=scm) repository=GlRepository(/workspace/labs|5), closed:false→false (closedByUser cleared)
+2026-06-09 22:16:06.815 [warning] [  12f →   130] Storage.getSecret completed [*1956ms] (slow)

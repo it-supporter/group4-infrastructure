@@ -1,0 +1,5 @@
+2026-06-09 22:34:31.761 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 22:34:31.761 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|711bffd5-705b-4b27-a072-96e4e934780c1781037267428)
+2026-06-09 22:34:31.761 [info]    [            1] GitLens v18.0.0 activated [131ms]
+2026-06-09 22:34:31.763 [info]    [IPC          ] CLI capability published on http://127.0.0.1:36233
+2026-06-09 22:34:33.716 [warning] [   13 →    96] Storage.storeWorkspace(key=assumeRepositoriesOnStartup) completed [*2145ms] (slow)

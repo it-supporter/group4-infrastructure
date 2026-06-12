@@ -1,0 +1,37 @@
+2026-06-09 18:03:18.745 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 18:03:18.745 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|c26a3c4a-e003-4fdd-aabc-84b75da38eb01781020994470)
+2026-06-09 18:03:18.745 [info]    [            1] GitLens v18.0.0 activated [127ms]
+2026-06-09 18:03:18.745 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [68ms]
+2026-06-09 18:03:18.745 [info]    [   75 →    96] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 18:03:18.745 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [8ms]
+2026-06-09 18:03:18.745 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 18:03:18.745 [info]    [   a7 →    a8] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 18:03:18.745 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [11ms]
+2026-06-09 18:03:18.745 [warning] [    6 →     7] Storage.getSecret completed [*1682ms] (slow)
+2026-06-09 18:03:18.745 [warning] [    f →    16] Storage.getSecret completed [*1666ms] (slow)
+2026-06-09 18:03:18.745 [warning] [   94 →    95] Storage.getSecret completed [*1553ms] (slow)
+2026-06-09 18:03:18.745 [warning] [   11 →    12] AccountAuthenticationProvider.getSessions(e=[gitlens]) completed • Found 0 sessions [*1673ms] (slow)
+2026-06-09 18:03:18.745 [warning] [   10 →    11] SubscriptionService.getOrCreateSession(e=false, t=undefined, i={}) completed • No valid session was found [*1675ms] (slow)
+2026-06-09 18:03:18.745 [warning] [    f →    13] GitProviderService.setEnabledContext(e=false) completed [*1671ms] (slow)
+2026-06-09 18:03:18.745 [warning] [    f →    10] SubscriptionService.ensureSession(e=false, t=undefined) completed [*1675ms] (slow)
+2026-06-09 18:03:18.745 [info]    [   a6 →    a7] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 18:03:18.745 [warning] [            5] Storage.store(key=onboarding:state) completed [*1809ms] (slow)
+2026-06-09 18:03:18.745 [warning] [    b →     e] Storage.store(key=premium:subscription) completed [*1798ms] (slow)
+2026-06-09 18:03:18.745 [warning] [   86 →    87] Storage.store(key=version) completed [*1692ms] (slow)
+2026-06-09 18:03:18.746 [info]    [IPC          ] CLI capability published on http://127.0.0.1:33319
+2026-06-09 18:03:18.747 [error]   [CLI   90 → c0] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:03:18.912 [warning] [   92 →    94] GitHubAuthenticationProvider.getSession(e={"domain":"github.com","scopes":["repo","read:user","user:email"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*1845ms] (slow)
+2026-06-09 18:03:18.945 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*2005ms] (slow)
+2026-06-09 18:03:18.946 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*2005ms] (slow)
+2026-06-09 18:03:20.693 [warning] [   92 →    c4] Storage.deleteWorkspace(e=connected:github) completed [*1598ms] (slow)
+2026-06-09 18:03:20.693 [warning] [   7a →    92] GitHubIntegration.isConnected returned false [*3628ms] (slow)
+2026-06-09 18:04:18.750 [error]   [CLI   85 → de] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:05:18.749 [error]   [CLI   85 → e2] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:06:18.751 [error]   [CLI   85 → e7] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:07:18.752 [error]   [CLI   85 → ea] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:08:18.753 [error]   [CLI   85 → eb] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:09:18.753 [error]   [CLI   85 → ec] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:10:18.754 [error]   [CLI   85 → ed] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:11:18.755 [error]   [CLI   85 → ee] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:12:18.756 [error]   [CLI   85 → ef] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 18:13:18.757 [error]   [CLI   85 → f0] undefined ai hook list-sessions --json CLI is not installed [0ms]

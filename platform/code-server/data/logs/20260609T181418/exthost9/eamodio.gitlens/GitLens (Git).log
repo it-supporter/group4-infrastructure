@@ -1,0 +1,19 @@
+2026-06-09 22:16:04.175 [error] [         32ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 22:16:04.175 [info] [         10ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:16:04.175 [info] [          9ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:16:04.175 [info] [          8ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:16:04.175 [info] [         47ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:16:04.175 [info] [          8ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:16:04.210 [info] [         23ms] [/workspace/kubernetes] git remote -v • completed
+2026-06-09 22:16:04.211 [info] [         24ms] [/workspace/infrastructure] git remote -v • completed
+2026-06-09 22:16:04.212 [info] [         25ms] [/workspace/documentation] git remote -v • completed
+2026-06-09 22:16:04.212 [info] [         26ms] [/workspace/automation] git remote -v • completed
+2026-06-09 22:16:04.225 [info] [         38ms] [/workspace/labs] git remote -v • completed
+2026-06-09 22:16:04.236 [info] [         14ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:16:04.237 [info] [         19ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:16:04.238 [info] [         23ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:16:04.239 [info] [          8ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:16:04.239 [info] [         12ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:16:04.453 [info] [         23ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed

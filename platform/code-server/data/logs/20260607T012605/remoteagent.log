@@ -1,0 +1,169 @@
+2026-06-07 01:26:05.070 [info] 
+
+
+
+
+2026-06-07 01:26:05.082 [info] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+2026-06-07 01:26:05.086 [info] Extension host agent started.
+2026-06-07 01:26:05.271 [error] [10.4.10.10][bae4a5a8][ExtensionHostConnection] Unknown reconnection token (never seen).
+2026-06-07 01:26:07.115 [error] [10.4.10.10][338d3551][ManagementConnection] Unknown reconnection token (never seen).
+2026-06-07 01:26:14.668 [info] [10.4.10.10][15f2ba20][ManagementConnection] New connection established.
+2026-06-07 01:26:15.603 [info] [10.4.10.10][81862010][ExtensionHostConnection] New connection established.
+2026-06-07 01:26:15.873 [info] [10.4.10.10][81862010][ExtensionHostConnection] <802> Launched Extension Host Process.
+2026-06-07 01:26:16.258 [info] [10.4.10.10][81862010][ExtensionHostConnection] <802> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 01:26:23.292 [info] [10.4.10.10][81862010][ExtensionHostConnection] <802><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:26:23.392 [info] [10.4.10.10][81862010][ExtensionHostConnection] <802><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:31:12.505 [info] [10.4.10.10][15f2ba20][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 01:31:12.731 [info] [10.4.10.10][81862010][ExtensionHostConnection] <802> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 01:31:14.431 [info] [10.4.10.10][87c89bbc][ManagementConnection] New connection established.
+2026-06-07 01:31:15.262 [info] [10.4.10.10][86687262][ExtensionHostConnection] New connection established.
+2026-06-07 01:31:15.270 [info] [10.4.10.10][86687262][ExtensionHostConnection] <2417> Launched Extension Host Process.
+2026-06-07 01:31:15.619 [info] [10.4.10.10][86687262][ExtensionHostConnection] <2417> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 01:31:21.961 [info] [10.4.10.10][86687262][ExtensionHostConnection] <2417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:31:22.105 [info] [10.4.10.10][86687262][ExtensionHostConnection] <2417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:44:21.381 [info] [10.4.10.10][87c89bbc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 01:44:21.715 [info] [10.4.10.10][86687262][ExtensionHostConnection] <2417> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 01:44:23.464 [info] [10.4.10.10][256bb760][ManagementConnection] New connection established.
+2026-06-07 01:44:24.310 [info] [10.4.10.10][0422d9bb][ExtensionHostConnection] New connection established.
+2026-06-07 01:44:24.321 [info] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443> Launched Extension Host Process.
+2026-06-07 01:44:24.717 [info] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 01:44:31.173 [info] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:44:31.306 [info] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:45:56.223 [info] [10.4.10.10][256bb760][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 01:45:56.476 [info] [10.4.10.10][0422d9bb][ExtensionHostConnection] <5443> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 01:45:58.242 [info] [10.4.10.10][9bb93376][ManagementConnection] New connection established.
+2026-06-07 01:45:59.012 [info] [10.4.10.10][1da9e96a][ExtensionHostConnection] New connection established.
+2026-06-07 01:45:59.023 [info] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196> Launched Extension Host Process.
+2026-06-07 01:45:59.405 [info] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 01:46:05.798 [info] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:46:05.916 [info] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 01:48:13.121 [info] [10.4.10.10][9bb93376][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 01:48:13.329 [info] [10.4.10.10][1da9e96a][ExtensionHostConnection] <6196> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 09:13:46.820 [info] [10.4.10.10][e2339c2d][ManagementConnection] New connection established.
+2026-06-07 09:13:47.571 [info] [10.4.10.10][813e83db][ExtensionHostConnection] New connection established.
+2026-06-07 09:13:47.587 [info] [10.4.10.10][813e83db][ExtensionHostConnection] <7220> Launched Extension Host Process.
+2026-06-07 09:13:47.935 [info] [10.4.10.10][813e83db][ExtensionHostConnection] <7220> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 09:13:54.768 [info] [10.4.10.10][813e83db][ExtensionHostConnection] <7220><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 09:13:54.870 [info] [10.4.10.10][813e83db][ExtensionHostConnection] <7220><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 09:15:18.809 [info] [10.4.10.10][e2339c2d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 09:15:19.055 [info] [10.4.10.10][813e83db][ExtensionHostConnection] <7220> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 09:15:47.026 [info] [10.4.10.10][ecb74910][ManagementConnection] New connection established.
+2026-06-07 09:15:47.737 [info] [10.4.10.10][c29d51e8][ExtensionHostConnection] New connection established.
+2026-06-07 09:15:47.747 [info] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023> Launched Extension Host Process.
+2026-06-07 09:15:48.086 [info] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 09:15:54.441 [info] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 09:15:54.539 [info] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 09:16:19.149 [info] [10.4.10.10][ecb74910][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 09:16:19.327 [info] [10.4.10.10][c29d51e8][ExtensionHostConnection] <8023> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 09:17:32.356 [info] [10.4.10.10][9c222c8b][ManagementConnection] New connection established.
+2026-06-07 09:17:33.127 [info] [10.4.10.10][feeaf5c4][ExtensionHostConnection] New connection established.
+2026-06-07 09:17:33.136 [info] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577> Launched Extension Host Process.
+2026-06-07 09:17:33.490 [info] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 09:17:39.980 [info] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 09:17:40.086 [info] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'"}}
+
+2026-06-07 16:47:37.404 [info] [10.4.10.10][9c222c8b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 16:47:37.698 [info] [10.4.10.10][feeaf5c4][ExtensionHostConnection] <8577> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 17:40:25.823 [info] [172.20.0.1][773e51c8][ManagementConnection] New connection established.
+2026-06-07 17:40:26.738 [info] [172.20.0.1][890f8147][ExtensionHostConnection] New connection established.
+2026-06-07 17:40:26.752 [info] [172.20.0.1][890f8147][ExtensionHostConnection] <93702> Launched Extension Host Process.
+2026-06-07 17:40:27.116 [info] [172.20.0.1][890f8147][ExtensionHostConnection] <93702> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 17:40:29.737 [info] [172.20.0.1][2e647427][ExtensionHostConnection] New connection established.
+2026-06-07 17:40:29.751 [info] [172.20.0.1][2e647427][ExtensionHostConnection] <94409> Launched Extension Host Process.
+2026-06-07 17:40:30.131 [info] [172.20.0.1][2e647427][ExtensionHostConnection] <94409> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 17:40:55.285 [info] [172.20.0.1][890f8147][ExtensionHostConnection] <93702><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-07 17:40:55.379 [info] [172.20.0.1][890f8147][ExtensionHostConnection] <93702><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-07 17:41:05.202 [info] [172.20.0.1][773e51c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 17:41:05.412 [info] [172.20.0.1][890f8147][ExtensionHostConnection] <93702> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 17:41:19.032 [info] [172.20.0.1][4c21f1ff][ManagementConnection] New connection established.
+2026-06-07 17:41:20.499 [info] [172.20.0.1][55ee2567][ExtensionHostConnection] New connection established.
+2026-06-07 17:41:20.512 [info] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693> Launched Extension Host Process.
+2026-06-07 17:41:20.865 [info] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-07 17:41:26.798 [info] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-07 17:41:26.943 [info] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-07 17:42:15.726 [info] [172.20.0.1][4c21f1ff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-07 17:42:15.899 [info] [172.20.0.1][55ee2567][ExtensionHostConnection] <95693> Extension Host Process exited with code: 0, signal: null.
+2026-06-07 17:46:19.161 [info] [172.20.0.1][2e647427][ExtensionHostConnection] <94409> Extension Host Process exited with code: 0, signal: null.
+2026-06-08 06:29:12.105 [info] [172.20.0.1][22827267][ManagementConnection] New connection established.
+2026-06-08 06:29:13.134 [info] [172.20.0.1][9eaf0809][ExtensionHostConnection] New connection established.
+2026-06-08 06:29:13.146 [info] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417> Launched Extension Host Process.
+2026-06-08 06:29:13.615 [info] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-08 06:29:21.385 [info] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-08 06:29:21.450 [info] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-08 07:22:08.086 [info] [172.20.0.1][22827267][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-08 07:22:08.328 [info] [172.20.0.1][9eaf0809][ExtensionHostConnection] <96417> Extension Host Process exited with code: 0, signal: null.
+2026-06-09 12:11:36.574 [info] [172.20.0.1][4bd51b89][ManagementConnection] New connection established.
+2026-06-09 12:11:38.428 [info] [172.20.0.1][9cfea169][ExtensionHostConnection] New connection established.
+2026-06-09 12:11:38.451 [info] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682> Launched Extension Host Process.
+2026-06-09 12:11:38.931 [info] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-09 12:11:43.272 [info] Getting Manifest... hashicorp.terraform
+2026-06-09 12:11:43.656 [info] Installing extension: hashicorp.terraform {"productVersion":{"version":"1.123.0","date":"2026-06-03T11:29:03+02:00"},"pinned":false,"operation":3,"isApplicationScoped":false,"isBuiltin":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"}}
+2026-06-09 12:11:49.222 [info] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 12:11:49.282 [info] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 12:11:56.941 [info] Extracted extension to file:///config/extensions/hashicorp.terraform-2.39.3-linux-x64: hashicorp.terraform
+2026-06-09 12:11:56.956 [info] Renamed to /config/extensions/hashicorp.terraform-2.39.3-linux-x64
+2026-06-09 12:11:57.003 [info] Marked extension as removed hashicorp.terraform-2.39.2-linux-x64
+2026-06-09 12:11:57.021 [info] Extension installed successfully: hashicorp.terraform file:///config/extensions/extensions.json
+2026-06-09 13:07:59.111 [info] [172.20.0.1][4bd51b89][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-09 13:07:59.545 [info] [172.20.0.1][9cfea169][ExtensionHostConnection] <106682> Extension Host Process exited with code: 0, signal: null.
+2026-06-09 13:42:17.096 [info] [172.20.0.1][998a1c2f][ManagementConnection] New connection established.
+2026-06-09 13:42:17.997 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] New connection established.
+2026-06-09 13:42:18.013 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685> Launched Extension Host Process.
+2026-06-09 13:42:18.440 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-09 13:42:24.798 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 13:42:24.870 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 13:42:57.363 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 13:59:35.620 [info] [172.20.0.1][998a1c2f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-09 13:59:35.869 [info] [172.20.0.1][e77f8c7f][ExtensionHostConnection] <120685> Extension Host Process exited with code: 0, signal: null.
+2026-06-09 18:03:14.230 [info] [172.20.0.1][d527d789][ManagementConnection] New connection established.
+2026-06-09 18:03:14.944 [info] [172.20.0.1][e792a788][ExtensionHostConnection] New connection established.
+2026-06-09 18:03:14.961 [info] [172.20.0.1][e792a788][ExtensionHostConnection] <125558> Launched Extension Host Process.
+2026-06-09 18:03:15.429 [info] [172.20.0.1][e792a788][ExtensionHostConnection] <125558> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-06-09 18:03:21.369 [info] [172.20.0.1][e792a788][ExtensionHostConnection] <125558><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 18:03:21.457 [info] [172.20.0.1][e792a788][ExtensionHostConnection] <125558><stderr> [@continuedev] [31merror[39m: Errors loading config:  {"0":{"fatal":false,"message":"Error loading colocated rule files: Error: EACCES: permission denied, scandir '/workspace/portainer/data/tls'"}}
+
+2026-06-09 18:06:59.454 [info] [172.20.0.1][d527d789][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-09 18:07:01.386 [info] [172.20.0.1][bb3803df][ManagementConnection] New connection established.
+2026-06-09 18:07:02.098 [info] [172.20.0.1][cd327efb][ExtensionHostConnection] New connection established.
+2026-06-09 18:07:02.112 [info] [172.20.0.1][cd327efb][ExtensionHostConnection] <126692> Launched Extension Host Process.
+2026-06-09 18:07:02.469 [info] [172.20.0.1][cd327efb][ExtensionHostConnection] <126692> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+

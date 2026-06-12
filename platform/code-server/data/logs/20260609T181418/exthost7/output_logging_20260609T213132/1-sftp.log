@@ -1,0 +1,39 @@
+[06-09 21:31:34] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-09 21:33:40] [error] SyntaxError: /workspace/.vscode/sftp.json: Unexpected non-whitespace character after JSON at position 203 (line 9 column 2)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:33:43] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-09 21:34:00] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-09 21:35:07] [error] SyntaxError: /workspace/.vscode/sftp.json: Bad control character in string literal in JSON at position 160 (line 8 column 7)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:35:12] [error] SyntaxError: /workspace/.vscode/sftp.json: Bad control character in string literal in JSON at position 166 (line 8 column 13)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:35:15] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":"","downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******"}
+[06-09 21:35:22] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected double-quoted property name in JSON at position 178 (line 9 column 1)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:35:23] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":"false","downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******"}
+[06-09 21:35:33] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ':' after property name in JSON at position 168 (line 8 column 15)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:35:38] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":"false","downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******"}
+[06-09 21:35:45] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":"false","downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******"}
+[06-09 21:35:51] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 171 (line 8 column 18)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:35:54] [error] SyntaxError: /workspace/.vscode/sftp.json: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:35:57] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 174 (line 8 column 21)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:36:01] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 174 (line 8 column 21)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:36:03] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 176 (line 8 column 23)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:36:17] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-09 21:37:21] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"automation01","host":"10.4.10.50","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}

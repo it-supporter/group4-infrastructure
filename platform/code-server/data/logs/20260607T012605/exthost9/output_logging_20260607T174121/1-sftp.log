@@ -1,0 +1,2 @@
+[06-07 17:41:22] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"automation01","host":"automation01","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-07 17:42:15] [warn] ENOENT: no such file or directory, open '/config/.ssh/config' load /config/.ssh/config failed
