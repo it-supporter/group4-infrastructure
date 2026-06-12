@@ -1,0 +1,7 @@
+---
+- name: Configure Cyber Range Firewalls
+  hosts: all
+  become: true
+
+  roles:
+    - cyberrange_firewall

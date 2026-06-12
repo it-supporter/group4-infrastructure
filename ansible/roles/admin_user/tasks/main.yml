@@ -1,0 +1,26 @@
+---
+- name: Ensure henrik user exists
+  ansible.builtin.user:
+    name: henrik
+    shell: /bin/bash
+    create_home: true
+    groups: sudo
+    append: true
+    state: present
+
+- name: Ensure .ssh directory exists
+  ansible.builtin.file:
+    path: /home/henrik/.ssh
+    state: directory
+    owner: henrik
+    group: henrik
+    mode: "0700"
+
+- name: Allow passwordless sudo
+  ansible.builtin.copy:
+    dest: /etc/sudoers.d/henrik
+    content: |
+      henrik ALL=(ALL) NOPASSWD:ALL
+    owner: root
+    group: root
+    mode: "0440"

@@ -11,24 +11,21 @@ variable "proxmox_token_secret" {
   sensitive = true
 }
 
-variable "vms" {
-  description = "VM definitions"
+variable "pair_count" {
 
-  type = map(object({
-    vm_id  = number
-    node   = string
-    ip     = string
-    cores  = number
-    memory = number
-    role   = string
-  }))
+  description = "Number of Cyber Range training pairs"
 
-  default = {}
-}
+  type = number
 
-variable "demo_node_count" {
-  description = "Number of demo K3s nodes"
-
-  type    = number
   default = 0
+
+  validation {
+
+    condition = (
+      var.pair_count >= 0 &&
+      var.pair_count <= 10
+    )
+
+    error_message = "pair_count must be between 0 and 10."
+  }
 }

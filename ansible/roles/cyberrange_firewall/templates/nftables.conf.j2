@@ -1,0 +1,57 @@
+flush ruleset
+
+table inet filter {
+
+    chain input {
+        type filter hook input priority filter;
+        policy drop;
+
+        iif "lo" accept
+        ct state established,related accept
+
+{% if cyberrange_role == "student" %}
+        ip saddr {{ automation_server_ip }} tcp dport 22 accept
+{% endif %}
+
+{% if cyberrange_role == "target" %}
+        ip saddr {{ partner_ip }} tcp dport 22 accept
+        ip saddr {{ partner_ip }} tcp dport 80 accept
+        ip saddr {{ automation_server_ip }} tcp dport 22 accept
+{% endif %}
+
+        ip saddr {{ monitor_server_ip }} tcp dport 9100 accept
+
+        ip protocol icmp accept
+    }
+
+    chain output {
+        type filter hook output priority filter;
+        policy drop;
+
+        oif "lo" accept
+
+        ct state established,related accept
+
+        ip daddr {{ gateway_ip }} accept
+
+{% for dns in dns_servers %}
+        ip daddr {{ dns }} udp dport 53 accept
+        ip daddr {{ dns }} tcp dport 53 accept
+{% endfor %}
+
+        ip daddr {{ automation_server_ip }} accept
+
+        ip daddr {{ monitor_server_ip }} accept
+
+        ip daddr {{ partner_ip }} accept
+
+        ip daddr 10.4.10.0/24 drop
+
+        tcp dport { 80, 443 } accept
+    }
+
+    chain forward {
+        type filter hook forward priority filter;
+        policy drop;
+    }
+}

@@ -9,12 +9,23 @@
 
 html,
 body,
-#__next {
+#__next,
+main {
     background-image: url('/branding/wallpapers/cyberleague.png') !important;
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
+    background-color: transparent !important;
+}
+
+/* Homepage frequently applies its own background */
+div[class*="page"],
+div[class*="layout"],
+div[class*="container"],
+main,
+section {
+    background: transparent !important;
 }
 
 /* =========================================================
@@ -99,4 +110,16 @@ h1,
 h2,
 h3 {
     text-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+/* =========================================================
+   Homepage Theme Override
+   ========================================================= */
+
+#page_container {
+    background: transparent !important;
+}
+
+#inner-wrapper {
+    background: transparent !important;
 }

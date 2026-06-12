@@ -1,8 +1,0 @@
----
-- name: Install target packages
-  apt:
-    name:
-      - nginx
-      - prometheus-node-exporter
-    state: present
-    update_cache: true

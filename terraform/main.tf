@@ -7,8 +7,8 @@ resource "proxmox_virtual_environment_vm" "vm" {
   node_name = each.value.node
 
   clone {
-    vm_id     = 666
-    node_name = "s12"
+    vm_id     = each.value.template_id
+    node_name = local.template_node
   }
 
   cpu {
@@ -37,18 +37,16 @@ resource "proxmox_virtual_environment_vm" "vm" {
     datastore_id = "Ceph-Storage-Pool"
 
     dns {
-      servers = [
-        "10.4.10.20",
-        "10.4.10.21"
-      ]
 
-      domain = "gruppe4.local"
+      servers = local.dns_servers
+
+      domain = local.domain
     }
 
     ip_config {
       ipv4 {
         address = "${each.value.ip}/24"
-        gateway = "10.4.10.1"
+        gateway = local.gateway
       }
     }
 
@@ -56,7 +54,9 @@ resource "proxmox_virtual_environment_vm" "vm" {
       username = "henrik"
 
       keys = [
-        file("${path.module}/ssh/id_ed25519.pub")
+        trimspace(
+          file("${path.module}/ssh/id_ed25519.pub")
+        )
       ]
     }
   }
@@ -79,6 +79,18 @@ resource "local_file" "ansible_inventory" {
 
   content = templatefile(
     "${path.module}/templates/inventory.tftpl",
+    {
+      vms = local.active_vms
+    }
+  )
+}
+
+resource "local_file" "prometheus_targets" {
+
+  filename = "${path.module}/generated/demo-targets.yml"
+
+  content = templatefile(
+    "${path.module}/templates/prometheus-targets.tftpl",
     {
       vms = local.active_vms
     }

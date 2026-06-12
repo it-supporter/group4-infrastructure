@@ -5,5 +5,7 @@
 
   roles:
     - baseline
+    - admin_user
+    - ssh_keys
     - powershell
     - node_exporter

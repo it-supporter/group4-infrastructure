@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana-external
+  namespace: portal
+
+spec:
+  type: ClusterIP
+
+  ports:
+    - name: http
+      port: 80
+      targetPort: 4000
+      protocol: TCP

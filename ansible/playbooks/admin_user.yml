@@ -1,0 +1,7 @@
+---
+- name: Ensure standard admin user exists
+  hosts: linux
+  become: true
+
+  roles:
+    - admin_user

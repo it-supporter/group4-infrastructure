@@ -1,0 +1,10 @@
+---
+automation_server_ip: 10.4.10.50
+
+monitor_server_ip: 10.4.10.40
+
+dns_servers:
+  - 10.4.10.20
+  - 10.4.10.21
+
+gateway_ip: 10.4.10.1

@@ -1,0 +1,20 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: grafana-route
+  namespace: portal
+
+spec:
+  entryPoints:
+    - websecure
+
+  routes:
+    - match: Host(`grafana.gruppe4.local`)
+      kind: Rule
+
+      services:
+        - name: grafana-external
+          port: 80
+
+  tls:
+    secretName: grafana-pulseai-tls
