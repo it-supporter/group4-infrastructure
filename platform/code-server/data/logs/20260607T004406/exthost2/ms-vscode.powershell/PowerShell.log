@@ -1,0 +1,3 @@
+2026-06-07 00:49:30.502 [info] Visual Studio Code: v1.123.0 64-bit on Linux 64-bit
+2026-06-07 00:49:30.502 [info] PowerShell Extension: v2025.4.0
+2026-06-07 00:49:30.701 [error] Unable to find PowerShell! Do you have it installed? You can also configure custom installations with the 'powershell.powerShellAdditionalExePaths' setting.

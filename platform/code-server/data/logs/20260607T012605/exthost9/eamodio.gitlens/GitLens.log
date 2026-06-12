@@ -1,0 +1,15 @@
+2026-06-07 17:41:24.342 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-07 17:41:24.342 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|336ba2ec-a2e3-44b5-8d4d-3406fc32afc81780846880159)
+2026-06-07 17:41:24.342 [info]    [            1] GitLens v18.0.0 activated [123ms]
+2026-06-07 17:41:24.342 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [74ms]
+2026-06-07 17:41:24.342 [info]    [   75 →    96] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 17:41:24.342 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [8ms]
+2026-06-07 17:41:24.342 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 17:41:24.345 [info]    [IPC          ] CLI capability published on http://127.0.0.1:35005
+2026-06-07 17:41:24.347 [error]   [CLI   90 → aa] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 17:41:25.997 [info]    [   b2 →    b3] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 17:41:26.014 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*2043ms] (slow)
+2026-06-07 17:41:26.016 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*2044ms] (slow)
+2026-06-07 17:41:26.021 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [23ms]
+2026-06-07 17:41:26.030 [info]    [   b1 →    b2] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 17:41:26.132 [warning] [   7a →    92] GitHubIntegration.isConnected returned false [*2039ms] (slow)

@@ -1,0 +1,93 @@
+[06-09 21:38:07] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"automation01","host":"10.4.10.50","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-09 21:39:51] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:39:51] [info] Using profile: platform01
+[06-09 21:40:15] [info] Using profile: platform01
+[06-09 21:40:15] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"automation01","host":"10.4.10.50","port":22,"username":"******","privateKeyPath":"/config/.ssh/id_ed25519"}
+[06-09 21:40:18] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:40:18] [info] Using profile: platform01
+[06-09 21:40:23] [info] Using profile: platform01
+[06-09 21:40:23] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ':' after property name in JSON at position 95 (line 6 column 15)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:40:26] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ':' after property name in JSON at position 112 (line 7 column 13)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:40:29] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 116 (line 7 column 13)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:40:31] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 124 (line 7 column 13)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:40:33] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 126 (line 7 column 13)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:40:35] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:40:35] [info] Using profile: platform01
+[06-09 21:40:48] [info] Using profile: platform01
+[06-09 21:40:48] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:40:48] [info] Using profile: platform01
+[06-09 21:40:51] [info] Using profile: platform01
+[06-09 21:40:51] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:40:51] [info] Using profile: platform01
+[06-09 21:41:00] [info] Using profile: platform01
+[06-09 21:41:00] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:00] [info] Using profile: platform01
+[06-09 21:41:02] [info] Using profile: platform01
+[06-09 21:41:02] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:03] [info] Using profile: platform01
+[06-09 21:41:13] [info] Using profile: platform01
+[06-09 21:41:13] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:13] [info] Using profile: platform01
+[06-09 21:41:15] [info] Using profile: platform01
+[06-09 21:41:15] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ':' after property name in JSON at position 50 (line 5 column 5)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:41:16] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:16] [info] Using profile: platform01
+[06-09 21:41:20] [info] Using profile: platform01
+[06-09 21:41:20] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ':' after property name in JSON at position 54 (line 5 column 5)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:41:24] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ':' after property name in JSON at position 55 (line 5 column 5)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:41:28] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 62 (line 5 column 5)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:41:30] [error] SyntaxError: /workspace/.vscode/sftp.json: Expected ',' or '}' after property value in JSON at position 56 (line 3 column 19)
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:41:32] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","name":"test","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:32] [info] Using profile: platform01
+[06-09 21:41:42] [info] Using profile: platform01
+[06-09 21:41:42] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","name":"","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:42] [info] Using profile: platform01
+[06-09 21:41:46] [info] Using profile: platform01
+[06-09 21:41:46] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","name":"automation01","profiles":{"platform01":{"name":"Platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:41:46] [info] Using profile: platform01
+[06-09 21:42:32] [info] Using profile: platform01
+[06-09 21:42:32] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","name":"automation01","profiles":{"platform01":{"name":"platform01","host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"name":"automation01","host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"name":"monitor01","host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:42:32] [info] Using profile: platform01
+[06-09 21:42:48] [info] Using profile: monitor01
+[06-09 21:43:13] [info] Using profile: monitor01
+[06-09 21:43:13] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"defaultProfile":"platform01","profiles":{"platform01":{"host":"platform01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"automation01":{"host":"automation01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"},"monitor01":{"host":"monitor01","protocol":"sftp","port":22,"username":"henrik","remotePath":"/home/henrik","privateKeyPath":"/config/.ssh/id_ed25519"}}}
+[06-09 21:43:13] [info] Using profile: platform01
+[06-09 21:52:11] [info] Using profile: platform01
+[06-09 22:04:08] [info] Using profile: platform01
+[06-09 22:04:12] [info] Using profile: platform01
+[06-09 22:04:12] [info] Using profile: platform01
+[06-09 22:04:15] [info] Using profile: platform01
+[06-09 22:04:17] [info] Using profile: platform01
+[06-09 22:04:17] [info] Using profile: platform01
+[06-09 22:04:20] [info] Using profile: platform01
+[06-09 22:04:20] [info] Using profile: platform01
+[06-09 22:05:44] [info] Using profile: platform01
+[06-09 22:05:48] [info] Using profile: platform01
+[06-09 22:06:35] [info] Using profile: platform01
+[06-09 22:06:36] [info] Using profile: platform01
+[06-09 22:06:38] [info] Using profile: platform01
+[06-09 22:06:48] [info] Using profile: platform01
+[06-09 22:06:51] [info] Using profile: platform01
+[06-09 22:06:53] [info] Using profile: platform01
+[06-09 22:13:38] [info] Using profile: platform01
+[06-09 22:39:48] [info] Using profile: platform01

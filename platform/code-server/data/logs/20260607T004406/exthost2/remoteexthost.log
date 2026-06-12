@@ -1,0 +1,56 @@
+2026-06-07 00:47:15.350 [info] Extension host with pid 2653 started
+2026-06-07 00:47:15.360 [info] Lock '/config/data/User/workspaceStorage/3e188b9b/vscode.lock': Lock acquired.
+2026-06-07 00:47:15.426 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-07 00:47:15.428 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-07 00:47:15.561 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-06-07 00:47:15.611 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-07 00:47:15.723 [info] Eager extensions activated
+2026-06-07 00:47:15.723 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 00:47:15.723 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 00:47:19.058 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-06-07 00:49:30.264 [info] ExtensionService#_doActivateExtension ms-vscode.powershell, startup: false, activationEvent: 'onWalkthrough:PowerShell'
+2026-06-07 00:49:51.651 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2026-06-07 00:49:53.483 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-06-07 00:52:06.234 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-07 00:52:06.234 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-07 00:52:06.235 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-06-07 00:56:29.868 [info] ExtensionService#_doActivateExtension shubhamsharma.ariv-themes, startup: false, activationEvent: '*'
+2026-06-07 00:56:29.870 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 01:00:45.993 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-06-07 01:00:45.993 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-06-07 01:02:27.549 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 01:02:28.515 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-06-07 01:04:32.121 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 01:05:00.751 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2026-06-07 01:05:01.454 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:01.456 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:10.555 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:10.667 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:10.670 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:10.772 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2026-06-07 01:05:11.102 [info] ExtensionService#_doActivateExtension redhat.ansible, startup: false, activationEvent: 'onLanguage:yaml'
+2026-06-07 01:05:20.269 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:20.281 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:20.282 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:51.251 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:51.311 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:51.315 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:51.411 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 01:05:56.091 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:05:56.970 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, scandir '/workspace/forgejo/data/ssh'
+	at rr._handleError (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:530:21596)
+	at Object.readDirectory (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:530:19346)
+	at async /config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:893382:20
+	at async _VsCodeIdeUtils.fsOperation (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:893403:18)
+	at async _VsCodeIdeUtils.readDirectory (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:893379:16)
+	at async _VsCodeIde.listDir (/config/extensions/continue.continue-1.2.22-linux-x64/out/extension.js:894233:25)
+2026-06-07 01:07:19.524 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:07:19.537 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:07:19.539 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:07:19.753 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2026-06-07 01:08:58.070 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:08:58.108 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:08:58.111 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2026-06-07 01:10:06.891 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onView:terraform.cloud.workspaces'
+2026-06-07 01:11:06.442 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: false, activationEvent: 'onCommand:sftp.config'
+2026-06-07 01:16:22.823 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.

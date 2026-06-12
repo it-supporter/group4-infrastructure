@@ -1,0 +1,13 @@
+2026-06-07 17:40:30.025 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-07 17:40:30.025 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|bbe846cd-7e7d-4f30-8980-433137867ffe1780846826531)
+2026-06-07 17:40:30.025 [info]    GitLens first-time install; window.focused=false
+2026-06-07 17:40:30.025 [info]    [            1] GitLens v18.0.0 activated [105ms]
+2026-06-07 17:40:30.025 [info]    [   7d →    7e] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [69ms]
+2026-06-07 17:40:30.025 [info]    [   7d →    9f] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 17:40:30.025 [info]    [   7c →    7d] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 17:40:30.027 [info]    [IPC          ] CLI capability published on http://127.0.0.1:33893
+2026-06-07 17:40:30.028 [error]   [CLI   99 → df] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-07 17:40:30.875 [info]    [  11b →   11c] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 17:40:30.878 [info]    [  11a →   11b] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-07 17:40:49.980 [info]    [  12e →   130] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-07 17:40:50.183 [info]    [  12d →   12e] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)

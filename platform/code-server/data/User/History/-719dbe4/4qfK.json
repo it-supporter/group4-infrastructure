@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Nebula Aura Violet",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "feather-product-icons"
+}

@@ -1,0 +1,22 @@
+{
+  "lastSelectedProfileForWorkspace": {
+    "file:///workspace:::personal": "local",
+    ":::personal": "local"
+  },
+  "lastSelectedOrgIdForWorkspace": {
+    "file:///workspace": "personal",
+    "": "personal"
+  },
+  "selectedModelsByProfileId": {
+    "local": {
+      "chat": null,
+      "edit": null,
+      "apply": null,
+      "embed": "Transformers.js (Built-In)",
+      "autocomplete": null,
+      "rerank": null,
+      "summarize": null,
+      "subagent": null
+    }
+  }
+}

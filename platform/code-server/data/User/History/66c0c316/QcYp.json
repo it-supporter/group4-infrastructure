@@ -1,0 +1,54 @@
+{
+    "profiles": {
+        "platform01": {
+            "name": "platform01",
+            "host": "platform01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik"
+        },
+
+        "automation01": {
+            "name": "automation01",
+            "host": "automation01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik"
+        },
+
+        "monitor01": {
+            "name": "monitor01",
+            "host": "monitor01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik"
+        },
+
+        "k3s01": {
+            "host": "k3s01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik"
+        },
+
+        "k3s02": {
+            "host": "k3s02",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik"
+        },
+
+        "k3s03": {
+            "host": "k3s03",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik"
+        }
+    }
+}

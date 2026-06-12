@@ -1,0 +1,11 @@
+{
+    "name": "automation01",
+    "host": "automation01",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "henrik",
+    "remotePath": "/home/henrik",
+    "uploadOnSave": false,
+    "useTempFile": false,
+    "openSsh": true
+}

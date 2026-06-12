@@ -1,0 +1,133 @@
+2026-06-09 22:48:29.032 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 22:48:29.032 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|daa8bd16-693b-4c32-b6b2-5d3d7b7d30301781038103898)
+2026-06-09 22:48:29.032 [info]    [   75 →    78] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/documentation, source=scm) repository=<unknown>; deferring to getOrOpenRepository
+2026-06-09 22:48:29.032 [info]    [   75 →    7b] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/automation, source=scm) repository=<unknown>; deferring to getOrOpenRepository
+2026-06-09 22:48:29.032 [info]    [            1] GitLens v18.0.0 activated [114ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    75] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [80ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    9f] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 22:48:29.032 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [9ms]
+2026-06-09 22:48:29.032 [info]    [GIT      82ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [82ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    9f] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/automation'
+2026-06-09 22:48:29.032 [info]    [GIT      14ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [14ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    9f] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/documentation'
+2026-06-09 22:48:29.032 [info]    [GIT      22ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [22ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    9f] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/infrastructure'
+2026-06-09 22:48:29.032 [info]    [   bb →    bc] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/infrastructure': no existing repository found
+2026-06-09 22:48:29.032 [info]    [GIT       7ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    9f] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/kubernetes'
+2026-06-09 22:48:29.032 [info]    [   c2 →    c3] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/kubernetes': no existing repository found
+2026-06-09 22:48:29.032 [info]    [GIT      10ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [10ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    9f] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/labs'
+2026-06-09 22:48:29.032 [info]    [   73 →    74] GlCliGitProvider.discoverRepositories auto-opening 5 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 22:48:29.032 [info]    [   c9 →    ca] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/labs': no existing repository found
+2026-06-09 22:48:29.032 [info]    [   74 →    d1] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/infrastructure': no existing repository found
+2026-06-09 22:48:29.032 [info]    [   74 →    d3] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/kubernetes': no existing repository found
+2026-06-09 22:48:29.032 [info]    [   74 →    d5] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/labs': no existing repository found
+2026-06-09 22:48:29.032 [info]    [GIT      25ms] [/workspace/kubernetes] git remote -v [25ms]
+2026-06-09 22:48:29.032 [info]    [GIT      26ms] [/workspace/infrastructure] git remote -v [26ms]
+2026-06-09 22:48:29.032 [info]    [GIT      27ms] [/workspace/documentation] git remote -v [27ms]
+2026-06-09 22:48:29.032 [info]    [GIT      27ms] [/workspace/automation] git remote -v [27ms]
+2026-06-09 22:48:29.032 [info]    [GIT      39ms] [/workspace/labs] git remote -v [39ms]
+2026-06-09 22:48:29.032 [info]    [GIT      15ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote [15ms]
+2026-06-09 22:48:29.032 [info]    [GIT      20ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote [20ms]
+2026-06-09 22:48:29.032 [info]    [GIT       6ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote [6ms]
+2026-06-09 22:48:29.032 [info]    [GIT      10ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote [10ms]
+2026-06-09 22:48:29.032 [info]    [GIT      15ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote [15ms]
+2026-06-09 22:48:29.032 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/infrastructure)
+2026-06-09 22:48:29.034 [info]    [IPC          ] CLI capability published on http://127.0.0.1:33179
+2026-06-09 22:48:29.035 [error]   [CLI  99 → 116] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:48:29.143 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [25ms]
+2026-06-09 22:48:29.146 [info]    [GIT      32ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [32ms]
+2026-06-09 22:48:29.146 [info]    [GIT      38ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [38ms]
+2026-06-09 22:48:29.188 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/kubernetes)
+2026-06-09 22:48:29.298 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/labs)
+2026-06-09 22:48:31.031 [info]    [   74 →    75] GlCliGitProvider.findGit fireRepositoryOpened: firing 3 opened repo(s) from vscode.git
+2026-06-09 22:48:31.031 [info]    [          143] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/infrastructure, source=scm) repository=GlRepository(/workspace/infrastructure|3), closed:false→false (closedByUser cleared)
+2026-06-09 22:48:31.031 [info]    [          144] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/kubernetes, source=scm) repository=GlRepository(/workspace/kubernetes|4), closed:false→false (closedByUser cleared)
+2026-06-09 22:48:31.031 [info]    [          145] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/labs, source=scm) repository=GlRepository(/workspace/labs|5), closed:false→false (closedByUser cleared)
+2026-06-09 22:48:31.039 [warning] [  13d →   142] Storage.deleteWorkspace(e=connected:gitlab) completed [*1533ms] (slow)
+2026-06-09 22:48:31.039 [warning] [   90 →   13d] GitLabIntegration.isConnected returned false [*1569ms] (slow)
+2026-06-09 22:49:03.715 [info]    [GIT      65ms] [/workspace/labs] git rev-list --max-parents=0 HEAD -- [65ms]
+2026-06-09 22:49:03.716 [info]    [GIT      66ms] [/workspace/kubernetes] git rev-list --max-parents=0 HEAD -- [66ms]
+2026-06-09 22:49:03.716 [info]    [GIT      66ms] [/workspace/infrastructure] git rev-list --max-parents=0 HEAD -- [66ms]
+2026-06-09 22:49:03.716 [info]    [GIT      67ms] [/workspace/documentation] git rev-list --max-parents=0 HEAD -- [67ms]
+2026-06-09 22:49:03.717 [info]    [GIT      68ms] [/workspace/automation] git rev-list --max-parents=0 HEAD -- [68ms]
+2026-06-09 22:49:05.688 [warning] [GIT          ] [/workspace/automation] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2034ms (timeout)
+2026-06-09 22:49:05.688 [error]   [GIT          ] [/workspace/automation] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2035ms] (slow)
+2026-06-09 22:49:05.688 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   e5 →   191] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 22:49:05.688 [warning] [   e5 →   191] ContributorsGitSubProvider.getContributorsStats(e=/workspace/automation, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2036ms] (slow)
+2026-06-09 22:49:05.701 [warning] [GIT          ] [/workspace/documentation] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2047ms (timeout)
+2026-06-09 22:49:05.701 [error]   [GIT          ] [/workspace/documentation] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2048ms] (slow)
+2026-06-09 22:49:05.701 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   e5 →   193] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 22:49:05.701 [warning] [   e5 →   193] ContributorsGitSubProvider.getContributorsStats(e=/workspace/documentation, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2048ms] (slow)
+2026-06-09 22:49:05.705 [warning] [GIT          ] [/workspace/infrastructure] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2052ms (timeout)
+2026-06-09 22:49:05.705 [error]   [GIT          ] [/workspace/infrastructure] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2052ms] (slow)
+2026-06-09 22:49:05.706 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   e5 →   195] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 22:49:05.706 [warning] [   e5 →   195] ContributorsGitSubProvider.getContributorsStats(e=/workspace/infrastructure, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2053ms] (slow)
+2026-06-09 22:49:05.708 [warning] [GIT          ] [/workspace/kubernetes] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2055ms (timeout)
+2026-06-09 22:49:05.708 [error]   [GIT          ] [/workspace/kubernetes] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2055ms] (slow)
+2026-06-09 22:49:05.708 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   e5 →   197] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 22:49:05.709 [warning] [   e5 →   197] ContributorsGitSubProvider.getContributorsStats(e=/workspace/kubernetes, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2055ms] (slow)
+2026-06-09 22:49:05.714 [warning] [GIT          ] [/workspace/labs] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2060ms (timeout)
+2026-06-09 22:49:05.714 [error]   [GIT          ] [/workspace/labs] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2061ms] (slow)
+2026-06-09 22:49:05.714 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   e5 →   199] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 22:49:05.714 [warning] [   e5 →   199] ContributorsGitSubProvider.getContributorsStats(e=/workspace/labs, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2061ms] (slow)
+2026-06-09 22:49:29.037 [error]   [CLI  90 → 19a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:50:29.038 [error]   [CLI  90 → 1a1] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:50:58.653 [info]    [GIT      14ms] [/workspace/labs] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ [14ms]
+2026-06-09 22:50:58.654 [info]    [GIT       8ms] [/workspace/labs] git config --get-regex -f /workspace/labs/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ [8ms]
+2026-06-09 22:50:58.662 [error]   [GIT          ] [/workspace/labs] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- · bad revision '@' [6ms]
+2026-06-09 22:50:58.668 [info]    [GIT       5ms] [/workspace/labs] git symbolic-ref --short HEAD [5ms]
+2026-06-09 22:50:58.675 [info]    [GIT       6ms] [/workspace/labs] git log -n1 --format=%ct -- [6ms]
+2026-06-09 22:50:58.682 [info]    [GIT       5ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config branch.dev.gk-last-accessed [5ms]
+2026-06-09 22:50:58.689 [info]    [GIT       5ms] [/workspace/labs] git config -f /workspace/labs/.git/gk/config branch.dev.gk-last-accessed 2026-06-09T20:50:58.676Z [5ms]
+2026-06-09 22:51:29.039 [error]   [CLI  90 → 1dc] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:52:29.040 [error]   [CLI  90 → 207] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:52:45.933 [error]   [GIT          ] [/config] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+2026-06-09 22:53:29.041 [error]   [CLI  90 → 354] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:54:29.041 [error]   [CLI  90 → 3e1] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:55:29.042 [error]   [CLI  90 → 420] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:56:29.042 [error]   [CLI  90 → 523] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:57:29.044 [error]   [CLI  90 → 52a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:58:29.044 [error]   [CLI  90 → 531] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 22:59:29.045 [error]   [CLI  90 → 542] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:00:29.045 [error]   [CLI  90 → 551] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:01:29.045 [error]   [CLI  90 → 574] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:02:29.046 [error]   [CLI  90 → 5a7] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:03:29.046 [error]   [CLI  90 → 5d8] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:04:29.047 [error]   [CLI  90 → 5ef] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:05:29.049 [error]   [CLI  90 → 61a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:06:29.049 [error]   [CLI  90 → 61b] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:07:29.050 [error]   [CLI  90 → 61c] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:08:29.049 [error]   [CLI  90 → 61d] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:09:29.049 [error]   [CLI  90 → 61e] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:10:29.050 [error]   [CLI  90 → 61f] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:11:29.052 [error]   [CLI  90 → 620] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:12:29.052 [error]   [CLI  90 → 621] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:13:29.053 [error]   [CLI  90 → 622] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:14:29.054 [error]   [CLI  90 → 623] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:15:29.057 [error]   [CLI  90 → 624] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:16:29.055 [error]   [CLI  90 → 625] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:17:29.055 [error]   [CLI  90 → 626] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:18:29.055 [error]   [CLI  90 → 627] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:19:29.056 [error]   [CLI  90 → 628] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:20:29.057 [error]   [CLI  90 → 629] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:21:29.057 [error]   [CLI  90 → 62a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:22:29.058 [error]   [CLI  90 → 62b] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:23:29.058 [error]   [CLI  90 → 62c] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:24:29.058 [error]   [CLI  90 → 62d] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:25:29.059 [error]   [CLI  90 → 62e] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:26:29.060 [error]   [CLI  90 → 62f] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:27:29.060 [error]   [CLI  90 → 630] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:28:29.060 [error]   [CLI  90 → 631] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:29:29.061 [error]   [CLI  90 → 632] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:30:29.063 [error]   [CLI  90 → 633] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:31:29.063 [error]   [CLI  90 → 634] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:32:29.064 [error]   [CLI  90 → 635] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:33:29.065 [error]   [CLI  90 → 636] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:34:29.066 [error]   [CLI  90 → 637] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:35:29.066 [error]   [CLI  90 → 639] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:36:29.066 [error]   [CLI  90 → 63a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:37:29.066 [error]   [CLI  90 → 63b] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:38:29.067 [error]   [CLI  90 → 63c] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 23:39:29.069 [error]   [CLI  90 → 63d] undefined ai hook list-sessions --json CLI is not installed [0ms]

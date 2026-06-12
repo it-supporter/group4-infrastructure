@@ -1,0 +1,103 @@
+2026-06-09 21:29:34.085 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 21:29:34.085 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|774befa1-b622-4931-be19-243d8a6da3ff1781033369116)
+2026-06-09 21:29:34.085 [info]    [            1] GitLens v18.0.0 activated [116ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    75] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [58ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    99] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 21:29:34.085 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [8ms]
+2026-06-09 21:29:34.085 [info]    [GIT       7ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    99] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/automation'
+2026-06-09 21:29:34.085 [info]    [GIT       6ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    99] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/documentation'
+2026-06-09 21:29:34.085 [info]    [GIT       7ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    99] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/infrastructure'
+2026-06-09 21:29:34.085 [info]    [GIT       7ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    99] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/kubernetes'
+2026-06-09 21:29:34.085 [info]    [GIT       5ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-06-09 21:29:34.085 [info]    [   74 →    99] GlCliGitProvider.repositorySearch(/workspace) found repository in '/workspace/labs'
+2026-06-09 21:29:34.085 [info]    [   73 →    74] GlCliGitProvider.discoverRepositories auto-opening 5 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 21:29:34.085 [info]    [GIT      16ms] [/workspace/kubernetes] git remote -v [16ms]
+2026-06-09 21:29:34.085 [info]    [GIT      18ms] [/workspace/infrastructure] git remote -v [18ms]
+2026-06-09 21:29:34.085 [info]    [GIT      18ms] [/workspace/documentation] git remote -v [18ms]
+2026-06-09 21:29:34.085 [info]    [GIT      19ms] [/workspace/automation] git remote -v [19ms]
+2026-06-09 21:29:34.085 [info]    [GIT      30ms] [/workspace/labs] git remote -v [30ms]
+2026-06-09 21:29:34.085 [info]    [GIT      10ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote [10ms]
+2026-06-09 21:29:34.085 [info]    [GIT      16ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote [16ms]
+2026-06-09 21:29:34.085 [info]    [GIT      50ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote [50ms]
+2026-06-09 21:29:34.085 [info]    [GIT      54ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote [54ms]
+2026-06-09 21:29:34.085 [info]    [GIT      47ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote [47ms]
+2026-06-09 21:29:34.085 [info]    [   a7 →    a8] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/automation': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   ae →    af] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/documentation': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   b5 →    b6] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/infrastructure': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   bc →    bd] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/kubernetes': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   c3 →    c4] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/labs': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   74 →    c7] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/automation': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   74 →    c9] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/documentation': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   74 →    cb] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/infrastructure': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   74 →    cd] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/kubernetes': no existing repository found
+2026-06-09 21:29:34.085 [info]    [   74 →    cf] GlCliGitProvider.getOrOpenScmRepository opening the SCM repository for 'file:///workspace/labs': no existing repository found
+2026-06-09 21:29:34.088 [error]   [CLI  93 → 123] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 21:29:34.089 [info]    [IPC          ] CLI capability published on http://127.0.0.1:42939
+2026-06-09 21:29:34.145 [warning] [   72 →    d1] GitProviderService.setEnabledContext(e=true) completed [*1693ms] (slow)
+2026-06-09 21:29:34.174 [error]   [GIT          ] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [14ms]
+2026-06-09 21:29:34.174 [warning] [   7d →    ef] GlCliGitProvider.findRepositoryUri(e=Uri(file:///workspace/.vscode/sftp.json), t=undefined) returned undefined [*1715ms] (slow)
+2026-06-09 21:29:34.175 [warning] [   7c →    7d] GitProviderService.getOrOpenRepository(e=Uri(file:///workspace/.vscode/sftp.json)) returned undefined [*1840ms] (slow)
+2026-06-09 21:29:34.175 [warning] [   7b →    7c] GitUri.fromUri(e=Uri(file:///workspace/.vscode/sftp.json)) returned GitUri(file:///workspace/.vscode/sftp.json) [*1841ms] (slow)
+2026-06-09 21:29:34.176 [warning] [   7a →    7b] TrackedGitDocument(TextDocument(json, dirty=false, file:///workspace/.vscode/sftp.json)).initialize(e=true) completed [*1842ms] (slow)
+2026-06-09 21:29:34.176 [warning] [   8e →    8f] GitDocumentTracker.get(e=TextDocument(json, dirty=false, file:///workspace/.vscode/sftp.json)) completed [*1798ms] (slow)
+2026-06-09 21:29:34.176 [warning] [   79 →    7a] GitDocumentTracker.addCore(e=TextDocument(json, dirty=false, file:///workspace/.vscode/sftp.json), t=true) completed [*1843ms] (slow)
+2026-06-09 21:29:34.177 [warning] [   80 →    8e] LineTracker.updateState(selections=8, editor=TextEditor(1, file:///workspace/.vscode/sftp.json [8:1-8:1])) returned false • document is not blameable [*1799ms] (slow)
+2026-06-09 21:29:34.204 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/automation)
+2026-06-09 21:29:34.213 [warning] [   a7 →    a8] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/automation)) returned ScmRepository(file:///workspace/automation) [*1802ms] (slow)
+2026-06-09 21:29:34.231 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*1965ms] (slow)
+2026-06-09 21:29:34.231 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*1965ms] (slow)
+2026-06-09 21:29:34.469 [warning] [   97 →   107] Storage.getSecret completed [*1857ms] (slow)
+2026-06-09 21:29:34.471 [warning] [   95 →    97] GitHubAuthenticationProvider.getSession(e={"domain":"github.com","scopes":["repo","read:user","user:email"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*2089ms] (slow)
+2026-06-09 21:29:34.563 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/documentation)
+2026-06-09 21:29:34.573 [warning] [   ae →    af] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/documentation)) returned ScmRepository(file:///workspace/documentation) [*2149ms] (slow)
+2026-06-09 21:29:34.692 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/infrastructure)
+2026-06-09 21:29:34.699 [warning] [   b5 →    b6] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/infrastructure)) returned ScmRepository(file:///workspace/infrastructure) [*2266ms] (slow)
+2026-06-09 21:29:34.826 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/kubernetes)
+2026-06-09 21:29:34.833 [warning] [   bc →    bd] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/kubernetes)) returned ScmRepository(file:///workspace/kubernetes) [*2391ms] (slow)
+2026-06-09 21:29:34.952 [info]    [   74 →    75] GlCliGitProvider.findGit SCM.onDidOpenRepository(file:///workspace/labs)
+2026-06-09 21:29:34.958 [warning] [   c3 →    c4] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/labs)) returned ScmRepository(file:///workspace/labs) [*2508ms] (slow)
+2026-06-09 21:29:34.958 [warning] [   74 →    c7] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/automation)) returned ScmRepository(file:///workspace/automation) [*2507ms] (slow)
+2026-06-09 21:29:34.958 [warning] [   74 →    c9] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/documentation)) returned ScmRepository(file:///workspace/documentation) [*2508ms] (slow)
+2026-06-09 21:29:34.959 [warning] [   74 →    cb] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/infrastructure)) returned ScmRepository(file:///workspace/infrastructure) [*2508ms] (slow)
+2026-06-09 21:29:34.959 [warning] [   74 →    cd] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/kubernetes)) returned ScmRepository(file:///workspace/kubernetes) [*2508ms] (slow)
+2026-06-09 21:29:34.959 [warning] [   74 →    cf] GlCliGitProvider.getOrOpenScmRepository(e=Uri(file:///workspace/labs)) returned ScmRepository(file:///workspace/labs) [*2508ms] (slow)
+2026-06-09 21:29:35.027 [warning] [   79 →    95] GitHubIntegration.isConnected returned false [*2648ms] (slow)
+2026-06-09 21:29:36.649 [info]    [   74 →    75] GlCliGitProvider.findGit fireRepositoryOpened: firing 5 opened repo(s) from vscode.git
+2026-06-09 21:29:36.649 [info]    [   c4 →   143] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/automation, source=scm) repository=GlRepository(/workspace/automation|1), closed:false→false (closedByUser cleared)
+2026-06-09 21:29:36.649 [info]    [   c4 →   144] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/documentation, source=scm) repository=GlRepository(/workspace/documentation|2), closed:false→false (closedByUser cleared)
+2026-06-09 21:29:36.649 [info]    [   c4 →   145] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/infrastructure, source=scm) repository=GlRepository(/workspace/infrastructure|3), closed:false→false (closedByUser cleared)
+2026-06-09 21:29:36.649 [info]    [   c4 →   146] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/kubernetes, source=scm) repository=GlRepository(/workspace/kubernetes|4), closed:false→false (closedByUser cleared)
+2026-06-09 21:29:36.649 [info]    [   c4 →   147] GlCliGitProvider.onDidOpenRepository(e=file:///workspace/labs, source=scm) repository=GlRepository(/workspace/labs|5), closed:false→false (closedByUser cleared)
+2026-06-09 21:29:36.653 [warning] [  13f →   141] Storage.getSecret completed [*1518ms] (slow)
+2026-06-09 21:29:36.654 [warning] [  13d →   13f] AzureDevOpsAuthenticationProvider.getSession(e={"domain":"dev.azure.com","scopes":["vso.code","vso.identity","vso.project","vso.profile","vso.work"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*1534ms] (slow)
+2026-06-09 21:29:36.697 [warning] [   8a →   13d] AzureDevOpsIntegration.isConnected returned false [*1578ms] (slow)
+2026-06-09 21:30:07.531 [info]    [GIT      66ms] [/workspace/labs] git rev-list --max-parents=0 HEAD -- [66ms]
+2026-06-09 21:30:07.532 [info]    [GIT      67ms] [/workspace/kubernetes] git rev-list --max-parents=0 HEAD -- [67ms]
+2026-06-09 21:30:07.532 [info]    [GIT      67ms] [/workspace/infrastructure] git rev-list --max-parents=0 HEAD -- [67ms]
+2026-06-09 21:30:07.532 [info]    [GIT      68ms] [/workspace/documentation] git rev-list --max-parents=0 HEAD -- [68ms]
+2026-06-09 21:30:07.532 [info]    [GIT      69ms] [/workspace/automation] git rev-list --max-parents=0 HEAD -- [69ms]
+2026-06-09 21:30:09.512 [warning] [GIT          ] [/workspace/automation] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2044ms (timeout)
+2026-06-09 21:30:09.512 [error]   [GIT          ] [/workspace/automation] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2045ms] (slow)
+2026-06-09 21:30:09.512 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   df →   18f] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 21:30:09.512 [warning] [   df →   18f] ContributorsGitSubProvider.getContributorsStats(e=/workspace/automation, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2046ms] (slow)
+2026-06-09 21:30:09.514 [warning] [GIT          ] [/workspace/documentation] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2046ms (timeout)
+2026-06-09 21:30:09.515 [error]   [GIT          ] [/workspace/documentation] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2047ms] (slow)
+2026-06-09 21:30:09.515 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   df →   191] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 21:30:09.515 [warning] [   df →   191] ContributorsGitSubProvider.getContributorsStats(e=/workspace/documentation, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2047ms] (slow)
+2026-06-09 21:30:09.521 [warning] [GIT          ] [/workspace/infrastructure] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2053ms (timeout)
+2026-06-09 21:30:09.521 [error]   [GIT          ] [/workspace/infrastructure] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2053ms] (slow)
+2026-06-09 21:30:09.521 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   df →   193] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 21:30:09.521 [warning] [   df →   193] ContributorsGitSubProvider.getContributorsStats(e=/workspace/infrastructure, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2054ms] (slow)
+2026-06-09 21:30:09.526 [warning] [GIT          ] [/workspace/kubernetes] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2058ms (timeout)
+2026-06-09 21:30:09.526 [error]   [GIT          ] [/workspace/kubernetes] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2058ms] (slow)
+2026-06-09 21:30:09.526 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   df →   195] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 21:30:09.526 [warning] [   df →   195] ContributorsGitSubProvider.getContributorsStats(e=/workspace/kubernetes, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2058ms] (slow)
+2026-06-09 21:30:09.530 [warning] [GIT          ] [/workspace/labs] git shortlog -s --all --no-min-parents --since=1.year.ago · ABORTED after 2062ms (timeout)
+2026-06-09 21:30:09.530 [error]   [GIT          ] [/workspace/labs] git shortlog -s --all --no-min-parents --since=1.year.ago · cancelled [2062ms] (slow)
+2026-06-09 21:30:09.530 [error] CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago   [   df →   197] ContributorsGitSubProvider.getContributorsStats 
+2026-06-09 21:30:09.530 [warning] [   df →   197] ContributorsGitSubProvider.getContributorsStats(e=/workspace/labs, t={"since":"1.year.ago"}, i=undefined, r=2000) completed [*2062ms] (slow)
+2026-06-09 21:30:34.091 [error]   [CLI  8a → 198] undefined ai hook list-sessions --json CLI is not installed [0ms]

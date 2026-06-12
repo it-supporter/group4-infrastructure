@@ -1,0 +1,36 @@
+{
+    "defaultProfile": "platform01",
+    "name": "test",
+
+    "profiles": {
+        "platform01": {
+            "name": "Platform01",
+            "host": "platform01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik",
+            "privateKeyPath": "/config/.ssh/id_ed25519"
+        },
+
+        "automation01": {
+            "name": "automation01",
+            "host": "automation01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik",
+            "privateKeyPath": "/config/.ssh/id_ed25519"
+        },
+
+        "monitor01": {
+            "name": "monitor01",
+            "host": "monitor01",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "henrik",
+            "remotePath": "/home/henrik",
+            "privateKeyPath": "/config/.ssh/id_ed25519"
+        }
+    }
+}

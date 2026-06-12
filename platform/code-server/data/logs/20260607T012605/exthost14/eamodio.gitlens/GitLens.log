@@ -1,0 +1,9 @@
+2026-06-09 18:07:05.718 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 18:07:05.718 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|47d071f0-284b-4c49-b55b-775bbebbc62b1781021221579)
+2026-06-09 18:07:05.718 [info]    [            1] GitLens v18.0.0 activated [168ms]
+2026-06-09 18:07:05.719 [info]    [IPC          ] CLI capability published on http://127.0.0.1:46373
+2026-06-09 18:07:07.724 [warning] [    c →     d] ServerConnection.fetch(url=https://configs.gitkraken.dev/gitlens/product.json, options=undefined) completed [*2462ms] (slow)
+2026-06-09 18:07:07.725 [warning] [    b →     c] ServerConnection.fetchGkConfig(path=product.json, options=undefined) completed [*2463ms] (slow)
+2026-06-09 18:07:07.730 [warning] [   9c →    9e] Storage.getSecret completed [*1913ms] (slow)
+2026-06-09 18:07:07.731 [warning] [   9a →    9c] GitLabCloudAuthenticationProvider.getSession(e={"domain":"gitlab.com","scopes":["api","read_user","read_repository"]}, t={"createIfNeeded":false,"source":"integrations"}) completed [*1933ms] (slow)
+2026-06-09 18:07:07.782 [warning] [   80 →    9a] GitLabIntegration.isConnected returned false [*1986ms] (slow)

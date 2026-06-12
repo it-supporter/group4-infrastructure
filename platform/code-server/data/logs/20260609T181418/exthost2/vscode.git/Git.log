@@ -1,0 +1,189 @@
+2026-06-09 18:15:16.377 [info] [main] Log level: Info
+2026-06-09 18:15:16.377 [info] [main] Validating found git in: "git"
+2026-06-09 18:15:16.377 [info] [main] Using git "2.43.0" from "git"
+2026-06-09 18:15:16.377 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-09 18:15:16.377 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-09 18:15:16.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.377 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-09 18:15:16.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.377 [info] > git rev-parse --show-toplevel [9ms]
+2026-06-09 18:15:16.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.377 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-09 18:15:16.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.377 [info] > git rev-parse --show-toplevel [1474ms]
+2026-06-09 18:15:16.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.377 [info] > git rev-parse --show-toplevel [11ms]
+2026-06-09 18:15:16.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.388 [info] > git rev-parse --show-toplevel [12ms]
+2026-06-09 18:15:16.388 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.398 [info] > git rev-parse --show-toplevel [4ms]
+2026-06-09 18:15:16.398 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.405 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-09 18:15:16.415 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-09 18:15:16.415 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.467 [info] > git rev-parse --show-toplevel [4ms]
+2026-06-09 18:15:16.467 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:15:16.503 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-09 18:15:16.503 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:18:10.061 [info] > git rev-parse --show-toplevel [3ms]
+2026-06-09 18:18:10.075 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2026-06-09 18:18:10.124 [info] [Model][openRepository] Opened repository (path): /workspace/automation
+2026-06-09 18:18:10.124 [info] [Model][openRepository] Opened repository (real path): /workspace/automation
+2026-06-09 18:18:10.124 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-09 18:18:10.146 [info] > git config --get --local core.virtualfilesystem [11ms]
+2026-06-09 18:18:10.147 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-09 18:18:10.148 [info] > git config --get commit.template [4ms]
+2026-06-09 18:18:10.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-09 18:18:10.158 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:10.180 [info] > git status -z -uall [16ms]
+2026-06-09 18:18:10.190 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2026-06-09 18:18:10.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2026-06-09 18:18:10.225 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:10.226 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-09 18:18:10.228 [info] > git config --get commit.template [5ms]
+2026-06-09 18:18:10.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-06-09 18:18:10.253 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:10.272 [info] > git status -z -uall [9ms]
+2026-06-09 18:18:10.274 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-06-09 18:18:10.638 [info] > git rev-parse --show-toplevel [6ms]
+2026-06-09 18:18:10.651 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 18:18:10.684 [info] [Model][openRepository] Opened repository (path): /workspace/documentation
+2026-06-09 18:18:10.684 [info] [Model][openRepository] Opened repository (real path): /workspace/documentation
+2026-06-09 18:18:10.684 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-09 18:18:10.699 [info] > git config --get --local core.virtualfilesystem [8ms]
+2026-06-09 18:18:10.699 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-09 18:18:10.700 [info] > git config --get commit.template [2ms]
+2026-06-09 18:18:10.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2026-06-09 18:18:10.707 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:10.721 [info] > git status -z -uall [7ms]
+2026-06-09 18:18:10.723 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-06-09 18:18:10.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-06-09 18:18:10.740 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:10.740 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-09 18:18:10.743 [info] > git config --get commit.template [4ms]
+2026-06-09 18:18:10.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-09 18:18:10.751 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:10.766 [info] > git status -z -uall [8ms]
+2026-06-09 18:18:10.768 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-09 18:18:11.019 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-09 18:18:11.033 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-06-09 18:18:11.061 [info] [Model][openRepository] Opened repository (path): /workspace/infrastructure
+2026-06-09 18:18:11.061 [info] [Model][openRepository] Opened repository (real path): /workspace/infrastructure
+2026-06-09 18:18:11.061 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-09 18:18:11.074 [info] > git config --get --local core.virtualfilesystem [6ms]
+2026-06-09 18:18:11.074 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-09 18:18:11.079 [info] > git config --get commit.template [7ms]
+2026-06-09 18:18:11.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-09 18:18:11.081 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.091 [info] > git status -z -uall [5ms]
+2026-06-09 18:18:11.093 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-09 18:18:11.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2026-06-09 18:18:11.108 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.109 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-09 18:18:11.110 [info] > git config --get commit.template [2ms]
+2026-06-09 18:18:11.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2026-06-09 18:18:11.123 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.135 [info] > git status -z -uall [7ms]
+2026-06-09 18:18:11.136 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-09 18:18:11.505 [info] > git rev-parse --show-toplevel [6ms]
+2026-06-09 18:18:11.518 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 18:18:11.542 [info] [Model][openRepository] Opened repository (path): /workspace/kubernetes
+2026-06-09 18:18:11.542 [info] [Model][openRepository] Opened repository (real path): /workspace/kubernetes
+2026-06-09 18:18:11.542 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-09 18:18:11.556 [info] > git config --get --local core.virtualfilesystem [8ms]
+2026-06-09 18:18:11.556 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-09 18:18:11.557 [info] > git config --get commit.template [2ms]
+2026-06-09 18:18:11.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2026-06-09 18:18:11.564 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.574 [info] > git status -z -uall [6ms]
+2026-06-09 18:18:11.575 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-09 18:18:11.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-06-09 18:18:11.591 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.591 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-09 18:18:11.593 [info] > git config --get commit.template [3ms]
+2026-06-09 18:18:11.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-09 18:18:11.599 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.613 [info] > git status -z -uall [9ms]
+2026-06-09 18:18:11.614 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-09 18:18:11.915 [info] > git rev-parse --show-toplevel [6ms]
+2026-06-09 18:18:11.927 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2026-06-09 18:18:11.954 [info] [Model][openRepository] Opened repository (path): /workspace/labs
+2026-06-09 18:18:11.954 [info] [Model][openRepository] Opened repository (real path): /workspace/labs
+2026-06-09 18:18:11.954 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-09 18:18:11.970 [info] > git config --get --local core.virtualfilesystem [9ms]
+2026-06-09 18:18:11.970 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-09 18:18:11.974 [info] > git config --get commit.template [4ms]
+2026-06-09 18:18:11.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2026-06-09 18:18:11.981 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:11.995 [info] > git status -z -uall [7ms]
+2026-06-09 18:18:11.996 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-06-09 18:18:12.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-06-09 18:18:12.014 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:12.014 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-09 18:18:12.015 [info] > git config --get commit.template [2ms]
+2026-06-09 18:18:12.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2026-06-09 18:18:12.025 [warning] [Git][getBranch] No such branch: master
+2026-06-09 18:18:12.040 [info] > git status -z -uall [7ms]
+2026-06-09 18:18:12.041 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-06-09 18:18:12.554 [info] > git check-ignore -v -z --stdin [24ms]
+2026-06-09 18:18:12.555 [info] > git check-ignore -v -z --stdin [20ms]
+2026-06-09 18:18:12.555 [info] > git check-ignore -v -z --stdin [13ms]
+2026-06-09 18:18:12.555 [info] > git check-ignore -v -z --stdin [8ms]
+2026-06-09 18:18:12.555 [info] > git check-ignore -v -z --stdin [3ms]
+2026-06-09 18:19:12.522 [info] > git config --get commit.template [8ms]
+2026-06-09 18:19:12.522 [info] > git config --get commit.template [13ms]
+2026-06-09 18:19:12.522 [info] > git config --get commit.template [19ms]
+2026-06-09 18:19:12.522 [info] > git config --get commit.template [25ms]
+2026-06-09 18:19:12.523 [info] > git config --get commit.template [3ms]
+2026-06-09 18:19:12.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2026-06-09 18:19:12.557 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [25ms]
+2026-06-09 18:19:12.570 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [41ms]
+2026-06-09 18:19:12.581 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [57ms]
+2026-06-09 18:19:12.591 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [73ms]
+2026-06-09 18:19:12.602 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.615 [info] > git status -z -uall [52ms]
+2026-06-09 18:19:12.615 [info] > git status -z -uall [40ms]
+2026-06-09 18:19:12.615 [info] > git status -z -uall [29ms]
+2026-06-09 18:19:12.615 [info] > git status -z -uall [19ms]
+2026-06-09 18:19:12.615 [info] > git status -z -uall [8ms]
+2026-06-09 18:19:12.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2026-06-09 18:19:12.624 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [33ms]
+2026-06-09 18:19:12.635 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [55ms]
+2026-06-09 18:19:12.644 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [74ms]
+2026-06-09 18:19:12.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [9ms]
+2026-06-09 18:19:12.653 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.653 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for dev: Error: No such branch: dev.
+2026-06-09 18:19:12.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [19ms]
+2026-06-09 18:19:12.654 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.654 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for dev: Error: No such branch: dev.
+2026-06-09 18:19:12.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [30ms]
+2026-06-09 18:19:12.654 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.655 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for dev: Error: No such branch: dev.
+2026-06-09 18:19:12.655 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [42ms]
+2026-06-09 18:19:12.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [13ms]
+2026-06-09 18:19:12.665 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.665 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for dev: Error: No such branch: dev.
+2026-06-09 18:19:12.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2026-06-09 18:19:12.666 [warning] [Git][getBranch] No such branch: dev
+2026-06-09 18:19:12.666 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for dev: Error: No such branch: dev.
+2026-06-09 18:24:56.739 [info] > git rev-parse --show-toplevel [1ms]
+2026-06-09 18:24:56.739 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 18:24:57.455 [info] > git rev-parse --show-toplevel [2ms]
+2026-06-09 18:24:57.455 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

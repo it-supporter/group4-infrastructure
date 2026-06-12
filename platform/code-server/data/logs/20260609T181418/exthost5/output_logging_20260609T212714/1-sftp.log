@@ -1,0 +1,5 @@
+[06-09 21:27:15] [error] SyntaxError: /workspace/.vscode/sftp.json: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at Object.<anonymous> (/config/extensions/natizyskunk.sftp-1.16.3-universal/dist/extension.js:2:168114) 
+[06-09 21:28:36] [info] config at /workspace {"remotePath":"./","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0}}
+[06-09 21:29:20] [info] config at /workspace {"remotePath":"/home/henrik","uploadOnSave":false,"useTempFile":false,"openSsh":true,"downloadOnOpen":false,"ignore":[],"concurrency":4,"protocol":"sftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"platform01","host":"platform01","port":22,"username":"******"}

@@ -1,0 +1,30 @@
+2026-06-09 23:35:06.212 [error] [         57ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 23:35:06.212 [info] [         14ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 23:35:06.212 [info] [         20ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 23:35:06.212 [info] [         64ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 23:35:06.225 [info] [          9ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 23:35:06.308 [info] [         74ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 23:35:06.368 [info] [         32ms] [/workspace/kubernetes] git remote -v • completed
+2026-06-09 23:35:06.369 [info] [         33ms] [/workspace/infrastructure] git remote -v • completed
+2026-06-09 23:35:06.370 [info] [         34ms] [/workspace/documentation] git remote -v • completed
+2026-06-09 23:35:06.371 [info] [         35ms] [/workspace/automation] git remote -v • completed
+2026-06-09 23:35:08.326 [info] [       1990ms] [/workspace/labs] git remote -v • completed
+2026-06-09 23:35:08.351 [info] [         31ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 23:35:08.353 [info] [         40ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote • completed
+2026-06-09 23:35:08.354 [info] [         49ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote • completed
+2026-06-09 23:35:08.355 [info] [         17ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote • completed
+2026-06-09 23:35:08.356 [info] [         24ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 23:35:08.671 [error] [         24ms] [/config] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 23:35:31.810 [error] [          8ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 23:35:32.577 [error] [          8ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 23:35:34.271 [error] [          7ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

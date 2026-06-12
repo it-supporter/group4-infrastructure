@@ -1,0 +1,44 @@
+2026-06-09 22:34:39.754 [error] [         20ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 22:34:39.754 [info] [         20ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:34:39.754 [info] [         26ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:34:39.754 [info] [         28ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:34:39.754 [info] [         10ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:34:39.754 [info] [         20ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 22:34:39.754 [info] [         33ms] [/workspace/labs] git remote -v • completed
+2026-06-09 22:34:39.754 [info] [         34ms] [/workspace/kubernetes] git remote -v • completed
+2026-06-09 22:34:39.754 [info] [         35ms] [/workspace/infrastructure] git remote -v • completed
+2026-06-09 22:34:39.754 [info] [         35ms] [/workspace/documentation] git remote -v • completed
+2026-06-09 22:34:39.754 [info] [         36ms] [/workspace/automation] git remote -v • completed
+2026-06-09 22:34:39.754 [info] [         18ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:34:39.754 [info] [         26ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:34:39.754 [info] [         32ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:34:39.754 [info] [         38ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:34:39.754 [info] [         46ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote • completed
+2026-06-09 22:34:40.027 [error] [         24ms] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 22:35:14.486 [info] [         59ms] [/workspace/labs] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 22:35:14.487 [info] [         60ms] [/workspace/kubernetes] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 22:35:14.487 [info] [         61ms] [/workspace/infrastructure] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 22:35:14.487 [info] [         61ms] [/workspace/documentation] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 22:35:14.488 [info] [         62ms] [/workspace/automation] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 22:35:16.460 [error] [*      2031ms] [/workspace/automation] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 22:35:16.470 [error] [*      2041ms] [/workspace/documentation] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 22:35:16.474 [error] [*      2045ms] [/workspace/infrastructure] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 22:35:16.478 [error] [*      2049ms] [/workspace/kubernetes] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 22:35:16.483 [error] [*      2054ms] [/workspace/labs] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 22:37:09.432 [info] [         15ms] [/workspace/labs] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ • completed
+2026-06-09 22:37:09.434 [info] [          8ms] [/workspace/labs] git config --get-regex -f /workspace/labs/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ • completed
+2026-06-09 22:37:09.443 [error] [          7ms] [/workspace/labs] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+Error: fatal: bad revision '@'
+2026-06-09 22:37:09.450 [info] [          6ms] [/workspace/labs] git symbolic-ref --short HEAD • completed
+2026-06-09 22:37:09.458 [info] [          6ms] [/workspace/labs] git log -n1 --format=%ct -- • completed
+2026-06-09 22:37:09.466 [info] [          5ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config branch.dev.gk-last-accessed • completed
+2026-06-09 22:37:09.473 [info] [          6ms] [/workspace/labs] git config -f /workspace/labs/.git/gk/config branch.dev.gk-last-accessed 2026-06-09T20:37:09.459Z • completed

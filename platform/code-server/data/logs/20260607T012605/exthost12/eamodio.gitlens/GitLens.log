@@ -1,0 +1,31 @@
+2026-06-09 13:42:22.213 [info] To enable debug logging, run "GitLens: Enable Debug Logging" or "Developer: Set Log Level..." from the Command Palette
+2026-06-09 13:42:22.213 [info]    [            1] GitLens v18.0.0  activating in code-server (1.123.0) on the web; mode=production,language='en', logLevel='info', defaultDateLocale='null' (code-oss|459fb3a6-f26c-4c42-b0cb-b00d905e19be|787e2bdc-28f2-4806-8be4-d11998c87dbd1781005338133)
+2026-06-09 13:42:22.213 [info]    [            1] GitLens v18.0.0 activated [158ms]
+2026-06-09 13:42:22.213 [info]    [   75 →    76] GlCliGitProvider.findGit Git (2.43.0) found in /usr/bin/git [92ms]
+2026-06-09 13:42:22.213 [info]    [   75 →    96] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 13:42:22.213 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [9ms]
+2026-06-09 13:42:22.213 [info]    [   74 →    75] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 13:42:22.215 [info]    [IPC          ] CLI capability published on http://127.0.0.1:39051
+2026-06-09 13:42:22.224 [error]   [CLI   90 → ab] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:42:24.023 [info]    [   b5 →    b6] GlCliGitProvider.repositorySearch(/workspace) searching (depth=1)...
+2026-06-09 13:42:24.035 [error]   [GIT          ] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [11ms]
+2026-06-09 13:42:24.041 [info]    [   b4 →    b5] GlCliGitProvider.discoverRepositories auto-opening 0 discovered repo(s) in SCM (autoRepositoryDetection=true)
+2026-06-09 13:42:24.138 [warning] [   7a →    92] GitHubIntegration.isConnected returned false [*2168ms] (slow)
+2026-06-09 13:42:27.019 [error]   [GIT          ] [/workspace/k3s01/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree · not a git repository (or any parent up to mount point /) · Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [10ms]
+2026-06-09 13:43:22.226 [error]   [CLI   85 → f1] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:44:22.227 [error]   [CLI   85 → f4] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:45:22.228 [error]   [CLI   85 → f7] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:46:22.229 [error]   [CLI  85 → 115] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:47:22.229 [error]   [CLI  85 → 116] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:48:22.230 [error]   [CLI  85 → 118] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:49:22.231 [error]   [CLI  85 → 119] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:50:22.233 [error]   [CLI  85 → 11a] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:51:22.233 [error]   [CLI  85 → 11b] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:52:22.234 [error]   [CLI  85 → 11c] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:53:22.234 [error]   [CLI  85 → 11d] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:54:22.234 [error]   [CLI  85 → 11e] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:55:22.235 [error]   [CLI  85 → 11f] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:56:22.235 [error]   [CLI  85 → 123] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:57:22.236 [error]   [CLI  85 → 124] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:58:22.237 [error]   [CLI  85 → 125] undefined ai hook list-sessions --json CLI is not installed [0ms]
+2026-06-09 13:59:22.237 [error]   [CLI  85 → 126] undefined ai hook list-sessions --json CLI is not installed [0ms]

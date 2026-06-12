@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Nebula Aura Violet",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "feather-product-icons",
+    "yaml.schemas": {
+        "file:///config/extensions/continue.continue-1.2.22-linux-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "window.menuBarVisibility": "classic",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true
+}

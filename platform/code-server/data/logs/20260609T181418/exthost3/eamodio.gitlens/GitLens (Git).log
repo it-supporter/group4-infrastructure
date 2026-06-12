@@ -1,0 +1,45 @@
+2026-06-09 20:31:55.380 [error] [          9ms] [/workspace] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-06-09 20:31:55.380 [info] [         34ms] [/workspace/automation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 20:31:55.380 [info] [         22ms] [/workspace/documentation] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 20:31:55.380 [info] [         10ms] [/workspace/infrastructure] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 20:31:55.380 [info] [         14ms] [/workspace/kubernetes] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 20:31:55.391 [info] [          8ms] [/workspace/labs] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • completed
+2026-06-09 20:31:55.425 [info] [         23ms] [/workspace/kubernetes] git remote -v • completed
+2026-06-09 20:31:55.427 [info] [         24ms] [/workspace/infrastructure] git remote -v • completed
+2026-06-09 20:31:55.427 [info] [         25ms] [/workspace/documentation] git remote -v • completed
+2026-06-09 20:31:55.428 [info] [         26ms] [/workspace/automation] git remote -v • completed
+2026-06-09 20:31:55.440 [info] [         38ms] [/workspace/labs] git remote -v • completed
+2026-06-09 20:31:55.450 [info] [         16ms] [/workspace/infrastructure] git config --get -f /workspace/infrastructure/.git/gk/config gk.defaultRemote • completed
+2026-06-09 20:31:55.451 [info] [         22ms] [/workspace/kubernetes] git config --get -f /workspace/kubernetes/.git/gk/config gk.defaultRemote • completed
+2026-06-09 20:31:55.459 [info] [         18ms] [/workspace/automation] git config --get -f /workspace/automation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 20:31:55.460 [info] [         23ms] [/workspace/documentation] git config --get -f /workspace/documentation/.git/gk/config gk.defaultRemote • completed
+2026-06-09 20:31:55.461 [info] [          9ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config gk.defaultRemote • completed
+2026-06-09 20:32:30.477 [info] [         67ms] [/workspace/labs] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 20:32:30.477 [info] [         68ms] [/workspace/kubernetes] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 20:32:30.478 [info] [         69ms] [/workspace/infrastructure] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 20:32:30.478 [info] [         70ms] [/workspace/documentation] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 20:32:30.478 [info] [         70ms] [/workspace/automation] git rev-list --max-parents=0 HEAD -- • completed
+2026-06-09 20:32:32.448 [error] [*      2035ms] [/workspace/automation] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 20:32:32.454 [error] [*      2040ms] [/workspace/documentation] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 20:32:32.461 [error] [*      2048ms] [/workspace/infrastructure] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 20:32:32.468 [error] [*      2055ms] [/workspace/kubernetes] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 20:32:32.475 [error] [*      2061ms] [/workspace/labs] git shortlog -s --all --no-min-parents --since=1.year.ago (slow) • FAILED
+CancellationError: Operation cancelled; command=/usr/bin/git -c core.quotepath=false -c color.ui=false shortlog -s --all --no-min-parents --since=1.year.ago
+2026-06-09 20:34:25.410 [info] [         12ms] [/workspace/labs] git for-each-ref --format=%1E%(HEAD)%1D%(refname)%1D%(objectname)%1D%(*objectname)%1D%(upstream)%1D%(upstream:track)%1D%(committerdate:iso8601)%1D%(creatordate:iso8601)%1D%(authordate:iso8601)%1D%(subject)%1D%(worktreepath)%1D refs/heads/ refs/remotes/ refs/tags/ • completed
+2026-06-09 20:34:25.411 [info] [          6ms] [/workspace/labs] git config --get-regex -f /workspace/labs/.git/gk/config ^branch\..*\.gk-(last-(accessed|modified)|disposition|agent-last-activity)$ • completed
+2026-06-09 20:34:25.421 [error] [          8ms] [/workspace/labs] git rev-parse --abbrev-ref --symbolic-full-name @ @{u} -- • FAILED
+Error: fatal: bad revision '@'
+2026-06-09 20:34:25.428 [info] [          7ms] [/workspace/labs] git symbolic-ref --short HEAD • completed
+2026-06-09 20:34:25.435 [info] [          6ms] [/workspace/labs] git log -n1 --format=%ct -- • completed
+2026-06-09 20:34:25.443 [info] [          5ms] [/workspace/labs] git config --get -f /workspace/labs/.git/gk/config branch.dev.gk-last-accessed • completed
+2026-06-09 20:34:25.451 [info] [          6ms] [/workspace/labs] git config -f /workspace/labs/.git/gk/config branch.dev.gk-last-accessed 2026-06-09T18:34:25.437Z • completed
+2026-06-09 20:35:54.443 [info] [         11ms] [/workspace/documentation] git ls-files -- If you click in a file and press: • completed
+2026-06-09 21:01:59.224 [error] [         10ms] [/workspace/.vscode] git rev-parse --show-toplevel --git-dir --git-common-dir --show-superproject-working-tree • FAILED
+Error: fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
