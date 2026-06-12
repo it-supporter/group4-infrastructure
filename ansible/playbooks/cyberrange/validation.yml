@@ -1,0 +1,17 @@
+---
+- name: Validate Cyber Range
+  hosts: all
+  become: true
+
+  tasks:
+
+    - name: Ping hosts
+      ping:
+
+    - name: Verify nftables exists
+      command: nft list ruleset
+      changed_when: false
+
+    - name: Verify node exporter port
+      command: ss -lnt
+      changed_when: false

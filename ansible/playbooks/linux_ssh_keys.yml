@@ -1,0 +1,7 @@
+---
+- name: Manage SSH Keys
+  hosts: linux
+  become: true
+
+  roles:
+    - ssh_keys

@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: grafana
+  namespace: portal
+
+spec:
+  ingressClassName: traefik
+
+  tls:
+    - hosts:
+        - grafana.gruppe4.local
+      secretName: grafana-pulseai-tls
+
+  rules:
+    - host: grafana.gruppe4.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: grafana-external
+                port:
+                  number: 80

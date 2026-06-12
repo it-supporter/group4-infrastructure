@@ -33,4 +33,3 @@ baseline_packages:
   - tcpdump
 
 baseline_services:
-  - qemu-guest-agent

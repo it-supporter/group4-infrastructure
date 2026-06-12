@@ -1,0 +1,22 @@
+---
+- name: Install SSH keys on OPNsense firewalls
+  hosts: firewalls
+  gather_facts: false
+
+  tasks:
+
+    - name: Ensure .ssh exists
+      raw: mkdir -p /root/.ssh
+
+    - name: Download GitHub keys
+      delegate_to: localhost
+      uri:
+        url: https://github.com/it-supporter.keys
+        return_content: true
+      register: github_keys
+
+    - name: Install authorized_keys
+      raw: |
+        cat > /root/.ssh/authorized_keys <<'EOF'
+        {{ github_keys.content }}
+        EOF

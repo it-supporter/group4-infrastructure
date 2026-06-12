@@ -4,11 +4,28 @@ all:
 
   children:
 
-    k3s_servers:
+    students:
       hosts:
 %{ for name, vm in vms ~}
-%{ if vm.role == "server" ~}
+%{ if vm.role == "student" ~}
         ${name}:
           ansible_host: ${vm.ip}
+          pair_id: ${vm.pair_id}
+          pair_name: ${vm.pair_name}
+          cyberrange_role: ${vm.role}
+          partner_ip: ${vm.partner_ip}
+%{ endif ~}
+%{ endfor ~}
+
+    targets:
+      hosts:
+%{ for name, vm in vms ~}
+%{ if vm.role == "target" ~}
+        ${name}:
+          ansible_host: ${vm.ip}
+          pair_id: ${vm.pair_id}
+          pair_name: ${vm.pair_name}
+          cyberrange_role: ${vm.role}
+          partner_ip: ${vm.partner_ip}
 %{ endif ~}
 %{ endfor ~}
