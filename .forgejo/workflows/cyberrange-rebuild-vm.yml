@@ -1,0 +1,22 @@
+name: CyberRange Rebuild VM
+
+on:
+  workflow_dispatch:
+    inputs:
+      vm_name:
+        description: 'Name of the VM to rebuild (student01, target01, etc.)'
+        required: true
+        default: 'student01'
+
+jobs:
+  rebuild-vm:
+    runs-on: [self-hosted, docker]
+    name: Rebuild a specific VM
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Rebuild VM
+        run: |
+          ./scripts/cyberrange/rebuild-vm.sh ${{ github.event.inputs.vm_name }}
+        shell: bash

@@ -1,0 +1,26 @@
+name: CyberRange Destroy
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force destroy environment (yes/no)'
+        required: false
+        default: 'no'
+
+jobs:
+  destroy:
+    runs-on: [self-hosted, docker]
+    name: Destroy CyberRange Environment
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Destroy environment
+        run: |
+          if [[ "${{ github.event.inputs.force }}" == "yes" ]]; then
+            ./scripts/cyberrange/destroy-environment.sh --force
+          else
+            ./scripts/cyberrange/destroy-environment.sh
+          fi
+        shell: bash

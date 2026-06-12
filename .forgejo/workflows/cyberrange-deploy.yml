@@ -1,0 +1,22 @@
+name: CyberRange Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      pair_count:
+        description: 'Number of student/target pairs to deploy'
+        required: true
+        default: '1'
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, docker]
+    name: Deploy CyberRange Pairs
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy pairs
+        run: |
+          ./scripts/cyberrange/deploy.sh ${{ github.event.inputs.pair_count }}
+        shell: bash

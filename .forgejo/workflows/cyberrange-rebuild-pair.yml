@@ -1,0 +1,22 @@
+name: CyberRange Rebuild Pair
+
+on:
+  workflow_dispatch:
+    inputs:
+      pair_number:
+        description: 'Number of the pair to rebuild (1-10)'
+        required: true
+        default: '1'
+
+jobs:
+  rebuild-pair:
+    runs-on: [self-hosted, docker]
+    name: Rebuild a specific pair
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Rebuild pair
+        run: |
+          ./scripts/cyberrange/rebuild-pair.sh ${{ github.event.inputs.pair_number }}
+        shell: bash
