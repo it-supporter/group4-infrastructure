@@ -76,3 +76,11 @@ jobs:
 
           echo "===== ANSIBLE ====="
           which ansible-playbook || true
+
+      - name: Inspect data directory
+        run: |
+          echo "===== DATA ====="
+          ls -la /data
+
+          echo "===== DATA RECURSIVE ====="
+          find /data -maxdepth 3 -type f | sort
