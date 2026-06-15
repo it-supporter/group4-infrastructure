@@ -17,16 +17,19 @@ jobs:
       - name: Test host runner access
         run: |
           echo "===== USER ====="
-          whoami
+          whoami || true
+
+          echo "===== ID ====="
+          id || true
 
           echo "===== HOSTNAME ====="
-          hostname
+          hostname || true
 
           echo "===== CURRENT DIRECTORY ====="
-          pwd
+          pwd || true
 
           echo "===== CYBERRANGE REPO ====="
-          ls -la /home/henrik/git/CyberRange | head
+          ls -la /home/henrik/git/CyberRange | head || true
 
           echo "===== TERRAFORM ====="
           which terraform || true
