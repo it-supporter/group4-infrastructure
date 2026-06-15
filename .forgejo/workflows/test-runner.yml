@@ -89,6 +89,9 @@ jobs:
         run: |
           set -e
 
+          echo "Installing SSH client..."
+          apt-get update && apt-get install -y openssh-client
+
           echo "===== SSH KEY CHECK ====="
           ls -la /data/ssh
 
