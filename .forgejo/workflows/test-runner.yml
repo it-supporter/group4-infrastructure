@@ -10,9 +10,9 @@ jobs:
     steps:
       - name: Show environment
         run: |
-          whoami
-          hostname
-          pwd
+          whoami || true
+          hostname || true
+          pwd || true
 
       - name: Test host runner access
         run: |
@@ -38,3 +38,38 @@ jobs:
           ls -ld /home/henrik/cyberrange-api || true
 
           echo "Host runner is working"
+
+      - name: Inspect runner environment
+        run: |
+          echo "===== ID ====="
+          id || true
+
+          echo "===== USER ====="
+          whoami || true
+
+          echo "===== HOSTNAME ====="
+          hostname || true
+
+          echo "===== PWD ====="
+          pwd || true
+
+          echo "===== ROOT ====="
+          ls -la /
+
+          echo "===== HOME ====="
+          echo "$HOME"
+
+          echo "===== MOUNTS ====="
+          mount | head -50 || true
+
+          echo "===== PASSWD ====="
+          cat /etc/passwd || true
+
+          echo "===== CYBERRANGE ====="
+          ls -la /home/henrik/git/CyberRange || true
+
+          echo "===== TERRAFORM ====="
+          which terraform || true
+
+          echo "===== ANSIBLE ====="
+          which ansible-playbook || true
