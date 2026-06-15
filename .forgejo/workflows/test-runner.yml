@@ -21,3 +21,7 @@ jobs:
           which ssh || true
           which bash || true
           which git || true
+
+      - name: Test SSH
+        run: |
+          ssh -o StrictHostKeyChecking=no henrik@automation01 hostname
