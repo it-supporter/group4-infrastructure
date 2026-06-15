@@ -1,0 +1,23 @@
+name: Test Runner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: [docker]
+
+    steps:
+      - name: Show environment
+        run: |
+          whoami
+          hostname
+          pwd
+          ls -la
+          env | sort
+
+      - name: Check tools
+        run: |
+          which ssh || true
+          which bash || true
+          which git || true
