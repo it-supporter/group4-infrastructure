@@ -84,3 +84,19 @@ jobs:
 
           echo "===== DATA RECURSIVE ====="
           find /data -maxdepth 3 -type f | sort
+
+      - name: Test SSH to automation01
+        run: |
+          set -e
+
+          echo "===== SSH KEY CHECK ====="
+          ls -la /data/ssh
+
+          echo "===== TEST SSH CONNECTION ====="
+
+          ssh -i /data/ssh/id_ed25519 \
+            -o StrictHostKeyChecking=no \
+            -o UserKnownHostsFile=/dev/null \
+            -o ConnectTimeout=10 \
+            henrik@10.4.10.50 \
+            "hostname && whoami && uptime"
