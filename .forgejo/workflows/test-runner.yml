@@ -13,15 +13,24 @@ jobs:
           whoami
           hostname
           pwd
-          ls -la
-          env | sort
 
-      - name: Check tools
+      - name: Network diagnostics
         run: |
-          which ssh || true
-          which bash || true
-          which git || true
+          echo "===== DNS ====="
+          getent hosts automation01 || true
 
-      - name: Test SSH
-        run: |
-          ssh -o StrictHostKeyChecking=no henrik@automation01 hostname
+          echo
+          echo "===== PING ====="
+          ping -c 3 automation01 || true
+
+          echo
+          echo "===== TCP 22 ====="
+          nc -zv automation01 22 || true
+
+          echo
+          echo "===== ROUTE ====="
+          ip route || true
+
+          echo
+          echo "===== RESOLV.CONF ====="
+          cat /etc/resolv.conf || true
