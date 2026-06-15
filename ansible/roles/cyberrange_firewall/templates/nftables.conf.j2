@@ -16,7 +16,11 @@ table inet filter {
 {% if cyberrange_role == "target" %}
         ip saddr {{ partner_ip }} tcp dport 22 accept
         ip saddr {{ partner_ip }} tcp dport 80 accept
+
         ip saddr {{ automation_server_ip }} tcp dport 22 accept
+
+        # Demo workstation access via s10
+        ip saddr {{ demo_access_ip }} tcp dport { 22, 80, 443 } accept
 {% endif %}
 
         ip saddr {{ monitor_server_ip }} tcp dport 9100 accept

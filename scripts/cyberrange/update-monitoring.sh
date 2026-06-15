@@ -7,7 +7,7 @@ scp \
 henrik@monitor01:/home/henrik/monitoring/prometheus/demo-targets.yml
 
 ssh henrik@monitor01 \
-  "docker restart prometheus"
+  "curl -s -X POST http://localhost:4010/-/reload"
 
 echo
 echo "Prometheus targets updated successfully."

@@ -3,6 +3,8 @@
 set -euo pipefail
 START_TIME=$(date +%s)
 
+STATUS="/home/henrik/cyberrange-api/status/update-status.sh"
+
 if [[ "${1:-}" != "--force" ]]; then
 
     echo
@@ -19,10 +21,14 @@ fi
 
 cd /home/henrik/git/CyberRange/terraform
 
+$STATUS destroy running "Terraform Destroy"
+
 terraform apply \
   -auto-approve \
   -var-file=environments/demo.tfvars \
   -var="pair_count=0"
+
+$STATUS destroy running "Updating Monitoring"
 
 /home/henrik/git/CyberRange/scripts/cyberrange/update-monitoring.sh
 
@@ -32,6 +38,8 @@ DURATION=$((END_TIME - START_TIME))
 
 MINUTES=$((DURATION / 60))
 SECONDS=$((DURATION % 60))
+
+$STATUS destroy complete "Environment Destroyed"
 
 echo
 echo "Environment destroyed successfully."
