@@ -11,7 +11,7 @@ on:
 
 jobs:
   rebuild-vm:
-    runs-on: [self-hosted, docker]
+    runs-on: docker
     name: Rebuild a specific VM
     steps:
       - name: Checkout repository
