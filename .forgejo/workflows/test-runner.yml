@@ -1,3 +1,4 @@
+
 name: Test Runner
 
 on:
@@ -14,7 +15,7 @@ jobs:
           hostname || true
           pwd || true
 
-      - name: Test host runner access
+      - name: Inspect host runner context
         run: |
           echo "===== USER ====="
           whoami || true
@@ -40,22 +41,8 @@ jobs:
           echo "===== STATUS API ====="
           ls -ld /home/henrik/cyberrange-api || true
 
-          echo "Host runner is working"
-
-      - name: Inspect runner environment
+      - name: Inspect runner filesystem
         run: |
-          echo "===== ID ====="
-          id || true
-
-          echo "===== USER ====="
-          whoami || true
-
-          echo "===== HOSTNAME ====="
-          hostname || true
-
-          echo "===== PWD ====="
-          pwd || true
-
           echo "===== ROOT ====="
           ls -la /
 
@@ -68,38 +55,10 @@ jobs:
           echo "===== PASSWD ====="
           cat /etc/passwd || true
 
-          echo "===== CYBERRANGE ====="
-          ls -la /home/henrik/git/CyberRange || true
-
-          echo "===== TERRAFORM ====="
-          which terraform || true
-
-          echo "===== ANSIBLE ====="
-          which ansible-playbook || true
-
-      - name: Inspect data directory
+      - name: Inspect /data mount
         run: |
           echo "===== DATA ====="
           ls -la /data
 
           echo "===== DATA RECURSIVE ====="
           find /data -maxdepth 3 -type f | sort
-
-      - name: Test SSH to automation01
-        run: |
-          set -e
-
-          echo "Installing SSH client..."
-          apt-get update && apt-get install -y openssh-client
-
-          echo "===== SSH KEY CHECK ====="
-          ls -la /data/ssh
-
-          echo "===== TEST SSH CONNECTION ====="
-
-          ssh -i /data/ssh/id_ed25519 \
-            -o StrictHostKeyChecking=no \
-            -o UserKnownHostsFile=/dev/null \
-            -o ConnectTimeout=10 \
-            henrik@10.4.10.50 \
-            "hostname && whoami && uptime"
