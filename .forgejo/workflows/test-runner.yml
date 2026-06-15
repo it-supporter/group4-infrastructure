@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: [docker]
+    runs-on: [host]
 
     steps:
       - name: Show environment
@@ -14,18 +14,27 @@ jobs:
           hostname
           pwd
 
-      - name: Test SSH to automation01
+      - name: Test host runner access
         run: |
-          mkdir -p ~/.ssh
+          echo "===== USER ====="
+          whoami
 
-          cp /data/ssh/id_ed25519 ~/.ssh/id_ed25519
+          echo "===== HOSTNAME ====="
+          hostname
 
-          chmod 600 ~/.ssh/id_ed25519
+          echo "===== CURRENT DIRECTORY ====="
+          pwd
 
-          ssh \
-            -i ~/.ssh/id_ed25519 \
-            -o StrictHostKeyChecking=no \
-            -o UserKnownHostsFile=/dev/null \
-            -o ConnectTimeout=10 \
-            henrik@10.4.10.50 \
-            hostname
+          echo "===== CYBERRANGE REPO ====="
+          ls -la /home/henrik/git/CyberRange | head
+
+          echo "===== TERRAFORM ====="
+          which terraform || true
+
+          echo "===== ANSIBLE ====="
+          which ansible-playbook || true
+
+          echo "===== STATUS API ====="
+          ls -ld /home/henrik/cyberrange-api || true
+
+          echo "Host runner is working"
