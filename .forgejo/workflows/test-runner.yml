@@ -14,23 +14,11 @@ jobs:
           hostname
           pwd
 
-      - name: Network diagnostics
+      - name: Test SSH to automation01
         run: |
-          echo "===== DNS ====="
-          getent hosts automation01 || true
-
-          echo
-          echo "===== PING ====="
-          ping -c 3 automation01 || true
-
-          echo
-          echo "===== TCP 22 ====="
-          nc -zv automation01 22 || true
-
-          echo
-          echo "===== ROUTE ====="
-          ip route || true
-
-          echo
-          echo "===== RESOLV.CONF ====="
-          cat /etc/resolv.conf || true
+          ssh \
+            -o StrictHostKeyChecking=no \
+            -o UserKnownHostsFile=/dev/null \
+            -o ConnectTimeout=10 \
+            henrik@10.4.10.50 \
+            hostname
